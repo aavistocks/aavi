@@ -1,0 +1,20 @@
+[
+  {
+    "symbol": "AAPL",
+    "entry": 175,
+    "exit": 182,
+    "status": "closed"
+  },
+  {
+    "symbol": "TSLA",
+    "entry": 250,
+    "exit": 270,
+    "status": "closed"
+  },
+  {
+    "symbol": "MSFT",
+    "entry": 320,
+    "exit": null,
+    "status": "open"
+  }
+]
