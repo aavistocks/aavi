@@ -1,31 +1,42 @@
 import streamlit as st
 import json
 import pandas as pd
+import plotly.express as px
 
-# Load JSON file
-with open("signals.json", "r") as f:
+# Load JSON data
+with open("signals - Copy.json", "r") as f:
     data = json.load(f)
 
+# Prepare profit summary
+profit_summary = []
+for symbol, details in data.items():
+    profit = 0
+    for key in details:
+        if key.startswith("entry") and details[key] is not None:
+            entry_index = key.split()[1]
+            exit_key = f"exit {entry_index}"
+            if exit_key in details and details[exit_key] is not None:
+                entry = details[key]
+                exit = details[exit_key]
+                if isinstance(entry, (int, float)) and isinstance(exit, (int, float)):
+                    profit += exit - entry
+    if profit != 0:
+        profit_summary.append({"symbol": symbol, "profit": profit})
+
 # Convert to DataFrame
-df = pd.DataFrame(data)
+profit_df = pd.DataFrame(profit_summary)
 
-# Calculate profit for closed trades
-df["profit"] = df.apply(
-    lambda row: (row["exit"] - row["entry"]) if row["status"] == "closed" else None,
-    axis=1,
-)
+# Streamlit UI
+st.title("📈 Stock Signal Profit Dashboard")
 
-st.title("📈 Stock Signals Dashboard")
+st.subheader("Profit Summary Table")
+st.dataframe(profit_df)
 
-st.subheader("Trade Signals")
-st.dataframe(df)
+st.subheader("Profit per Symbol")
+if not profit_df.empty:
+    fig = px.bar(profit_df, x="symbol", y="profit", title="Profit by Symbol")
+    st.plotly_chart(fig)
 
-# Show only closed trades with profit
-closed_trades = df[df["status"] == "closed"]
-
-st.subheader("Closed Trades & Profit")
-st.bar_chart(closed_trades.set_index("symbol")["profit"])
-
-# Show total profit
-total_profit = closed_trades["profit"].sum()
-st.metric("Total Profit", f"${total_profit:.2f}")
+# Total profit
+total_profit = profit_df["profit"].sum()
+st.metric("Total Cumulative Profit", f"${total_profit:.2f}")
