@@ -1,10 +1,9 @@
 import streamlit as st
 import json
 import pandas as pd
-import plotly.express as px
 
 # Load JSON data
-with open("signals - Copy.json", "r") as f:
+with open("signals.json", "r") as f:
     data = json.load(f)
 
 # Prepare profit summary
@@ -34,8 +33,7 @@ st.dataframe(profit_df)
 
 st.subheader("Profit per Symbol")
 if not profit_df.empty:
-    fig = px.bar(profit_df, x="symbol", y="profit", title="Profit by Symbol")
-    st.plotly_chart(fig)
+    st.bar_chart(profit_df.set_index("symbol")["profit"])
 
 # Total profit
 total_profit = profit_df["profit"].sum()
