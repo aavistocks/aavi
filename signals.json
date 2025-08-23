@@ -2,8 +2,8 @@
     "LLOYDSENGG.ns": {
         "symbol": "LLOYDSENGG.ns",
         "entry 1": null,
-        "entry 2": null,
-        "entry 3": null,
+        "entry 2": 50,
+        "entry 3": 55,
         "entry 4": null,
         "exit 1": null,
         "exit 2": 70.12,
@@ -3407,4 +3407,5 @@
         "exit 4": null,
         "profit": null
     }
+
 }
