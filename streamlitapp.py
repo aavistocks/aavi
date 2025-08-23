@@ -45,42 +45,4 @@ for symbol, details in data.items():
                 "notes": None  # will fill later
             })
 
-    # Add combined notes for closed trades
-    if trade_closed and all_notes:
-        for t in trades:
-            if t["symbol"] == symbol:
-                t["notes"] = " | ".join(all_notes)
-
-# --- Convert to DataFrame ---
-trades_df = pd.DataFrame(trades)
-
-# --- Handle dates (optional if not present) ---
-if "entry_date" in trades_df.columns and trades_df["entry_date"].notnull().any():
-    trades_df["entry_date"] = pd.to_datetime(trades_df["entry_date"], errors="coerce")
-    trades_df["exit_date"] = pd.to_datetime(trades_df["exit_date"], errors="coerce")
-    trades_df = trades_df.sort_values(by=["entry_date", "level"], ascending=[False, True])
-else:
-    trades_df = trades_df.sort_values(by=["level"])
-
-# --- Profit summary per symbol ---
-profit_summary = trades_df[trades_df["profit"].notnull()] \
-    .groupby("symbol")["profit"].sum().reset_index()
-
-# --- Streamlit UI ---
-st.title("📊 Stock Signal Dashboard")
-
-st.subheader("📋 All Trades (Entry/Exit with Dates & Notes)")
-st.dataframe(trades_df)
-
-st.subheader("✅ Closed Trades & Profit Summary")
-st.dataframe(profit_summary)
-
-st.subheader("📈 Profit per Symbol")
-if not profit_summary.empty:
-    st.bar_chart(profit_summary.set_index("symbol")["profit"])
-else:
-    st.info("No closed trades yet.")
-
-# --- Total cumulative profit ---
-total_profit = profit_summary["profit"].sum()
-st.metric("💰 Total Cumulative Profit", f"${total_profit:.2f}")
+    #
