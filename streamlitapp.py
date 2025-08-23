@@ -80,4 +80,18 @@ st.dataframe(profit_summary)
 
 st.subheader("📈 Profit per Symbol")
 if not profit_summary.empty:
-    st.bar_chart(profit_summary.set_index(_
+    st.bar_chart(profit_summary.set_index("symbol")["profit"])
+else:
+    st.info("No closed trades yet.")
+
+# Total cumulative profit
+total_profit = profit_summary["profit"].sum()
+st.metric("💰 Total Cumulative Profit", f"${total_profit:.2f}")
+
+# --- Interactive filter for trades ---
+st.subheader("📋 Explore Trades by Symbol")
+symbols = trades_df["symbol"].unique()
+selected_symbol = st.selectbox("Choose a stock:", symbols)
+
+filtered_df = trades_df[trades_df["symbol"] == selected_symbol]
+st.dataframe(filtered_df)
