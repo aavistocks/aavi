@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import pandas as pd
 
-# --- Cache data loading so it doesn't reload on every rerun ---
+# --- Cache  data loading so it doesn't reload on every rerun ---
 @st.cache_data
 def load_data():
     with open("signals.json", "r") as f:
@@ -95,3 +95,4 @@ selected_symbol = st.selectbox("Choose a stock:", symbols)
 
 filtered_df = trades_df[trades_df["symbol"] == selected_symbol]
 st.dataframe(filtered_df)
+
