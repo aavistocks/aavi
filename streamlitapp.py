@@ -56,20 +56,8 @@ for symbol, details in data.items():
             if t["symbol"] == symbol:
                 t["notes"] = " | ".join(all_notes)
 
-# --- Convert to DataFrame ---
+# --- Convert to DataFrame (no sorting applied) ---
 trades_df = pd.DataFrame(trades)
-
-# --- Handle dates if present ---
-if "entry_date" in trades_df.columns and trades_df["entry_date"].notnull().any():
-    trades_df["entry_date"] = pd.to_datetime(trades_df["entry_date"], errors="coerce").dt.date
-    trades_df["exit_date"] = pd.to_datetime(trades_df["exit_date"], errors="coerce").dt.date
-    # Sort by entry_date (latest first), then entry level, then exit_date
-    trades_df = trades_df.sort_values(
-        by=["entry_date", "level", "exit_date"],
-        ascending=[False, True, True]
-    )
-else:
-    trades_df = trades_df.sort_values(by=["level"])
 
 # --- Profit summary per symbol ---
 profit_summary = trades_df[trades_df["profit"].notnull()] \
@@ -80,7 +68,7 @@ st.title("📊 Stock Signal Dashboard")
 
 # Show overall summary first
 st.subheader("✅ Closed Trades & Profit Summary")
-st.dataframe(profit_summary)
+st.table(profit_summary)  # simple table
 
 st.subheader("📈 Profit per Symbol")
 if not profit_summary.empty:
@@ -92,6 +80,6 @@ else:
 total_profit = profit_summary["profit"].sum()
 st.metric("💰 Total Cumulative Profit", f"${total_profit:.2f}")
 
-# --- Show full trades table (no filter, sorted) ---
-st.subheader("📋 All Trades (Sorted by Date, Entry Level, Exit Date)")
-st.dataframe(trades_df)
+# --- Show full trades table (simple table, unsorted) ---
+st.subheader("📋 All Trades")
+st.table(trades_df)
