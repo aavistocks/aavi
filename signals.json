@@ -10,12 +10,12 @@
         "exit 3": 69.45,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
-        "exit 2 date": null,
+        "exit 1 date": null,
+        "exit 2 date": "25-08-23",
         "exit 3 date": "25-08-23",
         "exit 4 date": null
     },
@@ -5679,4 +5679,5 @@
         "exit 3 date": "25-08-23",
         "exit 4 date": "25-08-23"
     }
+
 }
