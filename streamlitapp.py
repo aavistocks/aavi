@@ -63,7 +63,7 @@ trades_df = pd.DataFrame(trades)
 if "entry_date" in trades_df.columns and trades_df["entry_date"].notnull().any():
     trades_df["entry_date"] = pd.to_datetime(trades_df["entry_date"], errors="coerce").dt.date
     trades_df["exit_date"] = pd.to_datetime(trades_df["exit_date"], errors="coerce").dt.date
-    # Sort by entry_date (newest first), then entry level, then exit_date
+    # Sort by entry_date (latest first), then entry level, then exit_date
     trades_df = trades_df.sort_values(
         by=["entry_date", "level", "exit_date"],
         ascending=[False, True, True]
@@ -92,6 +92,6 @@ else:
 total_profit = profit_summary["profit"].sum()
 st.metric("💰 Total Cumulative Profit", f"${total_profit:.2f}")
 
-# --- Show full trades table ---
+# --- Show full trades table (no filter, sorted) ---
 st.subheader("📋 All Trades (Sorted by Date, Entry Level, Exit Date)")
 st.dataframe(trades_df)
