@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import pandas as pd
 
-# --- Cache  data loading so it doesn't reload on every rerun ---
+# --- Cache data loading so it doesn't reload on every rerun ---
 @st.cache_data
 def load_data():
     with open("signals.json", "r") as f:
@@ -63,7 +63,11 @@ trades_df = pd.DataFrame(trades)
 if "entry_date" in trades_df.columns and trades_df["entry_date"].notnull().any():
     trades_df["entry_date"] = pd.to_datetime(trades_df["entry_date"], errors="coerce").dt.date
     trades_df["exit_date"] = pd.to_datetime(trades_df["exit_date"], errors="coerce").dt.date
-    trades_df = trades_df.sort_values(by=["entry_date", "level"], ascending=[False, True])
+    # Sort by entry_date (newest first), then entry level, then exit_date
+    trades_df = trades_df.sort_values(
+        by=["entry_date", "level", "exit_date"],
+        ascending=[False, True, True]
+    )
 else:
     trades_df = trades_df.sort_values(by=["level"])
 
@@ -72,7 +76,7 @@ profit_summary = trades_df[trades_df["profit"].notnull()] \
     .groupby("symbol")["profit"].sum().reset_index()
 
 # --- Streamlit UI ---
-st.title("📊 Stock Signal Dashboard (Optimized)")
+st.title("📊 Stock Signal Dashboard")
 
 # Show overall summary first
 st.subheader("✅ Closed Trades & Profit Summary")
@@ -88,11 +92,6 @@ else:
 total_profit = profit_summary["profit"].sum()
 st.metric("💰 Total Cumulative Profit", f"${total_profit:.2f}")
 
-# --- Interactive filter for trades ---
-st.subheader("📋 Explore Trades by Symbol")
-symbols = trades_df["symbol"].unique()
-selected_symbol = st.selectbox("Choose a stock:", symbols)
-
-filtered_df = trades_df[trades_df["symbol"] == selected_symbol]
-st.dataframe(filtered_df)
-
+# --- Show full trades table ---
+st.subheader("📋 All Trades (Sorted by Date, Entry Level, Exit Date)")
+st.dataframe(trades_df)
