@@ -34,9 +34,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "APOLLO.ns": {
@@ -50,13 +50,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": "25-08-25",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TECHNOE.ns": {
@@ -72,11 +72,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "LAURUSLABS.ns": {
@@ -90,13 +90,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "JBMA.ns": {
@@ -230,7 +230,7 @@
         "exit 3": 1161.2,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -350,7 +350,7 @@
         "exit 3": 1225.3,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -376,7 +376,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TIMKEN.ns": {
@@ -396,7 +396,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BLUESTARCO.ns": {
@@ -416,7 +416,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "SBILIFE.ns": {
@@ -436,7 +436,7 @@
         "entry 4 date": null,
         "exit 1 date": "25-08-25",
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TRIVENI.ns": {
@@ -456,7 +456,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ICICIGI.ns": {
@@ -470,7 +470,7 @@
         "exit 3": 1910.7,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -490,7 +490,7 @@
         "exit 3": 131.88,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -516,7 +516,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "VIJAYA.ns": {
@@ -556,7 +556,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BANDHANBNK.ns": {
@@ -590,13 +590,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ASTERDM.ns": {
@@ -610,13 +610,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BESTAGRO.ns": {
@@ -630,13 +630,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ZYDUSLIFE.ns": {
@@ -650,13 +650,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AIAENG.ns": {
@@ -676,7 +676,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ECLERX.NS": {
@@ -690,13 +690,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "EIEL.ns": {
@@ -716,7 +716,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "KAMATHOTEL.ns": {
@@ -730,13 +730,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": "25-08-25",
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "LTTS.ns": {
@@ -756,7 +756,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PREMIERENE.ns": {
@@ -776,7 +776,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PGEL.ns": {
@@ -796,7 +796,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "SENCO.ns": {
@@ -810,13 +810,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TAJGVK.ns": {
@@ -836,7 +836,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "FINCABLES.ns": {
@@ -856,7 +856,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "NHPC.ns": {
@@ -876,7 +876,7 @@
         "entry 4 date": null,
         "exit 1 date": "25-08-25",
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PVRINOX.ns": {
@@ -890,13 +890,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "HGINFRA.ns": {
@@ -916,7 +916,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "HINDUNILVR.ns": {
@@ -936,7 +936,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AJANTPHARM.ns": {
@@ -950,7 +950,7 @@
         "exit 3": 2656.5,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -976,7 +976,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "UCOBANK.ns": {
@@ -996,7 +996,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "MAZDOCK.ns": {
@@ -1010,13 +1010,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "IRCON.ns": {
@@ -1036,7 +1036,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ADANIPORTS.NS": {
@@ -1056,7 +1056,7 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "JIOFIN.ns": {
@@ -1070,13 +1070,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "rvnl.ns": {
@@ -1094,9 +1094,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "DMART.ns": {
@@ -1110,13 +1110,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "JWL.ns": {
@@ -1134,9 +1134,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TITAGARH.NS": {
@@ -1154,9 +1154,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PRINCEPIPE.ns": {
@@ -1174,7 +1174,7 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -1194,9 +1194,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AARTIPHARM.ns": {
@@ -1214,9 +1214,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "LTIM.ns": {
@@ -1230,11 +1230,11 @@
         "exit 3": 5224.5,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -1254,9 +1254,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "MAHABANK.ns": {
@@ -1270,13 +1270,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "RSYSTEMS.ns": {
@@ -1294,9 +1294,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "DATAPATTNS.ns": {
@@ -1314,9 +1314,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "M&M.ns": {
@@ -1334,9 +1334,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "SUZLON.ns": {
@@ -1350,13 +1350,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TATATECH.ns": {
@@ -1374,9 +1374,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "APTUS.ns": {
@@ -1394,7 +1394,7 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null
@@ -1410,13 +1410,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "HAL.ns": {
@@ -1430,13 +1430,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "HDFCBANK.ns": {
@@ -1450,11 +1450,11 @@
         "exit 3": 1964.6,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -1474,9 +1474,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AIIL.ns": {
@@ -1494,9 +1494,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "DREAMFOLKS.ns": {
@@ -1510,13 +1510,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "EIHAHOTELS.ns": {
@@ -1534,9 +1534,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "EMSLIMITED.ns": {
@@ -1554,9 +1554,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "GANESHHOUC.ns": {
@@ -1574,9 +1574,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AURIONPRO.ns": {
@@ -1590,11 +1590,11 @@
         "exit 3": 1423.8,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -1610,13 +1610,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "HAPPSTMNDS.ns": {
@@ -1634,9 +1634,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ABB.ns": {
@@ -1654,9 +1654,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AMIORG.ns": {
@@ -1670,13 +1670,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "LATENTVIEW.ns": {
@@ -1694,9 +1694,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "LLOYDSME.ns": {
@@ -1714,9 +1714,9 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "MONARCH.ns": {
@@ -1730,13 +1730,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "OLECTRA.ns": {
@@ -1754,9 +1754,9 @@
         "entry 2 date": null,
         "entry 3 date": "25-08-23",
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "RELIANCE.ns": {
@@ -1772,11 +1772,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TITAN.ns": {
@@ -1790,13 +1790,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "INDIGO.ns": {
@@ -1810,13 +1810,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PIIND.ns": {
@@ -1832,11 +1832,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PNGJL.ns": {
@@ -1852,11 +1852,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "WIPRO.ns": {
@@ -1872,11 +1872,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "RPGLIFE.ns": {
@@ -1892,11 +1892,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ARVIND.ns": {
@@ -1912,11 +1912,11 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TRENT.ns": {
@@ -1930,13 +1930,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PRUDENT.ns": {
@@ -1952,11 +1952,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "INDUSINDBK.ns": {
@@ -1972,11 +1972,11 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AUBANK.ns": {
@@ -1990,13 +1990,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "CHOLAFIN.ns": {
@@ -2012,11 +2012,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "DIVISLAB.ns": {
@@ -2032,11 +2032,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "NTPC.ns": {
@@ -2050,11 +2050,11 @@
         "exit 3": 337.0,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -2072,11 +2072,11 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "DEEPAKNTR.ns": {
@@ -2090,13 +2090,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "SYRMA.ns": {
@@ -2110,13 +2110,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "WAAREEENER.ns": {
@@ -2132,11 +2132,11 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TATASTEEL.ns": {
@@ -2152,9 +2152,9 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": "25-08-25",
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -2170,13 +2170,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BRITANNIA.ns": {
@@ -2192,9 +2192,9 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -2212,11 +2212,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "PERSISTENT.ns": {
@@ -2230,13 +2230,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TBOTEK.ns": {
@@ -2252,11 +2252,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BALKRISIND.ns": {
@@ -2272,11 +2272,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TECHM.ns": {
@@ -2290,13 +2290,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BEL.ns": {
@@ -2310,13 +2310,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ACCELYA.ns": {
@@ -2332,11 +2332,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "GRANULES.ns": {
@@ -2352,11 +2352,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "HEROMOTOCO.ns": {
@@ -2370,13 +2370,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TEJASNET.ns": {
@@ -2390,13 +2390,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "BHARATFORG.ns": {
@@ -2410,13 +2410,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ALLDIGI.ns": {
@@ -2430,11 +2430,11 @@
         "exit 3": 951.4,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -2450,13 +2450,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TATAELXSI.ns": {
@@ -2470,13 +2470,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "CIPLA.ns": {
@@ -2490,13 +2490,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "Affle.ns": {
@@ -2510,9 +2510,9 @@
         "exit 3": 1936.3,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": "25-08-25",
         "exit 2 date": null,
@@ -2530,13 +2530,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "EICHERMOT.ns": {
@@ -2550,13 +2550,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "RAMCOCEM.ns": {
@@ -2572,9 +2572,9 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null
@@ -2592,11 +2592,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TIINDIA.ns": {
@@ -2610,13 +2610,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TRITURBINE.ns": {
@@ -2632,11 +2632,11 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "ALKEM.ns": {
@@ -2650,13 +2650,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "GODREJPROP.ns": {
@@ -2672,11 +2672,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TATAMOTORS.ns": {
@@ -2692,11 +2692,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "TATACONSUM.ns": {
@@ -2712,9 +2712,9 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null
@@ -2732,11 +2732,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": null
     },
     "AARTIIND.ns": {
@@ -2752,11 +2752,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-23"
     },
     "TVSMOTOR.ns": {
@@ -2770,14 +2770,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KEC.ns": {
         "symbol": "KEC.ns",
@@ -2792,12 +2792,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "M&MFIN.ns": {
         "symbol": "M&MFIN.ns",
@@ -2810,14 +2810,14 @@
         "exit 3": 260.75,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "LICHSGFIN.ns": {
         "symbol": "LICHSGFIN.ns",
@@ -2832,12 +2832,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "MANAPPURAM.ns": {
         "symbol": "MANAPPURAM.ns",
@@ -2852,12 +2852,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "UBL.ns": {
         "symbol": "UBL.ns",
@@ -2870,14 +2870,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ULTRACEMCO.ns": {
         "symbol": "ULTRACEMCO.ns",
@@ -2892,12 +2892,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BPCL.ns": {
         "symbol": "BPCL.ns",
@@ -2910,14 +2910,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "UNITDSPR.ns": {
         "symbol": "UNITDSPR.ns",
@@ -2930,14 +2930,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "UNOMINDA.ns": {
         "symbol": "UNOMINDA.ns",
@@ -2950,14 +2950,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "CGPOWER.ns": {
         "symbol": "CGPOWER.ns",
@@ -2970,14 +2970,14 @@
         "exit 3": 674.25,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "CYIENT.ns": {
         "symbol": "CYIENT.ns",
@@ -2992,12 +2992,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KFINTECH.ns": {
         "symbol": "KFINTECH.ns",
@@ -3012,12 +3012,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "CANBK.ns": {
         "symbol": "CANBK.ns",
@@ -3030,14 +3030,14 @@
         "exit 3": 109.93,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "USHAMART.ns": {
         "symbol": "USHAMART.ns",
@@ -3052,12 +3052,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "UTIAMC.ns": {
         "symbol": "UTIAMC.ns",
@@ -3072,12 +3072,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "NATCOPHARM.ns": {
         "symbol": "NATCOPHARM.ns",
@@ -3092,12 +3092,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "COALINDIA.ns": {
         "symbol": "COALINDIA.ns",
@@ -3110,14 +3110,14 @@
         "exit 3": 385.35,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "RBLBANK.ns": {
         "symbol": "RBLBANK.ns",
@@ -3130,14 +3130,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "EXIDEIND.ns": {
         "symbol": "EXIDEIND.ns",
@@ -3152,12 +3152,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": "25-08-25",
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VOLTAS.ns": {
         "symbol": "VOLTAS.ns",
@@ -3172,12 +3172,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VBL.ns": {
         "symbol": "VBL.ns",
@@ -3190,14 +3190,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "INDHOTEL.ns": {
         "symbol": "INDHOTEL.ns",
@@ -3210,14 +3210,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "asianpaint.ns": {
         "symbol": "asianpaint.ns",
@@ -3230,14 +3230,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "RALLIS.ns": {
         "symbol": "RALLIS.ns",
@@ -3250,14 +3250,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VTL.ns": {
         "symbol": "VTL.ns",
@@ -3272,11 +3272,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-23"
     },
     "WELCORP.ns": {
@@ -3292,12 +3292,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GARUDA.ns": {
         "symbol": "GARUDA.ns",
@@ -3312,12 +3312,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ANANTRAJ.ns": {
         "symbol": "ANANTRAJ.ns",
@@ -3332,12 +3332,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "UPL.ns": {
         "symbol": "UPL.ns",
@@ -3352,12 +3352,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BSOFT.ns": {
         "symbol": "BSOFT.ns",
@@ -3372,12 +3372,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "AMBER.ns": {
         "symbol": "AMBER.ns",
@@ -3392,12 +3392,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "ZENSARTECH.ns": {
         "symbol": "ZENSARTECH.ns",
@@ -3410,14 +3410,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GLENMARK.ns": {
         "symbol": "GLENMARK.ns",
@@ -3432,12 +3432,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "DOMS.ns": {
         "symbol": "DOMS.ns",
@@ -3450,14 +3450,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SYNGENE.ns": {
         "symbol": "SYNGENE.ns",
@@ -3470,14 +3470,14 @@
         "exit 3": 663.65,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "INDIANB.ns": {
         "symbol": "INDIANB.ns",
@@ -3490,14 +3490,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ELGIEQUIP.ns": {
         "symbol": "ELGIEQUIP.ns",
@@ -3512,11 +3512,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-23"
     },
     "HAVELLS.ns": {
@@ -3532,12 +3532,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "INTELLECT.ns": {
         "symbol": "INTELLECT.ns",
@@ -3552,12 +3552,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "IRMENERGY.ns": {
         "symbol": "IRMENERGY.ns",
@@ -3572,12 +3572,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KPITTECH.ns": {
         "symbol": "KPITTECH.ns",
@@ -3590,14 +3590,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "MOLDTKPAC.ns": {
         "symbol": "MOLDTKPAC.ns",
@@ -3610,14 +3610,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "APOLLOTYRE.ns": {
         "symbol": "APOLLOTYRE.ns",
@@ -3632,12 +3632,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "RAJESHEXPO.ns": {
         "symbol": "RAJESHEXPO.ns",
@@ -3652,12 +3652,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "MOSCHIP.ns": {
         "symbol": "MOSCHIP.ns",
@@ -3670,14 +3670,14 @@
         "exit 3": 171.26,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "SONATSOFTW.ns": {
         "symbol": "SONATSOFTW.ns",
@@ -3692,12 +3692,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "PITTIENG.ns": {
         "symbol": "PITTIENG.ns",
@@ -3712,12 +3712,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "POONAWALLA.ns": {
         "symbol": "POONAWALLA.ns",
@@ -3730,14 +3730,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SENORES.ns": {
         "symbol": "SENORES.ns",
@@ -3752,12 +3752,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VIPIND.ns": {
         "symbol": "VIPIND.ns",
@@ -3772,12 +3772,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SHARDACROP.ns": {
         "symbol": "SHARDACROP.ns",
@@ -3792,12 +3792,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SUNTECK.ns": {
         "symbol": "SUNTECK.ns",
@@ -3812,12 +3812,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "TCI.ns": {
         "symbol": "TCI.ns",
@@ -3832,12 +3832,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "WABAG.ns": {
         "symbol": "WABAG.ns",
@@ -3852,12 +3852,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "TORNTPOWER.ns": {
         "symbol": "TORNTPOWER.ns",
@@ -3870,14 +3870,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ZENTEC.ns": {
         "symbol": "ZENTEC.ns",
@@ -3892,11 +3892,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-23"
     },
     "ENGINERSIN.ns": {
@@ -3912,12 +3912,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KEI.ns": {
         "symbol": "KEI.ns",
@@ -3932,12 +3932,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BANKBEES.ns": {
         "symbol": "BANKBEES.ns",
@@ -3952,12 +3952,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BERGEPAINT.ns": {
         "symbol": "BERGEPAINT.ns",
@@ -3972,12 +3972,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "MOTHERSON.ns": {
         "symbol": "MOTHERSON.ns",
@@ -3990,14 +3990,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ALKYLAMINE.ns": {
         "symbol": "ALKYLAMINE.ns",
@@ -4012,12 +4012,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "JKLAKSHMI.ns": {
         "symbol": "JKLAKSHMI.ns",
@@ -4032,12 +4032,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "EUREKAFORB.ns": {
         "symbol": "EUREKAFORB.ns",
@@ -4052,12 +4052,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GRWRHITECH.ns": {
         "symbol": "GRWRHITECH.ns",
@@ -4072,12 +4072,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "NIFTYBEES.ns": {
         "symbol": "NIFTYBEES.ns",
@@ -4092,12 +4092,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "GOODLUCK.ns": {
         "symbol": "GOODLUCK.ns",
@@ -4112,12 +4112,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GOPAL.ns": {
         "symbol": "GOPAL.ns",
@@ -4130,14 +4130,14 @@
         "exit 3": 354.5,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": "25-08-25",
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "GRASIM.ns": {
         "symbol": "GRASIM.ns",
@@ -4150,14 +4150,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "HDFCLIFE.ns": {
         "symbol": "HDFCLIFE.ns",
@@ -4170,14 +4170,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SIEMENS.ns": {
         "symbol": "SIEMENS.ns",
@@ -4190,14 +4190,14 @@
         "exit 3": 3164.6,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "SUNTV.ns": {
         "symbol": "SUNTV.ns",
@@ -4210,14 +4210,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KRBL.ns": {
         "symbol": "KRBL.ns",
@@ -4230,14 +4230,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "DCMSHRIRAM.ns": {
         "symbol": "DCMSHRIRAM.ns",
@@ -4250,14 +4250,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BHEL.ns": {
         "symbol": "BHEL.ns",
@@ -4272,12 +4272,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "HINDCON.ns": {
         "symbol": "HINDCON.ns",
@@ -4292,12 +4292,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "TORNTPHARM.ns": {
         "symbol": "TORNTPHARM.ns",
@@ -4310,14 +4310,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KNRCON.ns": {
         "symbol": "KNRCON.ns",
@@ -4332,12 +4332,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "IDFCFIRSTB.ns": {
         "symbol": "IDFCFIRSTB.ns",
@@ -4352,12 +4352,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "IEX.ns": {
         "symbol": "IEX.ns",
@@ -4370,14 +4370,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "IGIL.ns": {
         "symbol": "IGIL.ns",
@@ -4392,12 +4392,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "INFY.ns": {
         "symbol": "INFY.ns",
@@ -4412,12 +4412,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "INTLCONV.ns": {
         "symbol": "INTLCONV.ns",
@@ -4432,12 +4432,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "IPCALAB.ns": {
         "symbol": "IPCALAB.ns",
@@ -4450,14 +4450,14 @@
         "exit 3": 1399.9,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "20MICRONS.ns": {
         "symbol": "20MICRONS.ns",
@@ -4472,12 +4472,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "ITC.ns": {
         "symbol": "ITC.ns",
@@ -4490,14 +4490,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "JUBLFOOD.ns": {
         "symbol": "JUBLFOOD.ns",
@@ -4512,11 +4512,11 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-23"
     },
     "ANUHPHR.ns": {
@@ -4532,12 +4532,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BORORENEW.ns": {
         "symbol": "BORORENEW.ns",
@@ -4552,12 +4552,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "BOROSCI.ns": {
         "symbol": "BOROSCI.ns",
@@ -4572,12 +4572,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "COFORGE.ns": {
         "symbol": "COFORGE.ns",
@@ -4590,14 +4590,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ESCORTS.ns": {
         "symbol": "ESCORTS.ns",
@@ -4612,12 +4612,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "JUBLINGREA.ns": {
         "symbol": "JUBLINGREA.ns",
@@ -4632,12 +4632,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "ETERNAL.ns": {
         "symbol": "ETERNAL.ns",
@@ -4652,12 +4652,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "NELCAST.ns": {
         "symbol": "NELCAST.ns",
@@ -4670,14 +4670,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "vedl.ns": {
         "symbol": "vedl.ns",
@@ -4692,12 +4692,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "SINCLAIR.ns": {
         "symbol": "SINCLAIR.ns",
@@ -4710,14 +4710,14 @@
         "exit 3": 96.34,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "SPORTKING.ns": {
         "symbol": "SPORTKING.ns",
@@ -4732,12 +4732,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VIMTALABS.ns": {
         "symbol": "VIMTALABS.ns",
@@ -4750,14 +4750,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "LTF.ns": {
         "symbol": "LTF.ns",
@@ -4772,12 +4772,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GRAPHITE.ns": {
         "symbol": "GRAPHITE.ns",
@@ -4792,12 +4792,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "EDELWEISS.ns": {
         "symbol": "EDELWEISS.ns",
@@ -4812,12 +4812,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SBICARD.ns": {
         "symbol": "SBICARD.ns",
@@ -4832,12 +4832,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "LEMONTREE.ns": {
         "symbol": "LEMONTREE.ns",
@@ -4852,12 +4852,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BEML.ns": {
         "symbol": "BEML.ns",
@@ -4870,14 +4870,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VINATIORGA.ns": {
         "symbol": "VINATIORGA.ns",
@@ -4892,12 +4892,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "TATAINVEST.ns": {
         "symbol": "TATAINVEST.ns",
@@ -4912,12 +4912,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VGUARD.ns": {
         "symbol": "VGUARD.ns",
@@ -4932,12 +4932,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "IRCTC.ns": {
         "symbol": "IRCTC.ns",
@@ -4952,12 +4952,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "DBL.ns": {
         "symbol": "DBL.ns",
@@ -4970,14 +4970,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "POWERINDIA.ns": {
         "symbol": "POWERINDIA.ns",
@@ -4990,14 +4990,14 @@
         "exit 3": 19450.0,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "TRIDENT.ns": {
         "symbol": "TRIDENT.ns",
@@ -5012,11 +5012,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-25"
     },
     "CAPLIPOINT.ns": {
@@ -5030,14 +5030,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "RAYMOND.ns": {
         "symbol": "RAYMOND.ns",
@@ -5052,12 +5052,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BBTC.ns": {
         "symbol": "BBTC.ns",
@@ -5072,12 +5072,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "TTKPRESTIG.ns": {
         "symbol": "TTKPRESTIG.ns",
@@ -5092,12 +5092,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "INDOCO.ns": {
         "symbol": "INDOCO.ns",
@@ -5112,12 +5112,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GREAVESCOT.ns": {
         "symbol": "GREAVESCOT.ns",
@@ -5132,12 +5132,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": "25-08-25",
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "BANKBARODA.ns": {
         "symbol": "BANKBARODA.ns",
@@ -5150,14 +5150,14 @@
         "exit 3": 240.23,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "UNIONBANK.ns": {
         "symbol": "UNIONBANK.ns",
@@ -5170,14 +5170,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KSL.ns": {
         "symbol": "KSL.ns",
@@ -5190,14 +5190,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "UJJIVANSFB.ns": {
         "symbol": "UJJIVANSFB.ns",
@@ -5212,12 +5212,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "VARROC.ns": {
         "symbol": "VARROC.ns",
@@ -5232,12 +5232,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "BOMDYEING.ns": {
         "symbol": "BOMDYEING.ns",
@@ -5254,10 +5254,10 @@
         "entry 2 date": null,
         "entry 3 date": "25-08-23",
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "PNB.ns": {
         "symbol": "PNB.ns",
@@ -5272,12 +5272,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "GRSE.ns": {
         "symbol": "GRSE.ns",
@@ -5290,14 +5290,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "INOXINDIA.ns": {
         "symbol": "INOXINDIA.ns",
@@ -5312,12 +5312,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "JASH.ns": {
         "symbol": "JASH.ns",
@@ -5332,12 +5332,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "SJVN.ns": {
         "symbol": "SJVN.ns",
@@ -5352,12 +5352,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KOLTEPATIL.ns": {
         "symbol": "KOLTEPATIL.ns",
@@ -5372,12 +5372,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KAYNES.ns": {
         "symbol": "KAYNES.ns",
@@ -5390,14 +5390,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KITEX.ns": {
         "symbol": "KITEX.ns",
@@ -5412,12 +5412,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KOPRAN.ns": {
         "symbol": "KOPRAN.ns",
@@ -5432,12 +5432,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "KOTAKBANK.ns": {
         "symbol": "KOTAKBANK.ns",
@@ -5452,12 +5452,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "LIKHITHA.ns": {
         "symbol": "LIKHITHA.ns",
@@ -5472,12 +5472,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "LINC.ns": {
         "symbol": "LINC.ns",
@@ -5490,14 +5490,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "MAITHANALL.ns": {
         "symbol": "MAITHANALL.ns",
@@ -5512,12 +5512,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "NDRAUTO.ns": {
         "symbol": "NDRAUTO.ns",
@@ -5532,12 +5532,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "PNBGILTS.ns": {
         "symbol": "PNBGILTS.ns",
@@ -5550,14 +5550,14 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "PNBHOUSING.ns": {
         "symbol": "PNBHOUSING.ns",
@@ -5572,11 +5572,11 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
+        "exit 3 date": null,
         "exit 4 date": "25-08-23"
     },
     "POWERGRID.ns": {
@@ -5592,12 +5592,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "PREMEXPLN.ns": {
         "symbol": "PREMEXPLN.ns",
@@ -5610,14 +5610,14 @@
         "exit 3": 523.3,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
-        "exit 4 date": "25-08-23"
+        "exit 4 date": null
     },
     "RACE.ns": {
         "symbol": "RACE.ns",
@@ -5632,12 +5632,12 @@
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "RADICO.ns": {
         "symbol": "RADICO.ns",
@@ -5652,12 +5652,12 @@
         "profit": null,
         "entry 1 date": "25-08-25",
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     },
     "RICOAUTO.ns": {
         "symbol": "RICOAUTO.ns",
@@ -5670,14 +5670,13 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": null,
         "entry 2 date": null,
-        "entry 3 date": "25-08-23",
+        "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-08-23",
+        "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-08-23",
-        "exit 4 date": "25-08-23"
+        "exit 3 date": null,
+        "exit 4 date": null
     }
-
 }
