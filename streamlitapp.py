@@ -81,5 +81,9 @@ total_profit = profit_summary["profit"].sum()
 st.metric("💰 Total Cumulative Profit", f"${total_profit:.2f}")
 
 # --- Show full trades table (simple table, unsorted) ---
+#st.subheader("📋 All Trades")
+#st.table(trades_df)
+
 st.subheader("📋 All Trades")
-st.table(trades_df)
+st.dataframe(trades_df, use_container_width=True)
+
