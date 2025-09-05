@@ -16,6 +16,22 @@ def to_float(v):
         return None
 
 # -------------------------
+# Helper: safe date parser
+# -------------------------
+def clean_date(val):
+    if val is None:
+        return None
+    s = str(val).strip()
+    if s in ["", "None", "null", "NaN", "nan"]:
+        return None
+    # Try strict DD-MM-YYYY first
+    try:
+        return pd.to_datetime(s, format="%d-%m-%Y", errors="coerce").date()
+    except Exception:
+        # fallback: let pandas guess, with dayfirst preference
+        return pd.to_datetime(s, errors="coerce", dayfirst=True).date()
+
+# -------------------------
 # Load JSON (no caching for now)
 # -------------------------
 def load_data():
@@ -37,11 +53,13 @@ for symbol, details in data.items():
         exit_val = to_float(details.get(f"exit {i}"))
         exit_date = details.get(f"exit {i} date")
 
+        # force dates to None if entry/exit missing
         if entry is None:
             entry_date = None
         if exit_val is None:
             exit_date = None
 
+        # profits
         realized = None
         unrealized = None
         profit = None
@@ -77,14 +95,11 @@ for symbol, details in data.items():
 # -------------------------
 trades_df = pd.DataFrame(trades)
 
-# Parse dates if present
-if "entry_date" in trades_df.columns and trades_df["entry_date"].notnull().any():
-    trades_df["entry_date"] = pd.to_datetime(
-        trades_df["entry_date"], errors="coerce", dayfirst=True
-    ).dt.date
-    trades_df["exit_date"] = pd.to_datetime(
-        trades_df["exit_date"], errors="coerce", dayfirst=True
-    ).dt.date
+# --- Clean dates ---
+if "entry_date" in trades_df.columns:
+    trades_df["entry_date"] = trades_df["entry_date"].apply(clean_date)
+if "exit_date" in trades_df.columns:
+    trades_df["exit_date"] = trades_df["exit_date"].apply(clean_date)
 
 # Profit summary
 profit_summary = trades_df.groupby("symbol").agg({
@@ -100,7 +115,7 @@ total_unrealized = profit_summary["unrealized_profit"].sum()
 # -------------------------
 st.title("📊 Stock Signal Dashboard — Realized & Unrealized Profits")
 
-# Debug section (to confirm closing_price + unrealized)
+# Debug section
 st.subheader("🔎 Debug — First Few Trades")
 st.write(trades_df.head(10))
 
