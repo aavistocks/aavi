@@ -53,6 +53,10 @@ for symbol, details in data.items():
         exit_val = to_float(details.get(f"exit {i}"))
         exit_date = details.get(f"exit {i} date")
 
+        # Skip case: only closing_price present
+        if entry is None and exit_val is None and closing_price is not None:
+            continue
+
         # force dates to None if entry/exit missing
         if entry is None:
             entry_date = None
