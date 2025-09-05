@@ -105,7 +105,7 @@ if "entry_date" in trades_df.columns:
 if "exit_date" in trades_df.columns:
     trades_df["exit_date"] = trades_df["exit_date"].apply(clean_date)
 
-# Profit summary
+# Profit summary by symbol
 profit_summary = trades_df.groupby("symbol").agg({
     "realized_profit": "sum",
     "unrealized_profit": "sum"
@@ -113,6 +113,18 @@ profit_summary = trades_df.groupby("symbol").agg({
 
 total_realized = profit_summary["realized_profit"].sum()
 total_unrealized = profit_summary["unrealized_profit"].sum()
+
+# -------------------------
+# Profit by Entry/Exit Level
+# -------------------------
+level_summary = trades_df.groupby("level").agg({
+    "realized_profit": "sum",
+    "unrealized_profit": "sum",
+    "profit": ["sum", "mean", "count"]
+}).reset_index()
+
+# flatten multi-level columns
+level_summary.columns = ["level", "realized_profit", "unrealized_profit", "total_profit", "avg_profit_per_trade", "trade_count"]
 
 # -------------------------
 # Streamlit UI
@@ -139,6 +151,16 @@ if not profit_summary.empty:
     st.bar_chart(chart_data)
 else:
     st.info("No profit data available yet.")
+
+# Level-wise analysis
+st.subheader("📊 Profit Analysis by Entry/Exit Level")
+st.dataframe(level_summary, use_container_width=True)
+
+if not level_summary.empty:
+    chart_data_levels = level_summary.set_index("level")[["realized_profit", "unrealized_profit", "total_profit", "avg_profit_per_trade"]]
+    st.bar_chart(chart_data_levels)
+else:
+    st.info("No level-wise profit data available yet.")
 
 # Full trades table
 st.subheader("📋 All Trades")
