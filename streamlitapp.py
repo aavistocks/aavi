@@ -16,7 +16,7 @@ def to_float(v):
         return None
 
 # -------------------------
-# Helper: safe date parser
+# Helper: parse YY-MM-DD format safely
 # -------------------------
 def clean_date(val):
     if val is None:
@@ -24,12 +24,12 @@ def clean_date(val):
     s = str(val).strip()
     if s in ["", "None", "null", "NaN", "nan"]:
         return None
-    # Try strict DD-MM-YYYY first
+    # Try strict YY-MM-DD (e.g. 25-09-02 → 2025-09-02)
     try:
-        return pd.to_datetime(s, format="%d-%m-%Y", errors="coerce").date()
+        return pd.to_datetime(s, format="%y-%m-%d", errors="coerce").date()
     except Exception:
-        # fallback: let pandas guess, with dayfirst preference
-        return pd.to_datetime(s, errors="coerce", dayfirst=True).date()
+        # fallback: let pandas guess
+        return pd.to_datetime(s, errors="coerce").date()
 
 # -------------------------
 # Load JSON (no caching for now)
@@ -95,7 +95,7 @@ for symbol, details in data.items():
 # -------------------------
 trades_df = pd.DataFrame(trades)
 
-# --- Clean dates ---
+# --- Clean dates with YY-MM-DD parser ---
 if "entry_date" in trades_df.columns:
     trades_df["entry_date"] = trades_df["entry_date"].apply(clean_date)
 if "exit_date" in trades_df.columns:
