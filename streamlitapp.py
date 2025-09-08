@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 # Replace with your GA4 Measurement ID
-GA_TRACKING_ID = "G-XXXXXXX"  
+GA_TRACKING_ID = "G-GSHZQ8WWBC"  
 
 GA_JS = f"""
 <!-- Google tag (gtag.js) -->
@@ -187,4 +187,5 @@ else:
 # Full trades table
 st.subheader("📋 All Trades")
 st.dataframe(trades_df, use_container_width=True)
+
 
