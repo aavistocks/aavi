@@ -49,18 +49,25 @@ for symbol, details in data.items():
 
     for i in range(1, 5):
         entry = to_float(details.get(f"entry {i}"))
-        entry_date = details.get(f"entry {i} date")
+        entry_date_raw = details.get(f"entry {i} date")
         exit_val = to_float(details.get(f"exit {i}"))
-        exit_date = details.get(f"exit {i} date")
+        exit_date_raw = details.get(f"exit {i} date")
+
+        # clean dates
+        entry_date = clean_date(entry_date_raw)
+        exit_date = clean_date(exit_date_raw)
 
         # Skip case: only closing_price present
         if entry is None and exit_val is None and closing_price is not None:
             continue
 
-        # force dates to None if entry/exit missing
-        if entry is None:
-            entry_date = None
-        if exit_val is None:
+        # Skip case: no valid entry-date or exit-date pair
+        if not ((entry is not None and entry_date is not None) or (exit_val is not None and exit_date is not None)):
+            continue
+
+        # Invalidate exit if it's earlier than entry
+        if entry_date and exit_date and exit_date < entry_date:
+            exit_val = None
             exit_date = None
 
         # profits
@@ -73,7 +80,8 @@ for symbol, details in data.items():
             profit = exit_val - entry
             realized = profit
             status = "closed"
-        elif entry is not None and exit_val is None and closing_price is not None:
+        elif entry is not None and closing_price is not None:
+            # unrealized ONLY from entry and closing price
             profit = closing_price - entry
             unrealized = profit
             status = "open"
@@ -98,12 +106,6 @@ for symbol, details in data.items():
 # DataFrame
 # -------------------------
 trades_df = pd.DataFrame(trades)
-
-# --- Clean dates with YY-MM-DD parser ---
-if "entry_date" in trades_df.columns:
-    trades_df["entry_date"] = trades_df["entry_date"].apply(clean_date)
-if "exit_date" in trades_df.columns:
-    trades_df["exit_date"] = trades_df["exit_date"].apply(clean_date)
 
 # Profit summary by symbol
 profit_summary = trades_df.groupby("symbol").agg({
