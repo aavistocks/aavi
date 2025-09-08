@@ -1,4 +1,24 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
+# Replace with your GA4 Measurement ID
+GA_TRACKING_ID = "G-XXXXXXX"  
+
+GA_JS = f"""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_TRACKING_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', '{GA_TRACKING_ID}');
+</script>
+"""
+
+# Inject into Streamlit app
+components.html(GA_JS, height=0, width=0)
+
+import streamlit as st
 import json
 import pandas as pd
 
@@ -167,3 +187,4 @@ else:
 # Full trades table
 st.subheader("📋 All Trades")
 st.dataframe(trades_df, use_container_width=True)
+
