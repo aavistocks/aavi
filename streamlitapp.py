@@ -1,4 +1,4 @@
-import streamlit as st
+'''import streamlit as st
 import streamlit.components.v1 as components
 
 # Replace with your actual GA Measurement ID
@@ -17,8 +17,20 @@ GA_SCRIPT = f"""
 
 # Inject into Streamlit
 components.html(GA_SCRIPT, height=0, width=0)
+'''
 
 import streamlit as st
+import streamlit_analytics
+
+# Track usage
+with streamlit_analytics.track():
+    st.title("📊 Aavi Stocks")
+    st.write("Welcome to the stock analytics app!")
+
+    # Example UI
+    if st.button("Show Stock Insights"):
+        st.write("Insights coming soon...")
+#streamlit as st
 import json
 import pandas as pd
 
@@ -187,6 +199,7 @@ else:
 # Full trades table
 st.subheader("📋 All Trades")
 st.dataframe(trades_df, use_container_width=True)
+
 
 
 
