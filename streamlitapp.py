@@ -201,5 +201,7 @@ st.subheader("📋 All Trades")
 st.dataframe(trades_df, use_container_width=True)
 
 
+if st.sidebar.button("Show Analytics"):
+    streamlit_analytics.show()
 
 
