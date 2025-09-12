@@ -17,7 +17,7 @@ GA_SCRIPT = f"""
 
 # Inject into Streamlit
 components.html(GA_SCRIPT, height=0, width=0)
-'''
+
 
 import streamlit as st
 import streamlit_analytics
@@ -30,7 +30,8 @@ with streamlit_analytics.track():
     # Example UI
     if st.button("Show Stock Insights"):
         st.write("Insights coming soon...")
-#streamlit as st
+'''
+import streamlit as st
 import json
 import pandas as pd
 
@@ -201,7 +202,8 @@ st.subheader("📋 All Trades")
 st.dataframe(trades_df, use_container_width=True)
 
 
-if st.sidebar.button("Show Analytics"):
-    streamlit_analytics.show()
+#if st.sidebar.button("Show Analytics"):
+#    streamlit_analytics.show()
+
 
 
