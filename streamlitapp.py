@@ -204,6 +204,35 @@ st.dataframe(trades_df, use_container_width=True)
 
 #if st.sidebar.button("Show Analytics"):
 #    streamlit_analytics.show()
+# -------------------------
+# Full trades table
+# -------------------------
+st.subheader("📋 All Trades")
+st.dataframe(trades_df, use_container_width=True)
+
+# ----------------------------------------------------------
+# OPTIONAL: Reset Profit Feature (DISABLED BY DEFAULT)
+# ----------------------------------------------------------
+# Uncomment the block below whenever you want to enable
+# a one-click profit reset. It will set realized/unrealized
+# profit columns to zero and refresh the dashboard.
+#
+# if st.sidebar.button("🔄 Reset All Profits"):
+#     # Set profit columns to zero
+#     trades_df["realized_profit"] = 0.0
+#     trades_df["unrealized_profit"] = 0.0
+#     trades_df["profit"] = 0.0
+#
+#     # Optionally, persist this reset to disk if you store
+#     # trades_df somewhere (e.g., overwrite signals.json or
+#     # write to a database). For now, it only resets in memory.
+#     st.experimental_rerun()
+#
+# NOTE:
+# - This reset only affects the live session unless you
+#   add code to write the updated trades back to storage.
+# - Keep the block commented until you truly need it.
+# ----------------------------------------------------------
 
 
 
