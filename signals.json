@@ -18,7 +18,7 @@
         "exit 2 date": "25-08-23",
         "exit 3 date": "25-08-23",
         "exit 4 date": "25-09-09",
-        "closing_price": 64.91
+        "closing_price": 64.15
     },
     "FORCEMOT.ns": {
         "symbol": "FORCEMOT.ns",
@@ -39,7 +39,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": null,
-        "closing_price": 19850.0
+        "closing_price": 18941.0
     },
     "APOLLO.ns": {
         "symbol": "APOLLO.ns",
@@ -60,7 +60,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 339.9
+        "closing_price": 343.7
     },
     "TECHNOE.ns": {
         "symbol": "TECHNOE.ns",
@@ -81,11 +81,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-09",
         "exit 4 date": null,
-        "closing_price": 1440.0
+        "closing_price": 1430.7
     },
     "LAURUSLABS.ns": {
         "symbol": "LAURUSLABS.ns",
-        "entry 1": null,
+        "entry 1": 923.25,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -94,7 +94,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": null,
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -102,7 +102,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 893.95
+        "closing_price": 923.25
     },
     "JBMA.ns": {
         "symbol": "JBMA.ns",
@@ -123,7 +123,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 735.95
+        "closing_price": 735.75
     },
     "AAVAS.ns": {
         "symbol": "AAVAS.ns",
@@ -144,11 +144,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-07",
-        "closing_price": 1649.6
+        "closing_price": 1649.9
     },
     "POLYCAB.ns": {
         "symbol": "POLYCAB.ns",
-        "entry 1": 7117.0,
+        "entry 1": 7440.5,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -157,7 +157,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -165,7 +165,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 7359.0
+        "closing_price": 7440.5
     },
     "TATAPOWER.ns": {
         "symbol": "TATAPOWER.ns",
@@ -186,7 +186,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 394.65
+        "closing_price": 393.1
     },
     "GENUSPOWER.ns": {
         "symbol": "GENUSPOWER.ns",
@@ -207,7 +207,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 346.6
+        "closing_price": 342.6
     },
     "ARE&M.ns": {
         "symbol": "ARE&M.ns",
@@ -228,7 +228,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1031.2
+        "closing_price": 1030.95
     },
     "INDIGOPNTS.ns": {
         "symbol": "INDIGOPNTS.ns",
@@ -249,7 +249,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1127.6
+        "closing_price": 1124.9
     },
     "NETWEB.ns": {
         "symbol": "NETWEB.ns",
@@ -270,7 +270,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2928.4
+        "closing_price": 3037.7
     },
     "ARMANFIN.ns": {
         "symbol": "ARMANFIN.ns",
@@ -291,7 +291,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1446.9
+        "closing_price": 1425.5
     },
     "SWANENERGY.ns": {
         "symbol": "SWANENERGY.ns",
@@ -333,7 +333,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1165.2
+        "closing_price": 1179.7
     },
     "RECLTD.ns": {
         "symbol": "RECLTD.ns",
@@ -375,7 +375,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1132.3
+        "closing_price": 1148.2
     },
     "THERMAX.ns": {
         "symbol": "THERMAX.ns",
@@ -396,7 +396,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3311.4
+        "closing_price": 3330.0
     },
     "TIMKEN.ns": {
         "symbol": "TIMKEN.ns",
@@ -417,7 +417,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3053.5
+        "closing_price": 3050.7
     },
     "BLUESTARCO.ns": {
         "symbol": "BLUESTARCO.ns",
@@ -438,11 +438,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1940.2
+        "closing_price": 1961.0
     },
     "SBILIFE.ns": {
         "symbol": "SBILIFE.ns",
-        "entry 1": 1830.2,
+        "entry 1": 1821.8,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -451,7 +451,7 @@
         "exit 3": 1822.2,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-09-14",
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -459,12 +459,12 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 1804.0
+        "closing_price": 1821.8
     },
     "TRIVENI.ns": {
         "symbol": "TRIVENI.ns",
         "entry 1": 341.55,
-        "entry 2": null,
+        "entry 2": 359.0,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -473,14 +473,14 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 359.55
+        "closing_price": 359.0
     },
     "ICICIGI.ns": {
         "symbol": "ICICIGI.ns",
@@ -501,7 +501,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1872.1
+        "closing_price": 1885.6
     },
     "TVSSCS.ns": {
         "symbol": "TVSSCS.ns",
@@ -522,7 +522,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 133.73
+        "closing_price": 132.68
     },
     "JINDALSTEL.ns": {
         "symbol": "JINDALSTEL.ns",
@@ -543,7 +543,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1033.65
+        "closing_price": 1047.65
     },
     "VIJAYA.ns": {
         "symbol": "VIJAYA.ns",
@@ -564,7 +564,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": "25-08-25",
-        "closing_price": 1049.9
+        "closing_price": 1045.4
     },
     "GODREJCP.ns": {
         "symbol": "GODREJCP.ns",
@@ -574,7 +574,7 @@
         "entry 4": null,
         "exit 1": 1257.6,
         "exit 2": null,
-        "exit 3": 1229.4,
+        "exit 3": 1238.4,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -583,9 +583,9 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-15",
         "exit 2 date": null,
-        "exit 3 date": "25-09-17",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1243.4
+        "closing_price": 1238.4
     },
     "BANDHANBNK.ns": {
         "symbol": "BANDHANBNK.ns",
@@ -606,7 +606,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 164.28
+        "closing_price": 166.91
     },
     "CUMMINSIND.ns": {
         "symbol": "CUMMINSIND.ns",
@@ -627,7 +627,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4125.4
+        "closing_price": 4101.0
     },
     "ASTERDM.ns": {
         "symbol": "ASTERDM.ns",
@@ -648,7 +648,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 614.3
+        "closing_price": 613.9
     },
     "BESTAGRO.ns": {
         "symbol": "BESTAGRO.ns",
@@ -669,7 +669,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 365.4
+        "closing_price": 362.45
     },
     "ZYDUSLIFE.ns": {
         "symbol": "ZYDUSLIFE.ns",
@@ -690,7 +690,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1033.8
+        "closing_price": 1047.85
     },
     "AIAENG.ns": {
         "symbol": "AIAENG.ns",
@@ -711,7 +711,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3123.9
+        "closing_price": 3136.6
     },
     "ECLERX.NS": {
         "symbol": "ECLERX.NS",
@@ -732,7 +732,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4394.4
+        "closing_price": 4409.0
     },
     "EIEL.ns": {
         "symbol": "EIEL.ns",
@@ -753,7 +753,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 261.31
+        "closing_price": 260.21
     },
     "KAMATHOTEL.ns": {
         "symbol": "KAMATHOTEL.ns",
@@ -774,11 +774,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 309.0
+        "closing_price": 310.95
     },
     "LTTS.ns": {
         "symbol": "LTTS.ns",
-        "entry 1": 4216.6,
+        "entry 1": 4392.4,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -787,7 +787,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-09-14",
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -795,7 +795,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4288.0
+        "closing_price": 4392.4
     },
     "PREMIERENE.ns": {
         "symbol": "PREMIERENE.ns",
@@ -816,7 +816,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1078.3
+        "closing_price": 1052.0
     },
     "PGEL.ns": {
         "symbol": "PGEL.ns",
@@ -837,7 +837,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 569.05
+        "closing_price": 567.4
     },
     "SENCO.ns": {
         "symbol": "SENCO.ns",
@@ -858,7 +858,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 376.5
+        "closing_price": 373.05
     },
     "TAJGVK.ns": {
         "symbol": "TAJGVK.ns",
@@ -879,7 +879,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 429.7
+        "closing_price": 428.85
     },
     "FINCABLES.ns": {
         "symbol": "FINCABLES.ns",
@@ -900,7 +900,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 851.4
+        "closing_price": 844.25
     },
     "NHPC.ns": {
         "symbol": "NHPC.ns",
@@ -921,7 +921,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-10",
-        "closing_price": 87.21
+        "closing_price": 87.09
     },
     "PVRINOX.ns": {
         "symbol": "PVRINOX.ns",
@@ -942,7 +942,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1135.2
+        "closing_price": 1127.8
     },
     "HGINFRA.ns": {
         "symbol": "HGINFRA.ns",
@@ -952,7 +952,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 1020.5,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -961,9 +961,9 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1033.6
+        "closing_price": 1020.5
     },
     "HINDUNILVR.ns": {
         "symbol": "HINDUNILVR.ns",
@@ -984,7 +984,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2569.7
+        "closing_price": 2586.8
     },
     "AJANTPHARM.ns": {
         "symbol": "AJANTPHARM.ns",
@@ -1005,7 +1005,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 2560.9
+        "closing_price": 2548.4
     },
     "SWSOLAR.ns": {
         "symbol": "SWSOLAR.ns",
@@ -1026,7 +1026,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 268.15
+        "closing_price": 266.7
     },
     "UCOBANK.ns": {
         "symbol": "UCOBANK.ns",
@@ -1047,7 +1047,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 30.49
+        "closing_price": 30.33
     },
     "MAZDOCK.ns": {
         "symbol": "MAZDOCK.ns",
@@ -1068,7 +1068,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2997.0
+        "closing_price": 2984.6
     },
     "IRCON.ns": {
         "symbol": "IRCON.ns",
@@ -1089,7 +1089,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 187.02
+        "closing_price": 185.9
     },
     "ADANIPORTS.NS": {
         "symbol": "ADANIPORTS.NS",
@@ -1110,7 +1110,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1406.1
+        "closing_price": 1412.8
     },
     "JIOFIN.ns": {
         "symbol": "JIOFIN.ns",
@@ -1131,7 +1131,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 315.85
+        "closing_price": 317.35
     },
     "rvnl.ns": {
         "symbol": "rvnl.ns",
@@ -1152,7 +1152,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 360.8
+        "closing_price": 362.5
     },
     "DMART.ns": {
         "symbol": "DMART.ns",
@@ -1173,7 +1173,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4717.3
+        "closing_price": 4760.3
     },
     "JWL.ns": {
         "symbol": "JWL.ns",
@@ -1194,12 +1194,12 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 346.4
+        "closing_price": 344.8
     },
     "TITAGARH.NS": {
         "symbol": "TITAGARH.NS",
         "entry 1": 833.75,
-        "entry 2": null,
+        "entry 2": 946.5,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -1208,14 +1208,14 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 942.2
+        "closing_price": 946.5
     },
     "PRINCEPIPE.ns": {
         "symbol": "PRINCEPIPE.ns",
@@ -1236,12 +1236,12 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 336.9
+        "closing_price": 337.15
     },
     "ASTRAL.ns": {
         "symbol": "ASTRAL.ns",
         "entry 1": 1421.4,
-        "entry 2": null,
+        "entry 2": 1459.2,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -1250,14 +1250,14 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1459.7
+        "closing_price": 1459.2
     },
     "AARTIPHARM.ns": {
         "symbol": "AARTIPHARM.ns",
@@ -1278,7 +1278,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 918.4
+        "closing_price": 900.3
     },
     "LTIM.ns": {
         "symbol": "LTIM.ns",
@@ -1299,7 +1299,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": null,
-        "closing_price": 5423.0
+        "closing_price": 5524.5
     },
     "HDFCAMC.ns": {
         "symbol": "HDFCAMC.ns",
@@ -1320,7 +1320,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5808.0
+        "closing_price": 5850.0
     },
     "MAHABANK.ns": {
         "symbol": "MAHABANK.ns",
@@ -1341,7 +1341,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 57.31
+        "closing_price": 57.26
     },
     "RSYSTEMS.ns": {
         "symbol": "RSYSTEMS.ns",
@@ -1362,7 +1362,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 440.5
+        "closing_price": 443.35
     },
     "DATAPATTNS.ns": {
         "symbol": "DATAPATTNS.ns",
@@ -1383,7 +1383,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2870.2
+        "closing_price": 2833.8
     },
     "M&M.ns": {
         "symbol": "M&M.ns",
@@ -1404,7 +1404,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3633.2
+        "closing_price": 3642.2
     },
     "SUZLON.ns": {
         "symbol": "SUZLON.ns",
@@ -1425,7 +1425,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 59.29
+        "closing_price": 59.08
     },
     "TATATECH.ns": {
         "symbol": "TATATECH.ns",
@@ -1446,7 +1446,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 714.0
+        "closing_price": 717.4
     },
     "APTUS.ns": {
         "symbol": "APTUS.ns",
@@ -1467,7 +1467,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 328.95
+        "closing_price": 329.5
     },
     "BDL.ns": {
         "symbol": "BDL.ns",
@@ -1488,7 +1488,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1624.6
+        "closing_price": 1610.2
     },
     "HAL.ns": {
         "symbol": "HAL.ns",
@@ -1509,7 +1509,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4890.2
+        "closing_price": 4856.8
     },
     "HDFCBANK.ns": {
         "symbol": "HDFCBANK.ns",
@@ -1530,7 +1530,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": "25-09-08",
-        "closing_price": 966.5
+        "closing_price": 976.9
     },
     "IREDA.ns": {
         "symbol": "IREDA.ns",
@@ -1551,7 +1551,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 153.97
+        "closing_price": 155.53
     },
     "AIIL.ns": {
         "symbol": "AIIL.ns",
@@ -1572,7 +1572,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3275.6
+        "closing_price": 3197.8
     },
     "DREAMFOLKS.ns": {
         "symbol": "DREAMFOLKS.ns",
@@ -1614,7 +1614,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 403.85
+        "closing_price": 397.05
     },
     "EMSLIMITED.ns": {
         "symbol": "EMSLIMITED.ns",
@@ -1635,7 +1635,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 581.8
+        "closing_price": 583.85
     },
     "GANESHHOUC.ns": {
         "symbol": "GANESHHOUC.ns",
@@ -1652,7 +1652,7 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-09-17",
+        "exit 1 date": "25-09-19",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
@@ -1677,7 +1677,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1262.0
+        "closing_price": 1223.2
     },
     "HCLTECH.ns": {
         "symbol": "HCLTECH.ns",
@@ -1698,7 +1698,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1481.5
+        "closing_price": 1493.8
     },
     "HAPPSTMNDS.ns": {
         "symbol": "HAPPSTMNDS.ns",
@@ -1719,7 +1719,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 574.6
+        "closing_price": 574.65
     },
     "ABB.ns": {
         "symbol": "ABB.ns",
@@ -1740,7 +1740,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5385.8
+        "closing_price": 5436.0
     },
     "AMIORG.ns": {
         "symbol": "AMIORG.ns",
@@ -1781,7 +1781,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": "25-09-15",
-        "closing_price": 417.0
+        "closing_price": 427.95
     },
     "LLOYDSME.ns": {
         "symbol": "LLOYDSME.ns",
@@ -1802,7 +1802,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1340.3
+        "closing_price": 1333.5
     },
     "MONARCH.ns": {
         "symbol": "MONARCH.ns",
@@ -1823,7 +1823,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 333.65
+        "closing_price": 332.0
     },
     "OLECTRA.ns": {
         "symbol": "OLECTRA.ns",
@@ -1844,7 +1844,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1664.0
+        "closing_price": 1664.6
     },
     "RELIANCE.ns": {
         "symbol": "RELIANCE.ns",
@@ -1865,7 +1865,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1413.8
+        "closing_price": 1415.0
     },
     "TITAN.ns": {
         "symbol": "TITAN.ns",
@@ -1875,7 +1875,7 @@
         "entry 4": null,
         "exit 1": 3620.6,
         "exit 2": null,
-        "exit 3": 3523.0,
+        "exit 3": 3511.3,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -1884,9 +1884,9 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-10",
         "exit 2 date": null,
-        "exit 3 date": "25-09-17",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 3523.0
+        "closing_price": 3511.3
     },
     "INDIGO.ns": {
         "symbol": "INDIGO.ns",
@@ -1907,7 +1907,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5746.5
+        "closing_price": 5715.5
     },
     "PIIND.ns": {
         "symbol": "PIIND.ns",
@@ -1928,7 +1928,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3753.0
+        "closing_price": 3705.7
     },
     "PNGJL.ns": {
         "symbol": "PNGJL.ns",
@@ -1949,7 +1949,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 635.55
+        "closing_price": 627.0
     },
     "WIPRO.ns": {
         "symbol": "WIPRO.ns",
@@ -1970,7 +1970,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 254.15
+        "closing_price": 256.93
     },
     "RPGLIFE.ns": {
         "symbol": "RPGLIFE.ns",
@@ -1991,7 +1991,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2399.4
+        "closing_price": 2394.6
     },
     "ARVIND.ns": {
         "symbol": "ARVIND.ns",
@@ -2012,7 +2012,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 335.2
+        "closing_price": 327.55
     },
     "TRENT.ns": {
         "symbol": "TRENT.ns",
@@ -2033,7 +2033,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": null,
-        "closing_price": 5197.5
+        "closing_price": 5144.0
     },
     "PRUDENT.ns": {
         "symbol": "PRUDENT.ns",
@@ -2054,7 +2054,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 2954.0
+        "closing_price": 2902.7
     },
     "INDUSINDBK.ns": {
         "symbol": "INDUSINDBK.ns",
@@ -2075,11 +2075,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 739.05
+        "closing_price": 735.45
     },
     "AUBANK.ns": {
         "symbol": "AUBANK.ns",
-        "entry 1": null,
+        "entry 1": 719.65,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -2088,7 +2088,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": null,
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -2096,7 +2096,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 708.75
+        "closing_price": 719.65
     },
     "CHOLAFIN.ns": {
         "symbol": "CHOLAFIN.ns",
@@ -2117,7 +2117,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 1573.4
+        "closing_price": 1586.6
     },
     "DIVISLAB.ns": {
         "symbol": "DIVISLAB.ns",
@@ -2138,11 +2138,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 6051.5
+        "closing_price": 6112.0
     },
     "NTPC.ns": {
         "symbol": "NTPC.ns",
-        "entry 1": 331.1,
+        "entry 1": 336.95,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -2151,7 +2151,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-09-15",
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -2159,7 +2159,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 336.4
+        "closing_price": 336.95
     },
     "SAFARI.ns": {
         "symbol": "SAFARI.ns",
@@ -2180,7 +2180,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2269.5
+        "closing_price": 2256.1
     },
     "DEEPAKNTR.ns": {
         "symbol": "DEEPAKNTR.ns",
@@ -2201,7 +2201,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1844.9
+        "closing_price": 1814.9
     },
     "SYRMA.ns": {
         "symbol": "SYRMA.ns",
@@ -2222,7 +2222,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 798.45
+        "closing_price": 811.85
     },
     "WAAREEENER.ns": {
         "symbol": "WAAREEENER.ns",
@@ -2243,7 +2243,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3603.9
+        "closing_price": 3500.4
     },
     "TATASTEEL.ns": {
         "symbol": "TATASTEEL.ns",
@@ -2264,7 +2264,7 @@
         "exit 2 date": "25-08-25",
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 171.36
+        "closing_price": 172.03
     },
     "YATHARTH.ns": {
         "symbol": "YATHARTH.ns",
@@ -2285,7 +2285,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 799.8
+        "closing_price": 789.25
     },
     "BRITANNIA.ns": {
         "symbol": "BRITANNIA.ns",
@@ -2306,7 +2306,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 6097.5
+        "closing_price": 6100.5
     },
     "TANLA.ns": {
         "symbol": "TANLA.ns",
@@ -2327,12 +2327,12 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 699.8
+        "closing_price": 699.6
     },
     "PERSISTENT.ns": {
         "symbol": "PERSISTENT.ns",
         "entry 1": 5490.5,
-        "entry 2": null,
+        "entry 2": 5567.5,
         "entry 3": null,
         "entry 4": null,
         "exit 1": 5131.0,
@@ -2341,14 +2341,14 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-17",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": "25-09-09",
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 5535.5
+        "closing_price": 5567.5
     },
     "TBOTEK.ns": {
         "symbol": "TBOTEK.ns",
@@ -2369,7 +2369,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1597.5
+        "closing_price": 1600.7
     },
     "BALKRISIND.ns": {
         "symbol": "BALKRISIND.ns",
@@ -2390,7 +2390,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2510.7
+        "closing_price": 2508.6
     },
     "TECHM.ns": {
         "symbol": "TECHM.ns",
@@ -2411,7 +2411,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 1547.2
+        "closing_price": 1550.7
     },
     "BEL.ns": {
         "symbol": "BEL.ns",
@@ -2432,13 +2432,13 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 412.2
+        "closing_price": 409.9
     },
     "ACCELYA.ns": {
         "symbol": "ACCELYA.ns",
         "entry 1": 1457.6,
         "entry 2": 1409.7,
-        "entry 3": null,
+        "entry 3": 1463.1,
         "entry 4": null,
         "exit 1": 1404.3,
         "exit 2": null,
@@ -2447,13 +2447,13 @@
         "profit": null,
         "entry 1 date": "25-09-17",
         "entry 2 date": "25-09-10",
-        "entry 3 date": null,
+        "entry 3 date": "25-09-19",
         "entry 4 date": null,
         "exit 1 date": "25-09-09",
         "exit 2 date": null,
         "exit 3 date": "25-09-03",
         "exit 4 date": null,
-        "closing_price": 1451.4
+        "closing_price": 1463.1
     },
     "GRANULES.ns": {
         "symbol": "GRANULES.ns",
@@ -2474,7 +2474,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 546.05
+        "closing_price": 543.15
     },
     "HEROMOTOCO.ns": {
         "symbol": "HEROMOTOCO.ns",
@@ -2495,7 +2495,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5350.0
+        "closing_price": 5370.0
     },
     "TEJASNET.ns": {
         "symbol": "TEJASNET.ns",
@@ -2516,7 +2516,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 619.05
+        "closing_price": 615.35
     },
     "BHARATFORG.ns": {
         "symbol": "BHARATFORG.ns",
@@ -2558,7 +2558,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 938.2
+        "closing_price": 922.3
     },
     "ASHOKLEY.ns": {
         "symbol": "ASHOKLEY.ns",
@@ -2579,7 +2579,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 136.77
+        "closing_price": 138.76
     },
     "TATAELXSI.ns": {
         "symbol": "TATAELXSI.ns",
@@ -2600,7 +2600,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5683.0
+        "closing_price": 5733.5
     },
     "CIPLA.ns": {
         "symbol": "CIPLA.ns",
@@ -2621,7 +2621,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1559.6
+        "closing_price": 1578.2
     },
     "Affle.ns": {
         "symbol": "Affle.ns",
@@ -2642,7 +2642,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null,
-        "closing_price": 2145.7
+        "closing_price": 2104.8
     },
     "BSE.ns": {
         "symbol": "BSE.ns",
@@ -2663,7 +2663,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2209.8
+        "closing_price": 2198.3
     },
     "EICHERMOT.ns": {
         "symbol": "EICHERMOT.ns",
@@ -2684,7 +2684,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 6890.5
+        "closing_price": 6924.5
     },
     "RAMCOCEM.ns": {
         "symbol": "RAMCOCEM.ns",
@@ -2705,7 +2705,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1062.2
+        "closing_price": 1062.4
     },
     "BUTTERFLY.ns": {
         "symbol": "BUTTERFLY.ns",
@@ -2726,7 +2726,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-03",
         "exit 4 date": null,
-        "closing_price": 699.35
+        "closing_price": 701.35
     },
     "TIINDIA.ns": {
         "symbol": "TIINDIA.ns",
@@ -2747,7 +2747,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3387.0
+        "closing_price": 3389.9
     },
     "TRITURBINE.ns": {
         "symbol": "TRITURBINE.ns",
@@ -2768,7 +2768,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 540.15
+        "closing_price": 537.0
     },
     "ALKEM.ns": {
         "symbol": "ALKEM.ns",
@@ -2789,7 +2789,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5472.5
+        "closing_price": 5479.5
     },
     "GODREJPROP.ns": {
         "symbol": "GODREJPROP.ns",
@@ -2810,7 +2810,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2081.5
+        "closing_price": 2087.6
     },
     "TATAMOTORS.ns": {
         "symbol": "TATAMOTORS.ns",
@@ -2831,7 +2831,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 719.15
+        "closing_price": 711.2
     },
     "TATACONSUM.ns": {
         "symbol": "TATACONSUM.ns",
@@ -2852,7 +2852,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 1136.3
+        "closing_price": 1129.3
     },
     "AUROPHARMA.ns": {
         "symbol": "AUROPHARMA.ns",
@@ -2873,7 +2873,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1095.7
+        "closing_price": 1128.9
     },
     "AARTIIND.ns": {
         "symbol": "AARTIIND.ns",
@@ -2894,7 +2894,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-23",
-        "closing_price": 390.2
+        "closing_price": 390.9
     },
     "TVSMOTOR.ns": {
         "symbol": "TVSMOTOR.ns",
@@ -2915,12 +2915,12 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3500.1
+        "closing_price": 3546.6
     },
     "KEC.ns": {
         "symbol": "KEC.ns",
         "entry 1": 824.75,
-        "entry 2": null,
+        "entry 2": 873.85,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -2929,14 +2929,14 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-09-07",
         "exit 4 date": null,
-        "closing_price": 881.4
+        "closing_price": 873.85
     },
     "M&MFIN.ns": {
         "symbol": "M&MFIN.ns",
@@ -2957,7 +2957,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 282.0
+        "closing_price": 285.95
     },
     "LICHSGFIN.ns": {
         "symbol": "LICHSGFIN.ns",
@@ -2978,7 +2978,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 572.0
+        "closing_price": 593.2
     },
     "MANAPPURAM.ns": {
         "symbol": "MANAPPURAM.ns",
@@ -2999,7 +2999,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 292.85
+        "closing_price": 292.25
     },
     "UBL.ns": {
         "symbol": "UBL.ns",
@@ -3041,7 +3041,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 12721.0
+        "closing_price": 12626.0
     },
     "BPCL.ns": {
         "symbol": "BPCL.ns",
@@ -3062,7 +3062,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 323.55
+        "closing_price": 325.7
     },
     "UNITDSPR.ns": {
         "symbol": "UNITDSPR.ns",
@@ -3072,7 +3072,7 @@
         "entry 4": null,
         "exit 1": 1309.7,
         "exit 2": null,
-        "exit 3": 1337.1,
+        "exit 3": 1327.4,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -3081,9 +3081,9 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-14",
         "exit 2 date": null,
-        "exit 3 date": "25-09-17",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1337.1
+        "closing_price": 1327.4
     },
     "UNOMINDA.ns": {
         "symbol": "UNOMINDA.ns",
@@ -3104,7 +3104,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1303.5
+        "closing_price": 1312.6
     },
     "CGPOWER.ns": {
         "symbol": "CGPOWER.ns",
@@ -3125,7 +3125,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 791.95
+        "closing_price": 784.55
     },
     "CYIENT.ns": {
         "symbol": "CYIENT.ns",
@@ -3146,7 +3146,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 1260.6
+        "closing_price": 1249.0
     },
     "KFINTECH.ns": {
         "symbol": "KFINTECH.ns",
@@ -3167,7 +3167,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-17",
-        "closing_price": 1117.6
+        "closing_price": 1144.8
     },
     "CANBK.ns": {
         "symbol": "CANBK.ns",
@@ -3188,7 +3188,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 116.25
+        "closing_price": 115.41
     },
     "USHAMART.ns": {
         "symbol": "USHAMART.ns",
@@ -3209,7 +3209,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 402.15
+        "closing_price": 415.85
     },
     "UTIAMC.ns": {
         "symbol": "UTIAMC.ns",
@@ -3230,7 +3230,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 1365.0
+        "closing_price": 1370.4
     },
     "NATCOPHARM.ns": {
         "symbol": "NATCOPHARM.ns",
@@ -3251,7 +3251,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 857.25
+        "closing_price": 884.3
     },
     "COALINDIA.ns": {
         "symbol": "COALINDIA.ns",
@@ -3272,7 +3272,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 399.75
+        "closing_price": 393.15
     },
     "RBLBANK.ns": {
         "symbol": "RBLBANK.ns",
@@ -3293,7 +3293,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 264.4
+        "closing_price": 271.2
     },
     "EXIDEIND.ns": {
         "symbol": "EXIDEIND.ns",
@@ -3314,7 +3314,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 418.8
+        "closing_price": 425.15
     },
     "VOLTAS.ns": {
         "symbol": "VOLTAS.ns",
@@ -3335,7 +3335,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1411.9
+        "closing_price": 1426.2
     },
     "VBL.ns": {
         "symbol": "VBL.ns",
@@ -3356,7 +3356,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-07",
         "exit 4 date": null,
-        "closing_price": 471.05
+        "closing_price": 473.55
     },
     "INDHOTEL.ns": {
         "symbol": "INDHOTEL.ns",
@@ -3377,7 +3377,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 780.25
+        "closing_price": 782.05
     },
     "asianpaint.ns": {
         "symbol": "asianpaint.ns",
@@ -3398,7 +3398,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2493.6
+        "closing_price": 2478.7
     },
     "RALLIS.ns": {
         "symbol": "RALLIS.ns",
@@ -3419,7 +3419,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-09",
         "exit 4 date": null,
-        "closing_price": 338.1
+        "closing_price": 339.75
     },
     "VTL.ns": {
         "symbol": "VTL.ns",
@@ -3429,7 +3429,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 435.7,
         "exit 4": 421.35,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -3438,9 +3438,9 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-19",
         "exit 4 date": "25-08-23",
-        "closing_price": 445.5
+        "closing_price": 435.7
     },
     "WELCORP.ns": {
         "symbol": "WELCORP.ns",
@@ -3461,7 +3461,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 890.55
+        "closing_price": 895.45
     },
     "GARUDA.ns": {
         "symbol": "GARUDA.ns",
@@ -3482,7 +3482,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 203.42
+        "closing_price": 205.6
     },
     "ANANTRAJ.ns": {
         "symbol": "ANANTRAJ.ns",
@@ -3503,7 +3503,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 586.95
+        "closing_price": 585.5
     },
     "UPL.ns": {
         "symbol": "UPL.ns",
@@ -3513,7 +3513,7 @@
         "entry 4": null,
         "exit 1": 696.95,
         "exit 2": null,
-        "exit 3": 693.1,
+        "exit 3": 698.95,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -3522,9 +3522,9 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-10",
         "exit 2 date": null,
-        "exit 3 date": "25-09-14",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 704.65
+        "closing_price": 698.95
     },
     "BSOFT.ns": {
         "symbol": "BSOFT.ns",
@@ -3545,7 +3545,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 381.0
+        "closing_price": 388.25
     },
     "AMBER.ns": {
         "symbol": "AMBER.ns",
@@ -3566,7 +3566,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 8287.5
+        "closing_price": 8261.0
     },
     "ZENSARTECH.ns": {
         "symbol": "ZENSARTECH.ns",
@@ -3587,7 +3587,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 836.2
+        "closing_price": 850.5
     },
     "GLENMARK.ns": {
         "symbol": "GLENMARK.ns",
@@ -3608,7 +3608,7 @@
         "exit 2 date": "25-09-03",
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 2042.4
+        "closing_price": 2108.4
     },
     "DOMS.ns": {
         "symbol": "DOMS.ns",
@@ -3629,7 +3629,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2617.0
+        "closing_price": 2596.6
     },
     "SYNGENE.ns": {
         "symbol": "SYNGENE.ns",
@@ -3650,7 +3650,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 651.2
+        "closing_price": 657.95
     },
     "INDIANB.ns": {
         "symbol": "INDIANB.ns",
@@ -3671,7 +3671,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 703.75
+        "closing_price": 699.25
     },
     "ELGIEQUIP.ns": {
         "symbol": "ELGIEQUIP.ns",
@@ -3692,7 +3692,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-23",
-        "closing_price": 494.45
+        "closing_price": 505.85
     },
     "HAVELLS.ns": {
         "symbol": "HAVELLS.ns",
@@ -3713,7 +3713,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1593.5
+        "closing_price": 1594.3
     },
     "INTELLECT.ns": {
         "symbol": "INTELLECT.ns",
@@ -3734,7 +3734,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 1027.05
+        "closing_price": 1040.05
     },
     "IRMENERGY.ns": {
         "symbol": "IRMENERGY.ns",
@@ -3755,7 +3755,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 330.1
+        "closing_price": 376.75
     },
     "KPITTECH.ns": {
         "symbol": "KPITTECH.ns",
@@ -3776,7 +3776,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1296.9
+        "closing_price": 1301.4
     },
     "MOLDTKPAC.ns": {
         "symbol": "MOLDTKPAC.ns",
@@ -3797,7 +3797,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 828.1
+        "closing_price": 832.4
     },
     "APOLLOTYRE.ns": {
         "symbol": "APOLLOTYRE.ns",
@@ -3818,7 +3818,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 483.45
+        "closing_price": 484.55
     },
     "RAJESHEXPO.ns": {
         "symbol": "RAJESHEXPO.ns",
@@ -3839,7 +3839,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 204.83
+        "closing_price": 204.96
     },
     "MOSCHIP.ns": {
         "symbol": "MOSCHIP.ns",
@@ -3860,7 +3860,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null,
-        "closing_price": 255.58
+        "closing_price": 261.01
     },
     "SONATSOFTW.ns": {
         "symbol": "SONATSOFTW.ns",
@@ -3881,7 +3881,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 390.2
+        "closing_price": 400.5
     },
     "PITTIENG.ns": {
         "symbol": "PITTIENG.ns",
@@ -3902,11 +3902,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 959.2
+        "closing_price": 962.6
     },
     "POONAWALLA.ns": {
         "symbol": "POONAWALLA.ns",
-        "entry 1": null,
+        "entry 1": 502.1,
         "entry 2": 450.45,
         "entry 3": null,
         "entry 4": null,
@@ -3915,7 +3915,7 @@
         "exit 3": 438.4,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": null,
+        "entry 1 date": "25-09-19",
         "entry 2 date": "25-09-10",
         "entry 3 date": null,
         "entry 4 date": null,
@@ -3923,7 +3923,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 447.1
+        "closing_price": 502.1
     },
     "SENORES.ns": {
         "symbol": "SENORES.ns",
@@ -3944,7 +3944,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 689.25
+        "closing_price": 716.15
     },
     "VIPIND.ns": {
         "symbol": "VIPIND.ns",
@@ -3965,7 +3965,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 445.9
+        "closing_price": 445.35
     },
     "SHARDACROP.ns": {
         "symbol": "SHARDACROP.ns",
@@ -3986,7 +3986,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 903.1
+        "closing_price": 892.8
     },
     "SUNTECK.ns": {
         "symbol": "SUNTECK.ns",
@@ -4007,7 +4007,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 444.3
+        "closing_price": 452.7
     },
     "TCI.ns": {
         "symbol": "TCI.ns",
@@ -4028,7 +4028,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 1179.9
+        "closing_price": 1185.4
     },
     "WABAG.ns": {
         "symbol": "WABAG.ns",
@@ -4038,7 +4038,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": 1559.7,
-        "exit 3": 1521.3,
+        "exit 3": 1533.4,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-17",
@@ -4047,9 +4047,9 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": "25-09-17",
-        "exit 3 date": "25-09-12",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1551.4
+        "closing_price": 1533.4
     },
     "TORNTPOWER.ns": {
         "symbol": "TORNTPOWER.ns",
@@ -4070,7 +4070,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1265.6
+        "closing_price": 1284.5
     },
     "ZENTEC.ns": {
         "symbol": "ZENTEC.ns",
@@ -4091,7 +4091,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-23",
-        "closing_price": 1544.1
+        "closing_price": 1621.3
     },
     "ENGINERSIN.ns": {
         "symbol": "ENGINERSIN.ns",
@@ -4112,7 +4112,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 210.06
+        "closing_price": 207.45
     },
     "KEI.ns": {
         "symbol": "KEI.ns",
@@ -4133,7 +4133,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4142.2
+        "closing_price": 4149.4
     },
     "BANKBEES.ns": {
         "symbol": "BANKBEES.ns",
@@ -4154,7 +4154,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 573.78
+        "closing_price": 575.66
     },
     "BERGEPAINT.ns": {
         "symbol": "BERGEPAINT.ns",
@@ -4175,7 +4175,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 534.25
+        "closing_price": 535.35
     },
     "MOTHERSON.ns": {
         "symbol": "MOTHERSON.ns",
@@ -4196,7 +4196,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 109.34
+        "closing_price": 108.98
     },
     "ALKYLAMINE.ns": {
         "symbol": "ALKYLAMINE.ns",
@@ -4217,7 +4217,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2093.8
+        "closing_price": 2075.3
     },
     "JKLAKSHMI.ns": {
         "symbol": "JKLAKSHMI.ns",
@@ -4238,7 +4238,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 913.05
+        "closing_price": 896.3
     },
     "EUREKAFORB.ns": {
         "symbol": "EUREKAFORB.ns",
@@ -4246,7 +4246,7 @@
         "entry 2": 572.35,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 582.4,
         "exit 2": null,
         "exit 3": 564.15,
         "exit 4": null,
@@ -4255,11 +4255,11 @@
         "entry 2 date": "25-09-12",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-19",
         "exit 2 date": null,
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 577.6
+        "closing_price": 582.4
     },
     "GRWRHITECH.ns": {
         "symbol": "GRWRHITECH.ns",
@@ -4280,7 +4280,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3418.3
+        "closing_price": 3349.6
     },
     "NIFTYBEES.ns": {
         "symbol": "NIFTYBEES.ns",
@@ -4301,7 +4301,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 285.98
+        "closing_price": 286.7
     },
     "GOODLUCK.ns": {
         "symbol": "GOODLUCK.ns",
@@ -4311,7 +4311,7 @@
         "entry 4": null,
         "exit 1": 1067.6,
         "exit 2": null,
-        "exit 3": 1056.5,
+        "exit 3": 1086.8,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -4320,9 +4320,9 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-15",
         "exit 2 date": null,
-        "exit 3 date": "25-09-12",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1103.5
+        "closing_price": 1086.8
     },
     "GOPAL.ns": {
         "symbol": "GOPAL.ns",
@@ -4343,11 +4343,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 378.25
+        "closing_price": 375.25
     },
     "GRASIM.ns": {
         "symbol": "GRASIM.ns",
-        "entry 1": null,
+        "entry 1": 2878.8,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -4356,7 +4356,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": null,
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -4364,7 +4364,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2865.4
+        "closing_price": 2878.8
     },
     "HDFCLIFE.ns": {
         "symbol": "HDFCLIFE.ns",
@@ -4385,7 +4385,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 768.05
+        "closing_price": 784.6
     },
     "SIEMENS.ns": {
         "symbol": "SIEMENS.ns",
@@ -4406,7 +4406,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-10",
         "exit 4 date": null,
-        "closing_price": 3322.7
+        "closing_price": 3317.8
     },
     "SUNTV.ns": {
         "symbol": "SUNTV.ns",
@@ -4427,7 +4427,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 560.0
+        "closing_price": 559.7
     },
     "KRBL.ns": {
         "symbol": "KRBL.ns",
@@ -4448,7 +4448,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 404.75
+        "closing_price": 402.35
     },
     "DCMSHRIRAM.ns": {
         "symbol": "DCMSHRIRAM.ns",
@@ -4458,7 +4458,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 1313.9,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -4467,9 +4467,9 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1379.7
+        "closing_price": 1313.9
     },
     "BHEL.ns": {
         "symbol": "BHEL.ns",
@@ -4490,7 +4490,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 234.32
+        "closing_price": 234.49
     },
     "HINDCON.ns": {
         "symbol": "HINDCON.ns",
@@ -4511,7 +4511,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 32.25
+        "closing_price": 32.39
     },
     "TORNTPHARM.ns": {
         "symbol": "TORNTPHARM.ns",
@@ -4532,7 +4532,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 3548.3
+        "closing_price": 3567.4
     },
     "KNRCON.ns": {
         "symbol": "KNRCON.ns",
@@ -4553,7 +4553,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 204.08
+        "closing_price": 207.52
     },
     "IDFCFIRSTB.ns": {
         "symbol": "IDFCFIRSTB.ns",
@@ -4574,7 +4574,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 71.84
+        "closing_price": 71.95
     },
     "IEX.ns": {
         "symbol": "IEX.ns",
@@ -4595,7 +4595,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 148.44
+        "closing_price": 148.61
     },
     "IGIL.ns": {
         "symbol": "IGIL.ns",
@@ -4616,7 +4616,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 386.3
+        "closing_price": 378.35
     },
     "INFY.ns": {
         "symbol": "INFY.ns",
@@ -4637,7 +4637,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 1522.4
+        "closing_price": 1540.6
     },
     "INTLCONV.ns": {
         "symbol": "INTLCONV.ns",
@@ -4658,11 +4658,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 95.99
+        "closing_price": 96.38
     },
     "IPCALAB.ns": {
         "symbol": "IPCALAB.ns",
-        "entry 1": null,
+        "entry 1": 1340.8,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -4671,7 +4671,7 @@
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": null,
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -4679,11 +4679,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1311.2
+        "closing_price": 1340.8
     },
     "20MICRONS.ns": {
         "symbol": "20MICRONS.ns",
-        "entry 1": null,
+        "entry 1": 230.33,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -4692,7 +4692,7 @@
         "exit 3": 232.33,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": null,
+        "entry 1 date": "25-09-19",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -4700,7 +4700,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 227.37
+        "closing_price": 230.33
     },
     "ITC.ns": {
         "symbol": "ITC.ns",
@@ -4721,7 +4721,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 409.3
+        "closing_price": 411.55
     },
     "JUBLFOOD.ns": {
         "symbol": "JUBLFOOD.ns",
@@ -4742,7 +4742,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-10",
         "exit 4 date": "25-08-23",
-        "closing_price": 627.7
+        "closing_price": 626.45
     },
     "ANUHPHR.ns": {
         "symbol": "ANUHPHR.ns",
@@ -4763,7 +4763,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 87.31
+        "closing_price": 88.22
     },
     "BORORENEW.ns": {
         "symbol": "BORORENEW.ns",
@@ -4784,7 +4784,7 @@
         "exit 2 date": "25-09-12",
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 561.3
+        "closing_price": 556.4
     },
     "BOROSCI.ns": {
         "symbol": "BOROSCI.ns",
@@ -4805,7 +4805,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 139.72
+        "closing_price": 139.15
     },
     "COFORGE.ns": {
         "symbol": "COFORGE.ns",
@@ -4815,7 +4815,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": 1791.9,
+        "exit 3": 1824.5,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -4824,9 +4824,9 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-09-17",
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1791.9
+        "closing_price": 1824.5
     },
     "ESCORTS.ns": {
         "symbol": "ESCORTS.ns",
@@ -4847,7 +4847,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3661.6
+        "closing_price": 3794.7
     },
     "JUBLINGREA.ns": {
         "symbol": "JUBLINGREA.ns",
@@ -4855,7 +4855,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 709.3,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -4864,11 +4864,11 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-19",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 717.7
+        "closing_price": 709.3
     },
     "ETERNAL.ns": {
         "symbol": "ETERNAL.ns",
@@ -4889,7 +4889,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 328.25
+        "closing_price": 337.85
     },
     "NELCAST.ns": {
         "symbol": "NELCAST.ns",
@@ -4910,12 +4910,12 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 145.77
+        "closing_price": 146.41
     },
     "vedl.ns": {
         "symbol": "vedl.ns",
         "entry 1": 445.5,
-        "entry 2": null,
+        "entry 2": 455.65,
         "entry 3": null,
         "entry 4": null,
         "exit 1": 432.8,
@@ -4924,14 +4924,14 @@
         "exit 4": 432.8,
         "profit": null,
         "entry 1 date": "25-09-07",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": "25-09-09",
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": "25-09-09",
-        "closing_price": 456.15
+        "closing_price": 455.65
     },
     "SINCLAIR.ns": {
         "symbol": "SINCLAIR.ns",
@@ -4952,7 +4952,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 108.63
+        "closing_price": 104.15
     },
     "SPORTKING.ns": {
         "symbol": "SPORTKING.ns",
@@ -4973,7 +4973,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 109.38
+        "closing_price": 108.26
     },
     "VIMTALABS.ns": {
         "symbol": "VIMTALABS.ns",
@@ -4994,7 +4994,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 785.15
+        "closing_price": 790.55
     },
     "LTF.ns": {
         "symbol": "LTF.ns",
@@ -5015,7 +5015,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 242.89
+        "closing_price": 247.37
     },
     "GRAPHITE.ns": {
         "symbol": "GRAPHITE.ns",
@@ -5036,7 +5036,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 554.55
+        "closing_price": 565.45
     },
     "EDELWEISS.ns": {
         "symbol": "EDELWEISS.ns",
@@ -5057,7 +5057,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 115.04
+        "closing_price": 115.37
     },
     "SBICARD.ns": {
         "symbol": "SBICARD.ns",
@@ -5078,7 +5078,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 893.3
+        "closing_price": 891.7
     },
     "LEMONTREE.ns": {
         "symbol": "LEMONTREE.ns",
@@ -5099,7 +5099,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 173.83
+        "closing_price": 172.13
     },
     "BEML.ns": {
         "symbol": "BEML.ns",
@@ -5120,7 +5120,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4403.4
+        "closing_price": 4354.9
     },
     "VINATIORGA.ns": {
         "symbol": "VINATIORGA.ns",
@@ -5141,7 +5141,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1703.3
+        "closing_price": 1718.4
     },
     "TATAINVEST.ns": {
         "symbol": "TATAINVEST.ns",
@@ -5162,7 +5162,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 7041.5
+        "closing_price": 7502.5
     },
     "VGUARD.ns": {
         "symbol": "VGUARD.ns",
@@ -5183,7 +5183,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-17",
-        "closing_price": 373.6
+        "closing_price": 369.95
     },
     "IRCTC.ns": {
         "symbol": "IRCTC.ns",
@@ -5204,7 +5204,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 730.95
+        "closing_price": 735.4
     },
     "DBL.ns": {
         "symbol": "DBL.ns",
@@ -5225,7 +5225,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 575.45
+        "closing_price": 573.5
     },
     "POWERINDIA.ns": {
         "symbol": "POWERINDIA.ns",
@@ -5235,7 +5235,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 19379.0,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-14",
@@ -5244,9 +5244,9 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 20109.0
+        "closing_price": 19379.0
     },
     "TRIDENT.ns": {
         "symbol": "TRIDENT.ns",
@@ -5267,7 +5267,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-25",
-        "closing_price": 29.96
+        "closing_price": 29.87
     },
     "CAPLIPOINT.ns": {
         "symbol": "CAPLIPOINT.ns",
@@ -5288,7 +5288,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2330.1
+        "closing_price": 2321.5
     },
     "RAYMOND.ns": {
         "symbol": "RAYMOND.ns",
@@ -5309,7 +5309,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 622.6
+        "closing_price": 624.75
     },
     "BBTC.ns": {
         "symbol": "BBTC.ns",
@@ -5330,7 +5330,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1957.9
+        "closing_price": 1954.7
     },
     "TTKPRESTIG.ns": {
         "symbol": "TTKPRESTIG.ns",
@@ -5351,7 +5351,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 676.75
+        "closing_price": 673.6
     },
     "INDOCO.ns": {
         "symbol": "INDOCO.ns",
@@ -5372,7 +5372,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 299.8
+        "closing_price": 301.75
     },
     "GREAVESCOT.ns": {
         "symbol": "GREAVESCOT.ns",
@@ -5393,7 +5393,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 221.96
+        "closing_price": 224.49
     },
     "BANKBARODA.ns": {
         "symbol": "BANKBARODA.ns",
@@ -5414,7 +5414,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 245.89
+        "closing_price": 248.95
     },
     "UNIONBANK.ns": {
         "symbol": "UNIONBANK.ns",
@@ -5435,7 +5435,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 137.03
+        "closing_price": 136.59
     },
     "KSL.ns": {
         "symbol": "KSL.ns",
@@ -5456,7 +5456,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-07",
-        "closing_price": 820.15
+        "closing_price": 814.7
     },
     "UJJIVANSFB.ns": {
         "symbol": "UJJIVANSFB.ns",
@@ -5477,7 +5477,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 45.75
+        "closing_price": 45.51
     },
     "VARROC.ns": {
         "symbol": "VARROC.ns",
@@ -5498,7 +5498,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 642.45
+        "closing_price": 628.95
     },
     "BOMDYEING.ns": {
         "symbol": "BOMDYEING.ns",
@@ -5519,7 +5519,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 183.88
+        "closing_price": 185.12
     },
     "PNB.ns": {
         "symbol": "PNB.ns",
@@ -5540,7 +5540,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 111.97
+        "closing_price": 111.86
     },
     "GRSE.ns": {
         "symbol": "GRSE.ns",
@@ -5561,7 +5561,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2603.6
+        "closing_price": 2626.4
     },
     "INOXINDIA.ns": {
         "symbol": "INOXINDIA.ns",
@@ -5582,7 +5582,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 1244.0
+        "closing_price": 1256.6
     },
     "JASH.ns": {
         "symbol": "JASH.ns",
@@ -5603,7 +5603,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 515.15
+        "closing_price": 516.05
     },
     "SJVN.ns": {
         "symbol": "SJVN.ns",
@@ -5624,7 +5624,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 94.39
+        "closing_price": 93.93
     },
     "KOLTEPATIL.ns": {
         "symbol": "KOLTEPATIL.ns",
@@ -5645,7 +5645,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 462.4
+        "closing_price": 456.2
     },
     "KAYNES.ns": {
         "symbol": "KAYNES.ns",
@@ -5666,7 +5666,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 7257.5
+        "closing_price": 7227.5
     },
     "KITEX.ns": {
         "symbol": "KITEX.ns",
@@ -5687,12 +5687,12 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 212.9
+        "closing_price": 217.53
     },
     "KOPRAN.ns": {
         "symbol": "KOPRAN.ns",
         "entry 1": null,
-        "entry 2": null,
+        "entry 2": 172.76,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -5701,14 +5701,14 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
-        "entry 2 date": null,
+        "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 176.47
+        "closing_price": 172.76
     },
     "KOTAKBANK.ns": {
         "symbol": "KOTAKBANK.ns",
@@ -5729,7 +5729,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2050.3
+        "closing_price": 2054.6
     },
     "LIKHITHA.ns": {
         "symbol": "LIKHITHA.ns",
@@ -5750,7 +5750,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 247.88
+        "closing_price": 246.99
     },
     "LINC.ns": {
         "symbol": "LINC.ns",
@@ -5791,7 +5791,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1180.2
+        "closing_price": 1187.0
     },
     "NDRAUTO.ns": {
         "symbol": "NDRAUTO.ns",
@@ -5812,7 +5812,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 1119.5
+        "closing_price": 1164.9
     },
     "PNBGILTS.ns": {
         "symbol": "PNBGILTS.ns",
@@ -5833,7 +5833,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 101.95
+        "closing_price": 102.24
     },
     "PNBHOUSING.ns": {
         "symbol": "PNBHOUSING.ns",
@@ -5854,7 +5854,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-08",
-        "closing_price": 840.6
+        "closing_price": 861.3
     },
     "POWERGRID.ns": {
         "symbol": "POWERGRID.ns",
@@ -5875,7 +5875,7 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 287.15
+        "closing_price": 289.1
     },
     "PREMEXPLN.ns": {
         "symbol": "PREMEXPLN.ns",
@@ -5896,7 +5896,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null,
-        "closing_price": 611.5
+        "closing_price": 614.15
     },
     "RACE.ns": {
         "symbol": "RACE.ns",
@@ -5917,7 +5917,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 232.33
+        "closing_price": 230.43
     },
     "RADICO.ns": {
         "symbol": "RADICO.ns",
@@ -5938,7 +5938,7 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": null,
-        "closing_price": 3010.9
+        "closing_price": 3010.5
     },
     "RICOAUTO.ns": {
         "symbol": "RICOAUTO.ns",
@@ -5959,6 +5959,6 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 106.14
+        "closing_price": 105.3
     }
 }
