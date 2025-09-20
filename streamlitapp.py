@@ -216,16 +216,16 @@ st.dataframe(trades_df, use_container_width=True)
 # a one-click profit reset. It will set realized/unrealized
 # profit columns to zero and refresh the dashboard.
 #
-if st.sidebar.button("🔄 Reset All Profits"):
-    # Set profit columns to zero
-    trades_df["realized_profit"] = 0.0
-    trades_df["unrealized_profit"] = 0.0
-    trades_df["profit"] = 0.0
+#if st.sidebar.button("🔄 Reset All Profits"):
+#    # Set profit columns to zero
+#    trades_df["realized_profit"] = 0.0
+#    trades_df["unrealized_profit"] = 0.0
+#    trades_df["profit"] = 0.0
 
     # Optionally, persist this reset to disk if you store
     # trades_df somewhere (e.g., overwrite signals.json or
     # write to a database). For now, it only resets in memory.
-    st.experimental_rerun()
+#    st.experimental_rerun()
 
 #
 # NOTE:
@@ -234,6 +234,13 @@ if st.sidebar.button("🔄 Reset All Profits"):
 # - Keep the block commented until you truly need it.
 # ----------------------------------------------------------
 
+st.markdown(
+    "> **How to Use the Dashboard:**\n"
+    "> 1. Review the profit summaries and charts to see overall market signals.\n"
+    "> 2. Click column headers in the tables to sort or filter stocks of interest.\n"
+    "> 3. Use the level-wise analysis to check which entry/exit levels are performing best.\n"
+    "> 4. Make your own trading decision—this app does **not** execute trades."
+)
 
 
 
