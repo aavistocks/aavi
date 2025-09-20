@@ -168,24 +168,24 @@ st.title("📊 Stock Signal Dashboard — Realized & Unrealized Profits")
 
 
 # Profit summary
-st.subheader("✅ Profit Summary (Realized vs Unrealized)")
-st.dataframe(profit_summary, use_container_width=True)
+#st.subheader("✅ Profit Summary (Realized vs Unrealized)")
+#st.dataframe(profit_summary, use_container_width=True)
 
 col1, col2, col3 = st.columns(3)
-col1.metric("💰 Total Realized", f"${total_realized:.2f}")
-col2.metric("📈 Total Unrealized", f"${total_unrealized:.2f}")
-col3.metric("💵 Combined", f"${(total_realized + total_unrealized):.2f}")
+col1.metric("💰 Total Realized", f"Rs:{total_realized:.2f}")
+col2.metric("📈 Total Unrealized", f"Rs:{total_unrealized:.2f}")
+col3.metric("💵 Combined", f"Rs:{(total_realized + total_unrealized):.2f}")
 
 # Chart
-st.subheader("📊 Realized vs Unrealized per Symbol")
-if not profit_summary.empty:
-    chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit"]]
-    st.bar_chart(chart_data)
-else:
-    st.info("No profit data available yet.")
+#st.subheader("📊 Realized vs Unrealized per Symbol")
+#if not profit_summary.empty:
+#    chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit"]]
+#    st.bar_chart(chart_data)
+#else:
+#    st.info("No profit data available yet.")
 
 # Level-wise analysis
-st.subheader("📊 Profit Analysis by Entry/Exit Level")
+st.subheader("📊 Profit Analysis Till last close by Entry/Exit Level")
 st.dataframe(level_summary, use_container_width=True)
 
 if not level_summary.empty:
@@ -195,7 +195,7 @@ else:
     st.info("No level-wise profit data available yet.")
 
 # Full trades table
-st.subheader("📋 All Trades")
+st.subheader("📋 Trades Ideas")
 st.dataframe(trades_df, use_container_width=True)
 
 
@@ -234,8 +234,8 @@ st.dataframe(trades_df, use_container_width=True)
 
 st.markdown(
     "> **How to Use the Dashboard:**\n"
-    "> 1. Review the profit summaries and charts to see overall market signals.\n"
-    "> 2. Click column headers in the tables to sort or filter stocks of interest.\n"
+    "> 1. "Profit Summary" The profit summaries to see overall market position of all trades at each levell were executed.\n"
+    "> 2. Latest trade ideas can be found at **Trades Ideas**. Click column headers in the tables to sort or filter stocks of interest.\n"
     "> 3. Use the level-wise analysis to check which entry/exit levels are performing best.\n"
     "> 4. Make your own trading decision—this app does **not** execute trades."
 )
