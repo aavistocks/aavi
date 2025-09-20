@@ -234,7 +234,7 @@ st.dataframe(trades_df, use_container_width=True)
 
 st.markdown(
     "> **How to Use the Dashboard:**\n"
-    "> 1. "Profit Summary: Summaries overall market position of all trades at each levell were executed.\n"
+    "> 1. Profit Summary: Summaries overall market position of all trades at each levell were executed.\n"
     "> 2. Latest trade ideas can be found at **Trades Ideas**. Click column headers in the tables to sort or filter stocks of interest.\n"
     "> 3. Use the level-wise analysis to check which entry/exit levels are performing best.\n"
     "> 4. Make your own trading decision—this app does **not** execute trades."
