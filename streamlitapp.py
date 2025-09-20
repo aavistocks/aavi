@@ -165,8 +165,6 @@ level_summary.columns = ["level", "realized_profit", "unrealized_profit", "total
 # Streamlit UI
 # -------------------------
 st.title("📊 Stock Signal Dashboard — Realized & Unrealized Profits")
-st.markdown("> **Note 1:** This application is for educational purposes only. Any trades based on the data here require users to validate before taking actual trades.")
-st.markdown("> **Note 2:** The suggestions given are based on daily or weekly candles. Once an entry is shown, a user can exit once their target is achieved. The level exit can be considered as the last exit option.")
 
 
 # Profit summary
@@ -242,5 +240,7 @@ st.markdown(
     "> 4. Make your own trading decision—this app does **not** execute trades."
 )
 
+st.markdown("> **Note 1:** This application is for educational purposes only. Any trades based on the data here require users to validate before taking actual trades.")
+st.markdown("> **Note 2:** The suggestions given are based on daily or weekly candles. Once an entry is shown, a user can exit once their target is achieved. The level exit can be considered as the last exit option.")
 
 
