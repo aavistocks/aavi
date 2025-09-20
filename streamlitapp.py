@@ -195,8 +195,8 @@ else:
     st.info("No level-wise profit data available yet.")
 
 # Full trades table
-st.subheader("📋 Trades Ideas")
-st.dataframe(trades_df, use_container_width=True)
+#st.subheader("📋 Trades Ideas")
+#st.dataframe(trades_df, use_container_width=True)
 
 
 #if st.sidebar.button("Show Analytics"):
