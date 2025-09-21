@@ -97,23 +97,16 @@ else:
 
     profit_df = pd.DataFrame(profit_rows) if profit_rows else pd.DataFrame()
 
-    # ---------- CSS for fixed column widths & wrapped headers ----------
-    st.markdown("""
-        <style>
-        .dataframe th {
-            white-space: pre-line !important;
-            word-wrap: break-word !important;
-            text-align: center !important;
-        }
-        .dataframe td {
-            max-width: 120px !important;
-            white-space: nowrap !important;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            text-align: center !important;
-        }
-        </style>
-    """, unsafe_allow_html=True)
+    # ---------- Compute column widths ----------
+    def compute_widths(df):
+        widths = {}
+        for col in df.columns:
+            max_len = max([len(str(x)) for x in df[col].dropna().astype(str)] + [len(col)])
+            widths[col] = max(90, min(180, max_len * 9))  # keep between 90–180 px
+        return widths
+
+    trades_widths = compute_widths(trades_df) if not trades_df.empty else {}
+    profit_widths = compute_widths(profit_df) if not profit_df.empty else {}
 
     # ---------- Tabs ----------
     tab_signals, tab_performance, tab_visitors = st.tabs(
@@ -122,13 +115,28 @@ else:
 
     with tab_signals:
         st.subheader("Current Entry & Exit Positions")
-        st.caption("Sort or filter to find stocks of interest. These are today's available signals.")
-        st.dataframe(trades_df, use_container_width=True, hide_index=True)
+        st.caption("All columns are fixed-width for easy comparison.")
+        if not trades_df.empty:
+            st.data_editor(
+                trades_df,
+                column_config={col: st.column_config.Column(width=trades_widths[col]) for col in trades_df.columns},
+                hide_index=True,
+                disabled=True,   # read-only
+                use_container_width=True
+            )
+        else:
+            st.info("No current trades available.")
 
     with tab_performance:
         st.subheader("Past Performance")
         if not profit_df.empty:
-            st.dataframe(profit_df, use_container_width=True, hide_index=True)
+            st.data_editor(
+                profit_df,
+                column_config={col: st.column_config.Column(width=profit_widths[col]) for col in profit_df.columns},
+                hide_index=True,
+                disabled=True,
+                use_container_width=True
+            )
         else:
             st.info("No completed trades to show profit yet.")
 
