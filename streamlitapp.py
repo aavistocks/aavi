@@ -19,7 +19,7 @@ def log_visit():
             user_agent TEXT
         )
     """)
-    ip = st.query_params.get("ip", ["unknown"])[0]
+    ip = st.query_params.get("ip", ["unknown"])[0]   # ✅ updated
     ua = st.session_state.get("user_agent", "unknown")
     c.execute(
         "INSERT INTO visits (ts, ip, user_agent) VALUES (?, ?, ?)",
@@ -70,11 +70,11 @@ else:
             if e_price or x_price:
                 trades_data.append({
                     "Symbol": symbol,
-                    "Entry Price": e_price,
-                    "Entry Date": e_date,
-                    "Exit Price": x_price,
-                    "Exit Date": x_date,
-                    "Closing Price": data.get("closing_price")
+                    "Entry\nPrice": e_price,
+                    "Entry\nDate": e_date,
+                    "Exit\nPrice": x_price,
+                    "Exit\nDate": x_date,
+                    "Closing\nPrice": data.get("closing_price")
                 })
 
     trades_df = pd.DataFrame(trades_data)
@@ -97,6 +97,24 @@ else:
 
     profit_df = pd.DataFrame(profit_rows) if profit_rows else pd.DataFrame()
 
+    # ---------- CSS for fixed column widths & wrapped headers ----------
+    st.markdown("""
+        <style>
+        .dataframe th {
+            white-space: pre-line !important;
+            word-wrap: break-word !important;
+            text-align: center !important;
+        }
+        .dataframe td {
+            max-width: 120px !important;
+            white-space: nowrap !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: center !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
     # ---------- Tabs ----------
     tab_signals, tab_performance, tab_visitors = st.tabs(
         ["📊 Current Signals", "📈 Performance History", "📊 Visitor Analytics"]
@@ -105,12 +123,12 @@ else:
     with tab_signals:
         st.subheader("Current Entry & Exit Positions")
         st.caption("Sort or filter to find stocks of interest. These are today's available signals.")
-        st.dataframe(trades_df, use_container_width=True)
+        st.dataframe(trades_df, use_container_width=True, hide_index=True)
 
     with tab_performance:
         st.subheader("Past Performance")
         if not profit_df.empty:
-            st.dataframe(profit_df, use_container_width=True)
+            st.dataframe(profit_df, use_container_width=True, hide_index=True)
         else:
             st.info("No completed trades to show profit yet.")
 
