@@ -1,246 +1,119 @@
-'''import streamlit as st
-import streamlit.components.v1 as components
+import streamlit as st import pandas as pd import json from datetime import datetime import sqlite3
 
-# Replace with your actual GA Measurement ID
-GA_MEASUREMENT_ID = "G-GSHZQ8WWBC"
+st.set_page_config(page_title="Trade Signals", layout="wide")
 
-GA_SCRIPT = f"""
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA_MEASUREMENT_ID}');
-</script>
-"""
+---------- Simple Visit Logger ----------
 
-# Inject into Streamlit
-components.html(GA_SCRIPT, height=0, width=0)
+def log_visit(): # Connect (creates file if it doesn't exist) conn = sqlite3.connect("visitors.db") c = conn.cursor()
 
+# Table for visits
+c.execute("""
+    CREATE TABLE IF NOT EXISTS visits (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        ts TEXT,
+        ip TEXT,
+        user_agent TEXT
+    )
+""")
 
-import streamlit as st
-import streamlit_analytics
+# Best-effort IP & User-Agent
+ip = st.experimental_get_query_params().get("ip", ["unknown"])[0]
+# Streamlit Cloud doesn't expose request headers directly; keep placeholder
+ua = st.session_state.get("user_agent", "unknown")
 
-# Track usage
-with streamlit_analytics.track():
-    st.title("📊 Aavi Stocks")
-    st.write("Welcome to the stock analytics app!")
-
-    # Example UI
-    if st.button("Show Stock Insights"):
-        st.write("Insights coming soon...")
-'''
-import streamlit as st
-import json
-import pandas as pd
-
-# -------------------------
-# Helper: safe float conversion
-# -------------------------
-def to_float(v):
-    if v is None:
-        return None
-    if isinstance(v, (int, float)):
-        return float(v)
-    try:
-        return float(str(v).replace(",", "").strip())
-    except:
-        return None
-
-# -------------------------
-# Helper: parse YY-MM-DD format safely
-# -------------------------
-def clean_date(val):
-    if val is None:
-        return None
-    s = str(val).strip()
-    if s in ["", "None", "null", "NaN", "nan"]:
-        return None
-    # Try strict YY-MM-DD (e.g. 25-09-02 → 2025-09-02)
-    try:
-        return pd.to_datetime(s, format="%y-%m-%d", errors="coerce").date()
-    except Exception:
-        # fallback: let pandas guess
-        return pd.to_datetime(s, errors="coerce").date()
-
-# -------------------------
-# Load JSON (no caching for now)
-# -------------------------
-def load_data():
-    with open("signals.json", "r") as f:
-        return json.load(f)
-
-data = load_data()
-
-# -------------------------
-# Build trades list
-# -------------------------
-trades = []
-for symbol, details in data.items():
-    closing_price = to_float(details.get("closing_price"))
-
-    for i in range(1, 5):
-        entry = to_float(details.get(f"entry {i}"))
-        entry_date_raw = details.get(f"entry {i} date")
-        exit_val = to_float(details.get(f"exit {i}"))
-        exit_date_raw = details.get(f"exit {i} date")
-
-        # clean dates
-        entry_date = clean_date(entry_date_raw)
-        exit_date = clean_date(exit_date_raw)
-
-        # Skip case: only closing_price present
-        if entry is None and exit_val is None and closing_price is not None:
-            continue
-
-        # Skip case: no valid entry-date or exit-date pair
-        if not ((entry is not None and entry_date is not None) or (exit_val is not None and exit_date is not None)):
-            continue
-
-        # Invalidate exit if it's earlier than entry
-        if entry_date and exit_date and exit_date < entry_date:
-            exit_val = None
-            exit_date = None
-
-        # profits
-        realized = None
-        unrealized = None
-        profit = None
-        status = "open"
-
-        if entry is not None and exit_val is not None:
-            profit = exit_val - entry
-            realized = profit
-            status = "closed"
-        elif entry is not None and closing_price is not None:
-            # unrealized ONLY from entry and closing price
-            profit = closing_price - entry
-            unrealized = profit
-            status = "open"
-        elif entry is None and exit_val is not None:
-            status = "exit-only"
-
-        trades.append({
-            "symbol": symbol,
-            "level": i,
-            "entry": entry,
-            "entry_date": entry_date,
-            "exit": exit_val,
-            "exit_date": exit_date,
-            "closing_price": closing_price,
-            "profit": profit,
-            "realized_profit": realized,
-            "unrealized_profit": unrealized,
-            "status": status,
-        })
-
-# -------------------------
-# DataFrame
-# -------------------------
-trades_df = pd.DataFrame(trades)
-
-# Profit summary by symbol
-profit_summary = trades_df.groupby("symbol").agg({
-    "realized_profit": "sum",
-    "unrealized_profit": "sum"
-}).reset_index().fillna(0)
-
-total_realized = profit_summary["realized_profit"].sum()
-total_unrealized = profit_summary["unrealized_profit"].sum()
-
-# -------------------------
-# Profit by Entry/Exit Level
-# -------------------------
-level_summary = trades_df.groupby("level").agg({
-    "realized_profit": "sum",
-    "unrealized_profit": "sum",
-    "profit": ["sum", "mean", "count"]
-}).reset_index()
-
-# flatten multi-level columns
-level_summary.columns = ["level", "realized_profit", "unrealized_profit", "total_profit", "avg_profit_per_trade", "trade_count"]
-
-# -------------------------
-# Streamlit UI
-# -------------------------
-st.title("📊 Stock Signal Dashboard — Realized & Unrealized Profits")
-
-
-# Profit summary
-#st.subheader("✅ Profit Summary (Realized vs Unrealized)")
-#st.dataframe(profit_summary, use_container_width=True)
-
-col1, col2, col3 = st.columns(3)
-col1.metric("💰 Total Realized", f"Rs:{total_realized:.2f}")
-col2.metric("📈 Total Unrealized", f"Rs:{total_unrealized:.2f}")
-col3.metric("💵 Combined", f"Rs:{(total_realized + total_unrealized):.2f}")
-
-# Chart
-#st.subheader("📊 Realized vs Unrealized per Symbol")
-#if not profit_summary.empty:
-#    chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit"]]
-#    st.bar_chart(chart_data)
-#else:
-#    st.info("No profit data available yet.")
-
-# Level-wise analysis
-st.subheader("📊 Profit Analysis Till last close by Entry/Exit Level")
-st.dataframe(level_summary, use_container_width=True)
-
-if not level_summary.empty:
-    chart_data_levels = level_summary.set_index("level")[["realized_profit", "unrealized_profit", "total_profit", "avg_profit_per_trade"]]
-    st.bar_chart(chart_data_levels)
-else:
-    st.info("No level-wise profit data available yet.")
-
-# Full trades table
-#st.subheader("📋 Trades Ideas")
-#st.dataframe(trades_df, use_container_width=True)
-
-
-#if st.sidebar.button("Show Analytics"):
-#    streamlit_analytics.show()
-# -------------------------
-# Full trades table
-# -------------------------
-st.subheader("📋 All Trades")
-st.dataframe(trades_df, use_container_width=True)
-
-# ----------------------------------------------------------
-# OPTIONAL: Reset Profit Feature (DISABLED BY DEFAULT)
-# ----------------------------------------------------------
-# Uncomment the block below whenever you want to enable
-# a one-click profit reset. It will set realized/unrealized
-# profit columns to zero and refresh the dashboard.
-#
-#if st.sidebar.button("🔄 Reset All Profits"):
-#    # Set profit columns to zero
-#    trades_df["realized_profit"] = 0.0
-#    trades_df["unrealized_profit"] = 0.0
-#    trades_df["profit"] = 0.0
-
-    # Optionally, persist this reset to disk if you store
-    # trades_df somewhere (e.g., overwrite signals.json or
-    # write to a database). For now, it only resets in memory.
-#    st.experimental_rerun()
-
-#
-# NOTE:
-# - This reset only affects the live session unless you
-#   add code to write the updated trades back to storage.
-# - Keep the block commented until you truly need it.
-# ----------------------------------------------------------
-
-st.markdown(
-    "> **How to Use the Dashboard:**\n"
-    "> 1. Profit Summary: Summaries overall market position of all trades at each levell were executed.\n"
-    "> 2. Latest trade ideas can be found at **Trades Ideas**. Click column headers in the tables to sort or filter stocks of interest.\n"
-    "> 3. Use the level-wise analysis to check which entry/exit levels are performing best.\n"
-    "> 4. Make your own trading decision—this app does **not** execute trades."
+c.execute(
+    "INSERT INTO visits (ts, ip, user_agent) VALUES (?, ?, ?)",
+    (datetime.utcnow().isoformat(), ip, ua)
 )
+conn.commit()
+conn.close()
 
-st.markdown("> **Note 1:** This application is for educational purposes only. Any trades based on the data here require users to validate before taking actual trades.")
-st.markdown("> **Note 2:** The suggestions given are based on daily or weekly candles. Once an entry is shown, a user can exit once their target is achieved. The level exit can be considered as the last exit option.")
+log_visit()
 
+---------- Top Info Banner ----------
+
+st.info( "\ud83d\udccc Aavi Stocks\n\n" "This dashboard highlights current entry & exit positions based on daily candles. " "Past profits are shown only to help gauge the algorithm's effectiveness. " "Educational use only \u2013 validate before trading." )
+
+---------- Load signals.json ----------
+
+uploaded_file = st.file_uploader("Upload signals.json", type="json") if uploaded_file: signals = json.load(uploaded_file)
+
+# Build All Trades Table
+trades_data = []
+for symbol, data in signals.items():
+    for i in range(1, 5):
+        e_price, e_date = data.get(f"entry {i}"), data.get(f"entry {i} date")
+        x_price, x_date = data.get(f"exit {i}"), data.get(f"exit {i} date")
+
+        # validations
+        if e_price and not e_date: e_price, e_date = None, None
+        if x_price and not x_date: x_price, x_date = None, None
+        if e_date and x_date:
+            try:
+                e_dt = datetime.strptime(e_date, "%y-%m-%d")
+                x_dt = datetime.strptime(x_date, "%y-%m-%d")
+                if x_dt < e_dt:
+                    x_price, x_date = None, None
+            except:
+                x_price, x_date = None, None
+
+        if e_price or x_price:
+            trades_data.append({
+                "Symbol": symbol,
+                "Entry Price": e_price,
+                "Entry Date": e_date,
+                "Exit Price": x_price,
+                "Exit Date": x_date,
+                "Closing Price": data.get("closing_price")
+            })
+
+trades_df = pd.DataFrame(trades_data)
+
+# Profit History Table
+profit_rows = []
+for symbol, data in signals.items():
+    for i in range(1, 5):
+        e_price, e_date = data.get(f"entry {i}"), data.get(f"entry {i} date")
+        x_price, x_date = data.get(f"exit {i}"), data.get(f"exit {i} date")
+        if e_price and e_date and x_price and x_date:
+            try:
+                if datetime.strptime(x_date, "%y-%m-%d") >= datetime.strptime(e_date, "%y-%m-%d"):
+                    profit_rows.append({
+                        "Symbol": symbol,
+                        "Profit": round(x_price - e_price, 2)
+                    })
+            except:
+                pass
+
+profit_df = pd.DataFrame(profit_rows) if profit_rows else pd.DataFrame()
+
+# ---------- Tabs ----------
+tab_signals, tab_performance, tab_visitors = st.tabs(["\ud83d\udcca Current Signals", "\ud83d\udcc8 Performance History", "\ud83d\udcca Visitor Analytics"])
+
+with tab_signals:
+    st.subheader("Current Entry & Exit Positions")
+    st.caption("Sort or filter to find stocks of interest. These are today's available signals.")
+    st.dataframe(trades_df, use_container_width=True)
+
+with tab_performance:
+    st.subheader("Past Performance")
+    if not profit_df.empty:
+        st.dataframe(profit_df, use_container_width=True)
+    else:
+        st.info("No completed trades to show profit yet.")
+
+with tab_visitors:
+    st.subheader("Visitor Analytics")
+    conn = sqlite3.connect("visitors.db")
+    df = pd.read_sql("SELECT date(ts) AS day, COUNT(*) AS visits FROM visits GROUP BY day", conn)
+    st.bar_chart(df.set_index("day"))
+    conn.close()
+
+# ---------- Quick Start Guide ----------
+with st.expander("\ud83d\udc4b Quick Start Guide"):
+    st.markdown(
+        "1. **Current Signals** tab shows live entry/exit positions.\n"
+        "2. **Performance History** tab shows how past trades performed.\n"
+        "3. **Visitor Analytics** tab shows daily visit counts."
+    )
 
