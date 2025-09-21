@@ -3,16 +3,14 @@ import pandas as pd
 import json
 from datetime import datetime
 import sqlite3
+import os
 
 st.set_page_config(page_title="Trade Signals", layout="wide")
 
 # ---------- Simple Visit Logger ----------
 def log_visit():
-    # Connect (creates file if it doesn't exist)
     conn = sqlite3.connect("visitors.db")
     c = conn.cursor()
-
-    # Table for visits
     c.execute("""
         CREATE TABLE IF NOT EXISTS visits (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -21,11 +19,8 @@ def log_visit():
             user_agent TEXT
         )
     """)
-
-    # Best-effort IP & User-Agent
-    ip = st.experimental_get_query_params().get("ip", ["unknown"])[0]
+    ip = st.query_params.get("ip", ["unknown"])[0]
     ua = st.session_state.get("user_agent", "unknown")
-
     c.execute(
         "INSERT INTO visits (ts, ip, user_agent) VALUES (?, ?, ?)",
         (datetime.utcnow().isoformat(), ip, ua)
@@ -43,10 +38,13 @@ st.info(
     "Educational use only – validate before trading."
 )
 
-# ---------- Load signals.json ----------
-uploaded_file = st.file_uploader("Upload signals.json", type="json")
-if uploaded_file:
-    signals = json.load(uploaded_file)
+# ---------- Load signals.json directly ----------
+json_path = os.path.join(os.path.dirname(__file__), "signals.json")
+if not os.path.exists(json_path):
+    st.error("❌ signals.json file not found in the same folder as this script.")
+else:
+    with open(json_path, "r") as f:
+        signals = json.load(f)
 
     # Build All Trades Table
     trades_data = []
