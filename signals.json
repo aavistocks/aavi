@@ -18,7 +18,11 @@
         "exit 2 date": "25-08-23",
         "exit 3 date": "25-08-23",
         "exit 4 date": "25-09-09",
-        "closing_price": 62.33
+        "closing_price": 60.44,
+        "entry1_max_price": 60.44,
+        "entry2_max_price": 60.44,
+        "entry3_max_price": 60.44,
+        "entry4_max_price": 60.44
     },
     "FORCEMOT.ns": {
         "symbol": "FORCEMOT.ns",
@@ -39,7 +43,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 18111.0
+        "closing_price": 18041.0,
+        "entry1_max_price": 18041.0,
+        "entry2_max_price": 18041.0,
+        "entry3_max_price": 18041.0,
+        "entry4_max_price": 18041.0
     },
     "APOLLO.ns": {
         "symbol": "APOLLO.ns",
@@ -60,7 +68,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 338.25
+        "closing_price": 341.55,
+        "entry1_max_price": 341.55,
+        "entry2_max_price": 341.55,
+        "entry3_max_price": 341.55,
+        "entry4_max_price": 341.55
     },
     "TECHNOE.ns": {
         "symbol": "TECHNOE.ns",
@@ -81,7 +93,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-09",
         "exit 4 date": null,
-        "closing_price": 1403.7
+        "closing_price": 1376.9,
+        "entry1_max_price": 1376.9,
+        "entry2_max_price": 1376.9,
+        "entry3_max_price": 1376.9,
+        "entry4_max_price": 1376.9
     },
     "LAURUSLABS.ns": {
         "symbol": "LAURUSLABS.ns",
@@ -102,7 +118,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 910.05
+        "closing_price": 909.75,
+        "entry1_max_price": 909.75,
+        "entry2_max_price": 909.75,
+        "entry3_max_price": 909.75,
+        "entry4_max_price": 909.75
     },
     "JBMA.ns": {
         "symbol": "JBMA.ns",
@@ -123,7 +143,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 738.2
+        "closing_price": 727.85,
+        "entry1_max_price": 727.85,
+        "entry2_max_price": 727.85,
+        "entry3_max_price": 727.85,
+        "entry4_max_price": 727.85
     },
     "AAVAS.ns": {
         "symbol": "AAVAS.ns",
@@ -144,7 +168,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-07",
-        "closing_price": 1655.4
+        "closing_price": 1669.9,
+        "entry1_max_price": 1669.9,
+        "entry2_max_price": 1669.9,
+        "entry3_max_price": 1669.9,
+        "entry4_max_price": 1669.9
     },
     "POLYCAB.ns": {
         "symbol": "POLYCAB.ns",
@@ -165,7 +193,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 7620.0
+        "closing_price": 7532.5,
+        "entry1_max_price": 7532.5,
+        "entry2_max_price": 7532.5,
+        "entry3_max_price": 7532.5,
+        "entry4_max_price": 7532.5
     },
     "TATAPOWER.ns": {
         "symbol": "TATAPOWER.ns",
@@ -175,7 +207,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 390.3,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -184,9 +216,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 395.5
+        "closing_price": 390.3,
+        "entry1_max_price": 390.3,
+        "entry2_max_price": 390.3,
+        "entry3_max_price": 390.3,
+        "entry4_max_price": 390.3
     },
     "GENUSPOWER.ns": {
         "symbol": "GENUSPOWER.ns",
@@ -207,7 +243,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 327.75
+        "closing_price": 323.15,
+        "entry1_max_price": 323.15,
+        "entry2_max_price": 323.15,
+        "entry3_max_price": 323.15,
+        "entry4_max_price": 323.15
     },
     "ARE&M.ns": {
         "symbol": "ARE&M.ns",
@@ -228,7 +268,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1008.65
+        "closing_price": 1002.7,
+        "entry1_max_price": 1002.7,
+        "entry2_max_price": 1002.7,
+        "entry3_max_price": 1002.7,
+        "entry4_max_price": 1002.7
     },
     "INDIGOPNTS.ns": {
         "symbol": "INDIGOPNTS.ns",
@@ -249,7 +293,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1098.5
+        "closing_price": 1099.7,
+        "entry1_max_price": 1099.7,
+        "entry2_max_price": 1099.7,
+        "entry3_max_price": 1099.7,
+        "entry4_max_price": 1099.7
     },
     "NETWEB.ns": {
         "symbol": "NETWEB.ns",
@@ -270,7 +318,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3540.8
+        "closing_price": 3416.4,
+        "entry1_max_price": 3416.4,
+        "entry2_max_price": 3416.4,
+        "entry3_max_price": 3416.4,
+        "entry4_max_price": 3416.4
     },
     "ARMANFIN.ns": {
         "symbol": "ARMANFIN.ns",
@@ -291,7 +343,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1454.2
+        "closing_price": 1529.7,
+        "entry1_max_price": 1529.7,
+        "entry2_max_price": 1529.7,
+        "entry3_max_price": 1529.7,
+        "entry4_max_price": 1529.7
     },
     "SWANENERGY.ns": {
         "symbol": "SWANENERGY.ns",
@@ -312,28 +368,36 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 460.9
+        "closing_price": 460.9,
+        "entry1_max_price": 460.9,
+        "entry2_max_price": 460.9,
+        "entry3_max_price": 460.9,
+        "entry4_max_price": 460.9
     },
     "AGIIL.ns": {
         "symbol": "AGIIL.ns",
-        "entry 1": 1187.8,
+        "entry 1": 1237.6,
         "entry 2": null,
-        "entry 3": null,
+        "entry 3": 1237.6,
         "entry 4": null,
         "exit 1": 1177.4,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": "25-09-24",
         "entry 2 date": null,
-        "entry 3 date": null,
+        "entry 3 date": "25-09-24",
         "entry 4 date": null,
         "exit 1 date": "25-09-07",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1187.5
+        "closing_price": 1237.6,
+        "entry1_max_price": 1237.6,
+        "entry2_max_price": 1237.6,
+        "entry3_max_price": 1237.6,
+        "entry4_max_price": 1237.6
     },
     "RECLTD.ns": {
         "symbol": "RECLTD.ns",
@@ -343,7 +407,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 382.0,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-10",
@@ -352,9 +416,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 386.7
+        "closing_price": 382.0,
+        "entry1_max_price": 382.0,
+        "entry2_max_price": 382.0,
+        "entry3_max_price": 382.0,
+        "entry4_max_price": 382.0
     },
     "ENTERO.ns": {
         "symbol": "ENTERO.ns",
@@ -375,7 +443,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1104.4
+        "closing_price": 1090.7,
+        "entry1_max_price": 1090.7,
+        "entry2_max_price": 1090.7,
+        "entry3_max_price": 1090.7,
+        "entry4_max_price": 1090.7
     },
     "THERMAX.ns": {
         "symbol": "THERMAX.ns",
@@ -396,7 +468,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3358.8
+        "closing_price": 3317.2,
+        "entry1_max_price": 3317.2,
+        "entry2_max_price": 3317.2,
+        "entry3_max_price": 3317.2,
+        "entry4_max_price": 3317.2
     },
     "TIMKEN.ns": {
         "symbol": "TIMKEN.ns",
@@ -417,7 +493,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3046.1
+        "closing_price": 3020.0,
+        "entry1_max_price": 3020.0,
+        "entry2_max_price": 3020.0,
+        "entry3_max_price": 3020.0,
+        "entry4_max_price": 3020.0
     },
     "BLUESTARCO.ns": {
         "symbol": "BLUESTARCO.ns",
@@ -438,7 +518,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1964.0
+        "closing_price": 1944.2,
+        "entry1_max_price": 1944.2,
+        "entry2_max_price": 1944.2,
+        "entry3_max_price": 1944.2,
+        "entry4_max_price": 1944.2
     },
     "SBILIFE.ns": {
         "symbol": "SBILIFE.ns",
@@ -459,7 +543,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 1819.4
+        "closing_price": 1817.1,
+        "entry1_max_price": 1817.1,
+        "entry2_max_price": 1817.1,
+        "entry3_max_price": 1817.1,
+        "entry4_max_price": 1817.1
     },
     "TRIVENI.ns": {
         "symbol": "TRIVENI.ns",
@@ -480,7 +568,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 343.05
+        "closing_price": 350.1,
+        "entry1_max_price": 350.1,
+        "entry2_max_price": 350.1,
+        "entry3_max_price": 350.1,
+        "entry4_max_price": 350.1
     },
     "ICICIGI.ns": {
         "symbol": "ICICIGI.ns",
@@ -501,7 +593,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1894.7
+        "closing_price": 1878.4,
+        "entry1_max_price": 1878.4,
+        "entry2_max_price": 1878.4,
+        "entry3_max_price": 1878.4,
+        "entry4_max_price": 1878.4
     },
     "TVSSCS.ns": {
         "symbol": "TVSSCS.ns",
@@ -522,7 +618,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 130.05
+        "closing_price": 128.38,
+        "entry1_max_price": 128.38,
+        "entry2_max_price": 128.38,
+        "entry3_max_price": 128.38,
+        "entry4_max_price": 128.38
     },
     "JINDALSTEL.ns": {
         "symbol": "JINDALSTEL.ns",
@@ -543,7 +643,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1062.7
+        "closing_price": 1052.65,
+        "entry1_max_price": 1052.65,
+        "entry2_max_price": 1052.65,
+        "entry3_max_price": 1052.65,
+        "entry4_max_price": 1052.65
     },
     "VIJAYA.ns": {
         "symbol": "VIJAYA.ns",
@@ -551,7 +655,7 @@
         "entry 2": null,
         "entry 3": 1065.2,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 1052.2,
         "exit 2": null,
         "exit 3": 1049.7,
         "exit 4": 1021.4,
@@ -560,11 +664,15 @@
         "entry 2 date": null,
         "entry 3 date": "25-09-03",
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": "25-08-25",
-        "closing_price": 1049.8
+        "closing_price": 1052.2,
+        "entry1_max_price": 1052.2,
+        "entry2_max_price": 1052.2,
+        "entry3_max_price": 1052.2,
+        "entry4_max_price": 1052.2
     },
     "GODREJCP.ns": {
         "symbol": "GODREJCP.ns",
@@ -585,7 +693,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1192.2
+        "closing_price": 1186.0,
+        "entry1_max_price": 1186.0,
+        "entry2_max_price": 1186.0,
+        "entry3_max_price": 1186.0,
+        "entry4_max_price": 1186.0
     },
     "BANDHANBNK.ns": {
         "symbol": "BANDHANBNK.ns",
@@ -606,7 +718,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 162.09
+        "closing_price": 158.47,
+        "entry1_max_price": 158.47,
+        "entry2_max_price": 158.47,
+        "entry3_max_price": 158.47,
+        "entry4_max_price": 158.47
     },
     "CUMMINSIND.ns": {
         "symbol": "CUMMINSIND.ns",
@@ -614,7 +730,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 3988.9,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -623,11 +739,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4005.2
+        "closing_price": 3988.9,
+        "entry1_max_price": 3988.9,
+        "entry2_max_price": 3988.9,
+        "entry3_max_price": 3988.9,
+        "entry4_max_price": 3988.9
     },
     "ASTERDM.ns": {
         "symbol": "ASTERDM.ns",
@@ -635,7 +755,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 632.65,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -644,11 +764,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 636.6
+        "closing_price": 632.65,
+        "entry1_max_price": 632.65,
+        "entry2_max_price": 632.65,
+        "entry3_max_price": 632.65,
+        "entry4_max_price": 632.65
     },
     "BESTAGRO.ns": {
         "symbol": "BESTAGRO.ns",
@@ -669,7 +793,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 371.6
+        "closing_price": 371.65,
+        "entry1_max_price": 371.65,
+        "entry2_max_price": 371.65,
+        "entry3_max_price": 371.65,
+        "entry4_max_price": 371.65
     },
     "ZYDUSLIFE.ns": {
         "symbol": "ZYDUSLIFE.ns",
@@ -690,7 +818,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1044.85
+        "closing_price": 1036.0,
+        "entry1_max_price": 1036.0,
+        "entry2_max_price": 1036.0,
+        "entry3_max_price": 1036.0,
+        "entry4_max_price": 1036.0
     },
     "AIAENG.ns": {
         "symbol": "AIAENG.ns",
@@ -711,7 +843,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3055.7
+        "closing_price": 3070.2,
+        "entry1_max_price": 3070.2,
+        "entry2_max_price": 3070.2,
+        "entry3_max_price": 3070.2,
+        "entry4_max_price": 3070.2
     },
     "ECLERX.NS": {
         "symbol": "ECLERX.NS",
@@ -732,7 +868,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4250.9
+        "closing_price": 4099.5,
+        "entry1_max_price": 4099.5,
+        "entry2_max_price": 4099.5,
+        "entry3_max_price": 4099.5,
+        "entry4_max_price": 4099.5
     },
     "EIEL.ns": {
         "symbol": "EIEL.ns",
@@ -742,7 +882,7 @@
         "entry 4": null,
         "exit 1": 244.91,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 254.5,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-17",
@@ -751,9 +891,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-07",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 266.99
+        "closing_price": 254.5,
+        "entry1_max_price": 254.5,
+        "entry2_max_price": 254.5,
+        "entry3_max_price": 254.5,
+        "entry4_max_price": 254.5
     },
     "KAMATHOTEL.ns": {
         "symbol": "KAMATHOTEL.ns",
@@ -774,7 +918,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 321.15
+        "closing_price": 320.35,
+        "entry1_max_price": 320.35,
+        "entry2_max_price": 320.35,
+        "entry3_max_price": 320.35,
+        "entry4_max_price": 320.35
     },
     "LTTS.ns": {
         "symbol": "LTTS.ns",
@@ -795,7 +943,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 4190.0
+        "closing_price": 4183.1,
+        "entry1_max_price": 4183.1,
+        "entry2_max_price": 4183.1,
+        "entry3_max_price": 4183.1,
+        "entry4_max_price": 4183.1
     },
     "PREMIERENE.ns": {
         "symbol": "PREMIERENE.ns",
@@ -816,7 +968,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1012.35
+        "closing_price": 1044.7,
+        "entry1_max_price": 1044.7,
+        "entry2_max_price": 1044.7,
+        "entry3_max_price": 1044.7,
+        "entry4_max_price": 1044.7
     },
     "PGEL.ns": {
         "symbol": "PGEL.ns",
@@ -837,7 +993,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 558.2
+        "closing_price": 544.3,
+        "entry1_max_price": 544.3,
+        "entry2_max_price": 544.3,
+        "entry3_max_price": 544.3,
+        "entry4_max_price": 544.3
     },
     "SENCO.ns": {
         "symbol": "SENCO.ns",
@@ -847,7 +1007,7 @@
         "entry 4": null,
         "exit 1": 382.1,
         "exit 2": null,
-        "exit 3": 362.1,
+        "exit 3": 354.8,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -856,9 +1016,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-10",
         "exit 2 date": null,
-        "exit 3 date": "25-09-23",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 362.1
+        "closing_price": 354.8,
+        "entry1_max_price": 354.8,
+        "entry2_max_price": 354.8,
+        "entry3_max_price": 354.8,
+        "entry4_max_price": 354.8
     },
     "TAJGVK.ns": {
         "symbol": "TAJGVK.ns",
@@ -868,7 +1032,7 @@
         "entry 4": null,
         "exit 1": 433.05,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 422.4,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-04",
@@ -877,9 +1041,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-17",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 428.85
+        "closing_price": 422.4,
+        "entry1_max_price": 422.4,
+        "entry2_max_price": 422.4,
+        "entry3_max_price": 422.4,
+        "entry4_max_price": 422.4
     },
     "FINCABLES.ns": {
         "symbol": "FINCABLES.ns",
@@ -900,7 +1068,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 826.6
+        "closing_price": 826.8,
+        "entry1_max_price": 826.8,
+        "entry2_max_price": 826.8,
+        "entry3_max_price": 826.8,
+        "entry4_max_price": 826.8
     },
     "NHPC.ns": {
         "symbol": "NHPC.ns",
@@ -921,7 +1093,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-10",
-        "closing_price": 86.63
+        "closing_price": 86.29,
+        "entry1_max_price": 86.29,
+        "entry2_max_price": 86.29,
+        "entry3_max_price": 86.29,
+        "entry4_max_price": 86.29
     },
     "PVRINOX.ns": {
         "symbol": "PVRINOX.ns",
@@ -942,7 +1118,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1115.2
+        "closing_price": 1114.0,
+        "entry1_max_price": 1114.0,
+        "entry2_max_price": 1114.0,
+        "entry3_max_price": 1114.0,
+        "entry4_max_price": 1114.0
     },
     "HGINFRA.ns": {
         "symbol": "HGINFRA.ns",
@@ -963,7 +1143,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 992.85
+        "closing_price": 975.15,
+        "entry1_max_price": 975.15,
+        "entry2_max_price": 975.15,
+        "entry3_max_price": 975.15,
+        "entry4_max_price": 975.15
     },
     "HINDUNILVR.ns": {
         "symbol": "HINDUNILVR.ns",
@@ -984,7 +1168,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 2522.2
+        "closing_price": 2549.5,
+        "entry1_max_price": 2549.5,
+        "entry2_max_price": 2549.5,
+        "entry3_max_price": 2549.5,
+        "entry4_max_price": 2549.5
     },
     "AJANTPHARM.ns": {
         "symbol": "AJANTPHARM.ns",
@@ -1005,7 +1193,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 2544.9
+        "closing_price": 2531.2,
+        "entry1_max_price": 2531.2,
+        "entry2_max_price": 2531.2,
+        "entry3_max_price": 2531.2,
+        "entry4_max_price": 2531.2
     },
     "SWSOLAR.ns": {
         "symbol": "SWSOLAR.ns",
@@ -1026,7 +1218,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 260.4
+        "closing_price": 258.15,
+        "entry1_max_price": 258.15,
+        "entry2_max_price": 258.15,
+        "entry3_max_price": 258.15,
+        "entry4_max_price": 258.15
     },
     "UCOBANK.ns": {
         "symbol": "UCOBANK.ns",
@@ -1047,7 +1243,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 30.69
+        "closing_price": 30.5,
+        "entry1_max_price": 30.5,
+        "entry2_max_price": 30.5,
+        "entry3_max_price": 30.5,
+        "entry4_max_price": 30.5
     },
     "MAZDOCK.ns": {
         "symbol": "MAZDOCK.ns",
@@ -1068,7 +1268,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2939.5
+        "closing_price": 2940.2,
+        "entry1_max_price": 2940.2,
+        "entry2_max_price": 2940.2,
+        "entry3_max_price": 2940.2,
+        "entry4_max_price": 2940.2
     },
     "IRCON.ns": {
         "symbol": "IRCON.ns",
@@ -1078,7 +1282,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 174.92,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -1087,14 +1291,18 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 179.29
+        "closing_price": 174.92,
+        "entry1_max_price": 174.92,
+        "entry2_max_price": 174.92,
+        "entry3_max_price": 174.92,
+        "entry4_max_price": 174.92
     },
     "ADANIPORTS.NS": {
         "symbol": "ADANIPORTS.NS",
         "entry 1": null,
-        "entry 2": null,
+        "entry 2": 1431.6,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -1103,14 +1311,18 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
-        "entry 2 date": null,
+        "entry 2 date": "25-09-24",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1441.6
+        "closing_price": 1431.6,
+        "entry1_max_price": 1431.6,
+        "entry2_max_price": 1431.6,
+        "entry3_max_price": 1431.6,
+        "entry4_max_price": 1431.6
     },
     "JIOFIN.ns": {
         "symbol": "JIOFIN.ns",
@@ -1131,7 +1343,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 312.55
+        "closing_price": 306.75,
+        "entry1_max_price": 306.75,
+        "entry2_max_price": 306.75,
+        "entry3_max_price": 306.75,
+        "entry4_max_price": 306.75
     },
     "rvnl.ns": {
         "symbol": "rvnl.ns",
@@ -1141,7 +1357,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 347.65,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -1150,9 +1366,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 357.6
+        "closing_price": 347.65,
+        "entry1_max_price": 347.65,
+        "entry2_max_price": 347.65,
+        "entry3_max_price": 347.65,
+        "entry4_max_price": 347.65
     },
     "DMART.ns": {
         "symbol": "DMART.ns",
@@ -1173,7 +1393,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4633.9
+        "closing_price": 4645.8,
+        "entry1_max_price": 4645.8,
+        "entry2_max_price": 4645.8,
+        "entry3_max_price": 4645.8,
+        "entry4_max_price": 4645.8
     },
     "JWL.ns": {
         "symbol": "JWL.ns",
@@ -1194,7 +1418,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 331.05
+        "closing_price": 327.3,
+        "entry1_max_price": 327.3,
+        "entry2_max_price": 327.3,
+        "entry3_max_price": 327.3,
+        "entry4_max_price": 327.3
     },
     "TITAGARH.NS": {
         "symbol": "TITAGARH.NS",
@@ -1215,12 +1443,16 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 921.1
+        "closing_price": 897.2,
+        "entry1_max_price": 897.2,
+        "entry2_max_price": 897.2,
+        "entry3_max_price": 897.2,
+        "entry4_max_price": 897.2
     },
     "PRINCEPIPE.ns": {
         "symbol": "PRINCEPIPE.ns",
         "entry 1": 345.45,
-        "entry 2": null,
+        "entry 2": 337.2,
         "entry 3": null,
         "entry 4": null,
         "exit 1": 335.8,
@@ -1229,14 +1461,18 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-24",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": "25-09-14",
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 344.95
+        "closing_price": 337.2,
+        "entry1_max_price": 337.2,
+        "entry2_max_price": 337.2,
+        "entry3_max_price": 337.2,
+        "entry4_max_price": 337.2
     },
     "ASTRAL.ns": {
         "symbol": "ASTRAL.ns",
@@ -1257,7 +1493,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1436.4
+        "closing_price": 1439.9,
+        "entry1_max_price": 1439.9,
+        "entry2_max_price": 1439.9,
+        "entry3_max_price": 1439.9,
+        "entry4_max_price": 1439.9
     },
     "AARTIPHARM.ns": {
         "symbol": "AARTIPHARM.ns",
@@ -1265,7 +1505,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 857.6,
         "exit 2": null,
         "exit 3": 871.65,
         "exit 4": null,
@@ -1274,11 +1514,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 871.65
+        "closing_price": 857.6,
+        "entry1_max_price": 857.6,
+        "entry2_max_price": 857.6,
+        "entry3_max_price": 857.6,
+        "entry4_max_price": 857.6
     },
     "LTIM.ns": {
         "symbol": "LTIM.ns",
@@ -1288,7 +1532,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": 5089.0,
+        "exit 3": 5207.0,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -1297,9 +1541,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-09-08",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 5262.5
+        "closing_price": 5207.0,
+        "entry1_max_price": 5207.0,
+        "entry2_max_price": 5207.0,
+        "entry3_max_price": 5207.0,
+        "entry4_max_price": 5207.0
     },
     "HDFCAMC.ns": {
         "symbol": "HDFCAMC.ns",
@@ -1320,7 +1568,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5883.5
+        "closing_price": 5790.0,
+        "entry1_max_price": 5790.0,
+        "entry2_max_price": 5790.0,
+        "entry3_max_price": 5790.0,
+        "entry4_max_price": 5790.0
     },
     "MAHABANK.ns": {
         "symbol": "MAHABANK.ns",
@@ -1341,7 +1593,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 57.19
+        "closing_price": 56.33,
+        "entry1_max_price": 56.33,
+        "entry2_max_price": 56.33,
+        "entry3_max_price": 56.33,
+        "entry4_max_price": 56.33
     },
     "RSYSTEMS.ns": {
         "symbol": "RSYSTEMS.ns",
@@ -1362,7 +1618,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 428.1
+        "closing_price": 429.95,
+        "entry1_max_price": 429.95,
+        "entry2_max_price": 429.95,
+        "entry3_max_price": 429.95,
+        "entry4_max_price": 429.95
     },
     "DATAPATTNS.ns": {
         "symbol": "DATAPATTNS.ns",
@@ -1383,7 +1643,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2773.3
+        "closing_price": 2737.9,
+        "entry1_max_price": 2737.9,
+        "entry2_max_price": 2737.9,
+        "entry3_max_price": 2737.9,
+        "entry4_max_price": 2737.9
     },
     "M&M.ns": {
         "symbol": "M&M.ns",
@@ -1404,7 +1668,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3614.6
+        "closing_price": 3574.9,
+        "entry1_max_price": 3574.9,
+        "entry2_max_price": 3574.9,
+        "entry3_max_price": 3574.9,
+        "entry4_max_price": 3574.9
     },
     "SUZLON.ns": {
         "symbol": "SUZLON.ns",
@@ -1425,7 +1693,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 58.75
+        "closing_price": 57.5,
+        "entry1_max_price": 57.5,
+        "entry2_max_price": 57.5,
+        "entry3_max_price": 57.5,
+        "entry4_max_price": 57.5
     },
     "TATATECH.ns": {
         "symbol": "TATATECH.ns",
@@ -1435,7 +1707,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 684.55,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -1444,9 +1716,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 697.8
+        "closing_price": 684.55,
+        "entry1_max_price": 684.55,
+        "entry2_max_price": 684.55,
+        "entry3_max_price": 684.55,
+        "entry4_max_price": 684.55
     },
     "APTUS.ns": {
         "symbol": "APTUS.ns",
@@ -1467,7 +1743,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 323.3
+        "closing_price": 320.75,
+        "entry1_max_price": 320.75,
+        "entry2_max_price": 320.75,
+        "entry3_max_price": 320.75,
+        "entry4_max_price": 320.75
     },
     "BDL.ns": {
         "symbol": "BDL.ns",
@@ -1477,7 +1757,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 1566.4,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -1486,9 +1766,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 1595.4
+        "closing_price": 1566.4,
+        "entry1_max_price": 1566.4,
+        "entry2_max_price": 1566.4,
+        "entry3_max_price": 1566.4,
+        "entry4_max_price": 1566.4
     },
     "HAL.ns": {
         "symbol": "HAL.ns",
@@ -1509,7 +1793,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4799.9
+        "closing_price": 4723.9,
+        "entry1_max_price": 4723.9,
+        "entry2_max_price": 4723.9,
+        "entry3_max_price": 4723.9,
+        "entry4_max_price": 4723.9
     },
     "HDFCBANK.ns": {
         "symbol": "HDFCBANK.ns",
@@ -1530,7 +1818,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": "25-09-08",
-        "closing_price": 957.2
+        "closing_price": 951.05,
+        "entry1_max_price": 951.05,
+        "entry2_max_price": 951.05,
+        "entry3_max_price": 951.05,
+        "entry4_max_price": 951.05
     },
     "IREDA.ns": {
         "symbol": "IREDA.ns",
@@ -1551,7 +1843,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 155.64
+        "closing_price": 152.68,
+        "entry1_max_price": 152.68,
+        "entry2_max_price": 152.68,
+        "entry3_max_price": 152.68,
+        "entry4_max_price": 152.68
     },
     "AIIL.ns": {
         "symbol": "AIIL.ns",
@@ -1572,7 +1868,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3014.9
+        "closing_price": 3059.5,
+        "entry1_max_price": 3059.5,
+        "entry2_max_price": 3059.5,
+        "entry3_max_price": 3059.5,
+        "entry4_max_price": 3059.5
     },
     "DREAMFOLKS.ns": {
         "symbol": "DREAMFOLKS.ns",
@@ -1593,7 +1893,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 162.44
+        "closing_price": 162.44,
+        "entry1_max_price": 162.44,
+        "entry2_max_price": 162.44,
+        "entry3_max_price": 162.44,
+        "entry4_max_price": 162.44
     },
     "EIHAHOTELS.ns": {
         "symbol": "EIHAHOTELS.ns",
@@ -1614,7 +1918,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 390.25
+        "closing_price": 387.6,
+        "entry1_max_price": 387.6,
+        "entry2_max_price": 387.6,
+        "entry3_max_price": 387.6,
+        "entry4_max_price": 387.6
     },
     "EMSLIMITED.ns": {
         "symbol": "EMSLIMITED.ns",
@@ -1635,7 +1943,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 577.95
+        "closing_price": 570.3,
+        "entry1_max_price": 570.3,
+        "entry2_max_price": 570.3,
+        "entry3_max_price": 570.3,
+        "entry4_max_price": 570.3
     },
     "GANESHHOUC.ns": {
         "symbol": "GANESHHOUC.ns",
@@ -1656,7 +1968,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 873.5
+        "closing_price": 873.5,
+        "entry1_max_price": 873.5,
+        "entry2_max_price": 873.5,
+        "entry3_max_price": 873.5,
+        "entry4_max_price": 873.5
     },
     "AURIONPRO.ns": {
         "symbol": "AURIONPRO.ns",
@@ -1677,7 +1993,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1205.2
+        "closing_price": 1177.4,
+        "entry1_max_price": 1177.4,
+        "entry2_max_price": 1177.4,
+        "entry3_max_price": 1177.4,
+        "entry4_max_price": 1177.4
     },
     "HCLTECH.ns": {
         "symbol": "HCLTECH.ns",
@@ -1698,7 +2018,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1429.8
+        "closing_price": 1442.3,
+        "entry1_max_price": 1442.3,
+        "entry2_max_price": 1442.3,
+        "entry3_max_price": 1442.3,
+        "entry4_max_price": 1442.3
     },
     "HAPPSTMNDS.ns": {
         "symbol": "HAPPSTMNDS.ns",
@@ -1719,7 +2043,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 556.95
+        "closing_price": 551.75,
+        "entry1_max_price": 551.75,
+        "entry2_max_price": 551.75,
+        "entry3_max_price": 551.75,
+        "entry4_max_price": 551.75
     },
     "ABB.ns": {
         "symbol": "ABB.ns",
@@ -1729,7 +2057,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": 5298.7,
+        "exit 3": 5237.3,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -1738,9 +2066,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-09-23",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 5298.7
+        "closing_price": 5237.3,
+        "entry1_max_price": 5237.3,
+        "entry2_max_price": 5237.3,
+        "entry3_max_price": 5237.3,
+        "entry4_max_price": 5237.3
     },
     "AMIORG.ns": {
         "symbol": "AMIORG.ns",
@@ -1781,7 +2113,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": "25-09-15",
-        "closing_price": 408.75
+        "closing_price": 404.9,
+        "entry1_max_price": 404.9,
+        "entry2_max_price": 404.9,
+        "entry3_max_price": 404.9,
+        "entry4_max_price": 404.9
     },
     "LLOYDSME.ns": {
         "symbol": "LLOYDSME.ns",
@@ -1802,7 +2138,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1318.0
+        "closing_price": 1302.8,
+        "entry1_max_price": 1302.8,
+        "entry2_max_price": 1302.8,
+        "entry3_max_price": 1302.8,
+        "entry4_max_price": 1302.8
     },
     "MONARCH.ns": {
         "symbol": "MONARCH.ns",
@@ -1823,7 +2163,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 330.55
+        "closing_price": 326.6,
+        "entry1_max_price": 326.6,
+        "entry2_max_price": 326.6,
+        "entry3_max_price": 326.6,
+        "entry4_max_price": 326.6
     },
     "OLECTRA.ns": {
         "symbol": "OLECTRA.ns",
@@ -1844,7 +2188,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1671.0
+        "closing_price": 1644.9,
+        "entry1_max_price": 1644.9,
+        "entry2_max_price": 1644.9,
+        "entry3_max_price": 1644.9,
+        "entry4_max_price": 1644.9
     },
     "RELIANCE.ns": {
         "symbol": "RELIANCE.ns",
@@ -1865,7 +2213,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1389.8
+        "closing_price": 1383.0,
+        "entry1_max_price": 1383.0,
+        "entry2_max_price": 1383.0,
+        "entry3_max_price": 1383.0,
+        "entry4_max_price": 1383.0
     },
     "TITAN.ns": {
         "symbol": "TITAN.ns",
@@ -1886,7 +2238,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 3439.2
+        "closing_price": 3418.3,
+        "entry1_max_price": 3418.3,
+        "entry2_max_price": 3418.3,
+        "entry3_max_price": 3418.3,
+        "entry4_max_price": 3418.3
     },
     "INDIGO.ns": {
         "symbol": "INDIGO.ns",
@@ -1907,7 +2263,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5732.0
+        "closing_price": 5686.0,
+        "entry1_max_price": 5686.0,
+        "entry2_max_price": 5686.0,
+        "entry3_max_price": 5686.0,
+        "entry4_max_price": 5686.0
     },
     "PIIND.ns": {
         "symbol": "PIIND.ns",
@@ -1928,7 +2288,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3625.8
+        "closing_price": 3629.0,
+        "entry1_max_price": 3629.0,
+        "entry2_max_price": 3629.0,
+        "entry3_max_price": 3629.0,
+        "entry4_max_price": 3629.0
     },
     "PNGJL.ns": {
         "symbol": "PNGJL.ns",
@@ -1949,7 +2313,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 624.7
+        "closing_price": 613.4,
+        "entry1_max_price": 613.4,
+        "entry2_max_price": 613.4,
+        "entry3_max_price": 613.4,
+        "entry4_max_price": 613.4
     },
     "WIPRO.ns": {
         "symbol": "WIPRO.ns",
@@ -1970,7 +2338,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 249.63
+        "closing_price": 244.59,
+        "entry1_max_price": 244.59,
+        "entry2_max_price": 244.59,
+        "entry3_max_price": 244.59,
+        "entry4_max_price": 244.59
     },
     "RPGLIFE.ns": {
         "symbol": "RPGLIFE.ns",
@@ -1991,7 +2363,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2404.3
+        "closing_price": 2394.4,
+        "entry1_max_price": 2394.4,
+        "entry2_max_price": 2394.4,
+        "entry3_max_price": 2394.4,
+        "entry4_max_price": 2394.4
     },
     "ARVIND.ns": {
         "symbol": "ARVIND.ns",
@@ -2012,7 +2388,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 315.05
+        "closing_price": 316.95,
+        "entry1_max_price": 316.95,
+        "entry2_max_price": 316.95,
+        "entry3_max_price": 316.95,
+        "entry4_max_price": 316.95
     },
     "TRENT.ns": {
         "symbol": "TRENT.ns",
@@ -2033,7 +2413,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": null,
-        "closing_price": 4891.0
+        "closing_price": 4897.0,
+        "entry1_max_price": 4897.0,
+        "entry2_max_price": 4897.0,
+        "entry3_max_price": 4897.0,
+        "entry4_max_price": 4897.0
     },
     "PRUDENT.ns": {
         "symbol": "PRUDENT.ns",
@@ -2054,7 +2438,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 2802.6
+        "closing_price": 2774.4,
+        "entry1_max_price": 2774.4,
+        "entry2_max_price": 2774.4,
+        "entry3_max_price": 2774.4,
+        "entry4_max_price": 2774.4
     },
     "INDUSINDBK.ns": {
         "symbol": "INDUSINDBK.ns",
@@ -2075,7 +2463,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 755.25
+        "closing_price": 740.75,
+        "entry1_max_price": 740.75,
+        "entry2_max_price": 740.75,
+        "entry3_max_price": 740.75,
+        "entry4_max_price": 740.75
     },
     "AUBANK.ns": {
         "symbol": "AUBANK.ns",
@@ -2096,7 +2488,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 731.65
+        "closing_price": 736.15,
+        "entry1_max_price": 736.15,
+        "entry2_max_price": 736.15,
+        "entry3_max_price": 736.15,
+        "entry4_max_price": 736.15
     },
     "CHOLAFIN.ns": {
         "symbol": "CHOLAFIN.ns",
@@ -2117,7 +2513,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 1623.8
+        "closing_price": 1630.2,
+        "entry1_max_price": 1630.2,
+        "entry2_max_price": 1630.2,
+        "entry3_max_price": 1630.2,
+        "entry4_max_price": 1630.2
     },
     "DIVISLAB.ns": {
         "symbol": "DIVISLAB.ns",
@@ -2138,7 +2538,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 6051.0
+        "closing_price": 5984.0,
+        "entry1_max_price": 5984.0,
+        "entry2_max_price": 5984.0,
+        "entry3_max_price": 5984.0,
+        "entry4_max_price": 5984.0
     },
     "NTPC.ns": {
         "symbol": "NTPC.ns",
@@ -2159,7 +2563,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 343.0
+        "closing_price": 347.6,
+        "entry1_max_price": 347.6,
+        "entry2_max_price": 347.6,
+        "entry3_max_price": 347.6,
+        "entry4_max_price": 347.6
     },
     "SAFARI.ns": {
         "symbol": "SAFARI.ns",
@@ -2180,7 +2588,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2204.0
+        "closing_price": 2212.8,
+        "entry1_max_price": 2212.8,
+        "entry2_max_price": 2212.8,
+        "entry3_max_price": 2212.8,
+        "entry4_max_price": 2212.8
     },
     "DEEPAKNTR.ns": {
         "symbol": "DEEPAKNTR.ns",
@@ -2201,7 +2613,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1821.1
+        "closing_price": 1869.4,
+        "entry1_max_price": 1869.4,
+        "entry2_max_price": 1869.4,
+        "entry3_max_price": 1869.4,
+        "entry4_max_price": 1869.4
     },
     "SYRMA.ns": {
         "symbol": "SYRMA.ns",
@@ -2222,7 +2638,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 817.9
+        "closing_price": 858.4,
+        "entry1_max_price": 858.4,
+        "entry2_max_price": 858.4,
+        "entry3_max_price": 858.4,
+        "entry4_max_price": 858.4
     },
     "WAAREEENER.ns": {
         "symbol": "WAAREEENER.ns",
@@ -2243,7 +2663,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3435.1
+        "closing_price": 3489.9,
+        "entry1_max_price": 3489.9,
+        "entry2_max_price": 3489.9,
+        "entry3_max_price": 3489.9,
+        "entry4_max_price": 3489.9
     },
     "TATASTEEL.ns": {
         "symbol": "TATASTEEL.ns",
@@ -2264,7 +2688,11 @@
         "exit 2 date": "25-08-25",
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 173.29
+        "closing_price": 172.66,
+        "entry1_max_price": 172.66,
+        "entry2_max_price": 172.66,
+        "entry3_max_price": 172.66,
+        "entry4_max_price": 172.66
     },
     "YATHARTH.ns": {
         "symbol": "YATHARTH.ns",
@@ -2272,7 +2700,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 784.95,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -2281,11 +2709,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 784.55
+        "closing_price": 784.95,
+        "entry1_max_price": 784.95,
+        "entry2_max_price": 784.95,
+        "entry3_max_price": 784.95,
+        "entry4_max_price": 784.95
     },
     "BRITANNIA.ns": {
         "symbol": "BRITANNIA.ns",
@@ -2306,7 +2738,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 5934.0
+        "closing_price": 5970.5,
+        "entry1_max_price": 5970.5,
+        "entry2_max_price": 5970.5,
+        "entry3_max_price": 5970.5,
+        "entry4_max_price": 5970.5
     },
     "TANLA.ns": {
         "symbol": "TANLA.ns",
@@ -2327,7 +2763,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 736.45
+        "closing_price": 748.9,
+        "entry1_max_price": 748.9,
+        "entry2_max_price": 748.9,
+        "entry3_max_price": 748.9,
+        "entry4_max_price": 748.9
     },
     "PERSISTENT.ns": {
         "symbol": "PERSISTENT.ns",
@@ -2348,7 +2788,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 5240.5
+        "closing_price": 5191.5,
+        "entry1_max_price": 5191.5,
+        "entry2_max_price": 5191.5,
+        "entry3_max_price": 5191.5,
+        "entry4_max_price": 5191.5
     },
     "TBOTEK.ns": {
         "symbol": "TBOTEK.ns",
@@ -2369,7 +2813,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1599.0
+        "closing_price": 1585.3,
+        "entry1_max_price": 1585.3,
+        "entry2_max_price": 1585.3,
+        "entry3_max_price": 1585.3,
+        "entry4_max_price": 1585.3
     },
     "BALKRISIND.ns": {
         "symbol": "BALKRISIND.ns",
@@ -2390,7 +2838,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 2496.5
+        "closing_price": 2416.3,
+        "entry1_max_price": 2416.3,
+        "entry2_max_price": 2416.3,
+        "entry3_max_price": 2416.3,
+        "entry4_max_price": 2416.3
     },
     "TECHM.ns": {
         "symbol": "TECHM.ns",
@@ -2411,12 +2863,16 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1471.9
+        "closing_price": 1452.4,
+        "entry1_max_price": 1452.4,
+        "entry2_max_price": 1452.4,
+        "entry3_max_price": 1452.4,
+        "entry4_max_price": 1452.4
     },
     "BEL.ns": {
         "symbol": "BEL.ns",
         "entry 1": 372.5,
-        "entry 2": null,
+        "entry 2": 395.45,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -2425,14 +2881,18 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-04",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-24",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 404.45
+        "closing_price": 395.45,
+        "entry1_max_price": 395.45,
+        "entry2_max_price": 395.45,
+        "entry3_max_price": 395.45,
+        "entry4_max_price": 395.45
     },
     "ACCELYA.ns": {
         "symbol": "ACCELYA.ns",
@@ -2453,7 +2913,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-03",
         "exit 4 date": null,
-        "closing_price": 1495.0
+        "closing_price": 1488.3,
+        "entry1_max_price": 1488.3,
+        "entry2_max_price": 1488.3,
+        "entry3_max_price": 1488.3,
+        "entry4_max_price": 1488.3
     },
     "GRANULES.ns": {
         "symbol": "GRANULES.ns",
@@ -2474,7 +2938,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 523.8
+        "closing_price": 530.8,
+        "entry1_max_price": 530.8,
+        "entry2_max_price": 530.8,
+        "entry3_max_price": 530.8,
+        "entry4_max_price": 530.8
     },
     "HEROMOTOCO.ns": {
         "symbol": "HEROMOTOCO.ns",
@@ -2495,7 +2963,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5370.5
+        "closing_price": 5277.0,
+        "entry1_max_price": 5277.0,
+        "entry2_max_price": 5277.0,
+        "entry3_max_price": 5277.0,
+        "entry4_max_price": 5277.0
     },
     "TEJASNET.ns": {
         "symbol": "TEJASNET.ns",
@@ -2516,7 +2988,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 596.6
+        "closing_price": 589.15,
+        "entry1_max_price": 589.15,
+        "entry2_max_price": 589.15,
+        "entry3_max_price": 589.15,
+        "entry4_max_price": 589.15
     },
     "BHARATFORG.ns": {
         "symbol": "BHARATFORG.ns",
@@ -2537,7 +3013,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-09",
         "exit 4 date": "25-09-04",
-        "closing_price": 1251.0
+        "closing_price": 1209.0,
+        "entry1_max_price": 1209.0,
+        "entry2_max_price": 1209.0,
+        "entry3_max_price": 1209.0,
+        "entry4_max_price": 1209.0
     },
     "ALLDIGI.ns": {
         "symbol": "ALLDIGI.ns",
@@ -2558,7 +3038,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 924.45
+        "closing_price": 918.35,
+        "entry1_max_price": 918.35,
+        "entry2_max_price": 918.35,
+        "entry3_max_price": 918.35,
+        "entry4_max_price": 918.35
     },
     "ASHOKLEY.ns": {
         "symbol": "ASHOKLEY.ns",
@@ -2568,7 +3052,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": 144.04,
+        "exit 3": 142.26,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -2577,9 +3061,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-09-23",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 144.04
+        "closing_price": 142.26,
+        "entry1_max_price": 142.26,
+        "entry2_max_price": 142.26,
+        "entry3_max_price": 142.26,
+        "entry4_max_price": 142.26
     },
     "TATAELXSI.ns": {
         "symbol": "TATAELXSI.ns",
@@ -2600,7 +3088,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5555.5
+        "closing_price": 5504.5,
+        "entry1_max_price": 5504.5,
+        "entry2_max_price": 5504.5,
+        "entry3_max_price": 5504.5,
+        "entry4_max_price": 5504.5
     },
     "CIPLA.ns": {
         "symbol": "CIPLA.ns",
@@ -2621,7 +3113,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 1527.1
+        "closing_price": 1538.0,
+        "entry1_max_price": 1538.0,
+        "entry2_max_price": 1538.0,
+        "entry3_max_price": 1538.0,
+        "entry4_max_price": 1538.0
     },
     "Affle.ns": {
         "symbol": "Affle.ns",
@@ -2642,7 +3138,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null,
-        "closing_price": 2084.2
+        "closing_price": 2038.6,
+        "entry1_max_price": 2038.6,
+        "entry2_max_price": 2038.6,
+        "entry3_max_price": 2038.6,
+        "entry4_max_price": 2038.6
     },
     "BSE.ns": {
         "symbol": "BSE.ns",
@@ -2663,7 +3163,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2122.2
+        "closing_price": 2076.4,
+        "entry1_max_price": 2076.4,
+        "entry2_max_price": 2076.4,
+        "entry3_max_price": 2076.4,
+        "entry4_max_price": 2076.4
     },
     "EICHERMOT.ns": {
         "symbol": "EICHERMOT.ns",
@@ -2671,7 +3175,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 7011.5,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -2680,11 +3184,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 6990.5
+        "closing_price": 7011.5,
+        "entry1_max_price": 7011.5,
+        "entry2_max_price": 7011.5,
+        "entry3_max_price": 7011.5,
+        "entry4_max_price": 7011.5
     },
     "RAMCOCEM.ns": {
         "symbol": "RAMCOCEM.ns",
@@ -2705,11 +3213,15 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1045.0
+        "closing_price": 1040.0,
+        "entry1_max_price": 1040.0,
+        "entry2_max_price": 1040.0,
+        "entry3_max_price": 1040.0,
+        "entry4_max_price": 1040.0
     },
     "BUTTERFLY.ns": {
         "symbol": "BUTTERFLY.ns",
-        "entry 1": 710.55,
+        "entry 1": 721.65,
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
@@ -2718,7 +3230,7 @@
         "exit 3": 711.6,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-09-22",
+        "entry 1 date": "25-09-24",
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
@@ -2726,7 +3238,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-03",
         "exit 4 date": null,
-        "closing_price": 713.2
+        "closing_price": 721.65,
+        "entry1_max_price": 721.65,
+        "entry2_max_price": 721.65,
+        "entry3_max_price": 721.65,
+        "entry4_max_price": 721.65
     },
     "TIINDIA.ns": {
         "symbol": "TIINDIA.ns",
@@ -2747,7 +3263,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3303.0
+        "closing_price": 3276.5,
+        "entry1_max_price": 3276.5,
+        "entry2_max_price": 3276.5,
+        "entry3_max_price": 3276.5,
+        "entry4_max_price": 3276.5
     },
     "TRITURBINE.ns": {
         "symbol": "TRITURBINE.ns",
@@ -2768,7 +3288,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 530.15
+        "closing_price": 522.15,
+        "entry1_max_price": 522.15,
+        "entry2_max_price": 522.15,
+        "entry3_max_price": 522.15,
+        "entry4_max_price": 522.15
     },
     "ALKEM.ns": {
         "symbol": "ALKEM.ns",
@@ -2789,7 +3313,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 5544.5
+        "closing_price": 5576.0,
+        "entry1_max_price": 5576.0,
+        "entry2_max_price": 5576.0,
+        "entry3_max_price": 5576.0,
+        "entry4_max_price": 5576.0
     },
     "GODREJPROP.ns": {
         "symbol": "GODREJPROP.ns",
@@ -2799,7 +3327,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 2019.1,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -2808,9 +3336,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 2103.7
+        "closing_price": 2019.1,
+        "entry1_max_price": 2019.1,
+        "entry2_max_price": 2019.1,
+        "entry3_max_price": 2019.1,
+        "entry4_max_price": 2019.1
     },
     "TATAMOTORS.ns": {
         "symbol": "TATAMOTORS.ns",
@@ -2818,20 +3350,24 @@
         "entry 2": 715.55,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 682.95,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 682.95,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": "25-09-09",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 701.35
+        "closing_price": 682.95,
+        "entry1_max_price": 682.95,
+        "entry2_max_price": 682.95,
+        "entry3_max_price": 682.95,
+        "entry4_max_price": 682.95
     },
     "TATACONSUM.ns": {
         "symbol": "TATACONSUM.ns",
@@ -2852,7 +3388,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 1128.5
+        "closing_price": 1140.1,
+        "entry1_max_price": 1140.1,
+        "entry2_max_price": 1140.1,
+        "entry3_max_price": 1140.1,
+        "entry4_max_price": 1140.1
     },
     "AUROPHARMA.ns": {
         "symbol": "AUROPHARMA.ns",
@@ -2873,7 +3413,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1109.9
+        "closing_price": 1090.9,
+        "entry1_max_price": 1090.9,
+        "entry2_max_price": 1090.9,
+        "entry3_max_price": 1090.9,
+        "entry4_max_price": 1090.9
     },
     "AARTIIND.ns": {
         "symbol": "AARTIIND.ns",
@@ -2894,7 +3438,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-23",
-        "closing_price": 386.55
+        "closing_price": 383.35,
+        "entry1_max_price": 383.35,
+        "entry2_max_price": 383.35,
+        "entry3_max_price": 383.35,
+        "entry4_max_price": 383.35
     },
     "TVSMOTOR.ns": {
         "symbol": "TVSMOTOR.ns",
@@ -2915,7 +3463,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3512.7
+        "closing_price": 3453.0,
+        "entry1_max_price": 3453.0,
+        "entry2_max_price": 3453.0,
+        "entry3_max_price": 3453.0,
+        "entry4_max_price": 3453.0
     },
     "KEC.ns": {
         "symbol": "KEC.ns",
@@ -2936,7 +3488,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-07",
         "exit 4 date": null,
-        "closing_price": 883.9
+        "closing_price": 882.85,
+        "entry1_max_price": 882.85,
+        "entry2_max_price": 882.85,
+        "entry3_max_price": 882.85,
+        "entry4_max_price": 882.85
     },
     "M&MFIN.ns": {
         "symbol": "M&MFIN.ns",
@@ -2957,7 +3513,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 282.8
+        "closing_price": 282.15,
+        "entry1_max_price": 282.15,
+        "entry2_max_price": 282.15,
+        "entry3_max_price": 282.15,
+        "entry4_max_price": 282.15
     },
     "LICHSGFIN.ns": {
         "symbol": "LICHSGFIN.ns",
@@ -2967,7 +3527,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 580.75,
         "exit 4": 587.3,
         "profit": null,
         "entry 1 date": "25-09-07",
@@ -2976,9 +3536,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": "25-09-22",
-        "closing_price": 582.6
+        "closing_price": 580.75,
+        "entry1_max_price": 580.75,
+        "entry2_max_price": 580.75,
+        "entry3_max_price": 580.75,
+        "entry4_max_price": 580.75
     },
     "MANAPPURAM.ns": {
         "symbol": "MANAPPURAM.ns",
@@ -2986,7 +3550,7 @@
         "entry 2": 284.5,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 286.95,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -2995,11 +3559,15 @@
         "entry 2 date": "25-09-07",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 293.25
+        "closing_price": 286.95,
+        "entry1_max_price": 286.95,
+        "entry2_max_price": 286.95,
+        "entry3_max_price": 286.95,
+        "entry4_max_price": 286.95
     },
     "UBL.ns": {
         "symbol": "UBL.ns",
@@ -3020,7 +3588,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1795.6
+        "closing_price": 1796.6,
+        "entry1_max_price": 1796.6,
+        "entry2_max_price": 1796.6,
+        "entry3_max_price": 1796.6,
+        "entry4_max_price": 1796.6
     },
     "ULTRACEMCO.ns": {
         "symbol": "ULTRACEMCO.ns",
@@ -3041,7 +3613,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 12401.0
+        "closing_price": 12214.0,
+        "entry1_max_price": 12214.0,
+        "entry2_max_price": 12214.0,
+        "entry3_max_price": 12214.0,
+        "entry4_max_price": 12214.0
     },
     "BPCL.ns": {
         "symbol": "BPCL.ns",
@@ -3062,7 +3638,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 330.4
+        "closing_price": 330.35,
+        "entry1_max_price": 330.35,
+        "entry2_max_price": 330.35,
+        "entry3_max_price": 330.35,
+        "entry4_max_price": 330.35
     },
     "UNITDSPR.ns": {
         "symbol": "UNITDSPR.ns",
@@ -3083,7 +3663,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 1341.2
+        "closing_price": 1350.9,
+        "entry1_max_price": 1350.9,
+        "entry2_max_price": 1350.9,
+        "entry3_max_price": 1350.9,
+        "entry4_max_price": 1350.9
     },
     "UNOMINDA.ns": {
         "symbol": "UNOMINDA.ns",
@@ -3104,7 +3688,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1317.1
+        "closing_price": 1308.8,
+        "entry1_max_price": 1308.8,
+        "entry2_max_price": 1308.8,
+        "entry3_max_price": 1308.8,
+        "entry4_max_price": 1308.8
     },
     "CGPOWER.ns": {
         "symbol": "CGPOWER.ns",
@@ -3112,7 +3700,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 770.1,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -3121,11 +3709,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 773.45
+        "closing_price": 770.1,
+        "entry1_max_price": 770.1,
+        "entry2_max_price": 770.1,
+        "entry3_max_price": 770.1,
+        "entry4_max_price": 770.1
     },
     "CYIENT.ns": {
         "symbol": "CYIENT.ns",
@@ -3146,7 +3738,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1197.6
+        "closing_price": 1180.6,
+        "entry1_max_price": 1180.6,
+        "entry2_max_price": 1180.6,
+        "entry3_max_price": 1180.6,
+        "entry4_max_price": 1180.6
     },
     "KFINTECH.ns": {
         "symbol": "KFINTECH.ns",
@@ -3167,7 +3763,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": "25-09-17",
-        "closing_price": 1080.4
+        "closing_price": 1060.7,
+        "entry1_max_price": 1060.7,
+        "entry2_max_price": 1060.7,
+        "entry3_max_price": 1060.7,
+        "entry4_max_price": 1060.7
     },
     "CANBK.ns": {
         "symbol": "CANBK.ns",
@@ -3188,7 +3788,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 121.9
+        "closing_price": 122.91,
+        "entry1_max_price": 122.91,
+        "entry2_max_price": 122.91,
+        "entry3_max_price": 122.91,
+        "entry4_max_price": 122.91
     },
     "USHAMART.ns": {
         "symbol": "USHAMART.ns",
@@ -3209,7 +3813,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 442.75
+        "closing_price": 445.95,
+        "entry1_max_price": 445.95,
+        "entry2_max_price": 445.95,
+        "entry3_max_price": 445.95,
+        "entry4_max_price": 445.95
     },
     "UTIAMC.ns": {
         "symbol": "UTIAMC.ns",
@@ -3230,7 +3838,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1392.6
+        "closing_price": 1385.2,
+        "entry1_max_price": 1385.2,
+        "entry2_max_price": 1385.2,
+        "entry3_max_price": 1385.2,
+        "entry4_max_price": 1385.2
     },
     "NATCOPHARM.ns": {
         "symbol": "NATCOPHARM.ns",
@@ -3251,7 +3863,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 855.5
+        "closing_price": 854.2,
+        "entry1_max_price": 854.2,
+        "entry2_max_price": 854.2,
+        "entry3_max_price": 854.2,
+        "entry4_max_price": 854.2
     },
     "COALINDIA.ns": {
         "symbol": "COALINDIA.ns",
@@ -3272,7 +3888,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 394.05
+        "closing_price": 392.85,
+        "entry1_max_price": 392.85,
+        "entry2_max_price": 392.85,
+        "entry3_max_price": 392.85,
+        "entry4_max_price": 392.85
     },
     "RBLBANK.ns": {
         "symbol": "RBLBANK.ns",
@@ -3293,7 +3913,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 268.95
+        "closing_price": 270.35,
+        "entry1_max_price": 270.35,
+        "entry2_max_price": 270.35,
+        "entry3_max_price": 270.35,
+        "entry4_max_price": 270.35
     },
     "EXIDEIND.ns": {
         "symbol": "EXIDEIND.ns",
@@ -3303,7 +3927,7 @@
         "entry 4": null,
         "exit 1": 418.8,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 399.6,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -3312,9 +3936,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-17",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 403.25
+        "closing_price": 399.6,
+        "entry1_max_price": 399.6,
+        "entry2_max_price": 399.6,
+        "entry3_max_price": 399.6,
+        "entry4_max_price": 399.6
     },
     "VOLTAS.ns": {
         "symbol": "VOLTAS.ns",
@@ -3335,7 +3963,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1372.7
+        "closing_price": 1372.3,
+        "entry1_max_price": 1372.3,
+        "entry2_max_price": 1372.3,
+        "entry3_max_price": 1372.3,
+        "entry4_max_price": 1372.3
     },
     "VBL.ns": {
         "symbol": "VBL.ns",
@@ -3356,7 +3988,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-07",
         "exit 4 date": null,
-        "closing_price": 458.5
+        "closing_price": 452.6,
+        "entry1_max_price": 452.6,
+        "entry2_max_price": 452.6,
+        "entry3_max_price": 452.6,
+        "entry4_max_price": 452.6
     },
     "INDHOTEL.ns": {
         "symbol": "INDHOTEL.ns",
@@ -3377,7 +4013,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 752.0
+        "closing_price": 746.0,
+        "entry1_max_price": 746.0,
+        "entry2_max_price": 746.0,
+        "entry3_max_price": 746.0,
+        "entry4_max_price": 746.0
     },
     "asianpaint.ns": {
         "symbol": "asianpaint.ns",
@@ -3398,7 +4038,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 2446.9
+        "closing_price": 2457.2,
+        "entry1_max_price": 2457.2,
+        "entry2_max_price": 2457.2,
+        "entry3_max_price": 2457.2,
+        "entry4_max_price": 2457.2
     },
     "RALLIS.ns": {
         "symbol": "RALLIS.ns",
@@ -3419,7 +4063,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-09",
         "exit 4 date": null,
-        "closing_price": 328.55
+        "closing_price": 319.2,
+        "entry1_max_price": 319.2,
+        "entry2_max_price": 319.2,
+        "entry3_max_price": 319.2,
+        "entry4_max_price": 319.2
     },
     "VTL.ns": {
         "symbol": "VTL.ns",
@@ -3440,7 +4088,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": "25-08-23",
-        "closing_price": 417.7
+        "closing_price": 416.0,
+        "entry1_max_price": 416.0,
+        "entry2_max_price": 416.0,
+        "entry3_max_price": 416.0,
+        "entry4_max_price": 416.0
     },
     "WELCORP.ns": {
         "symbol": "WELCORP.ns",
@@ -3461,7 +4113,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 883.15
+        "closing_price": 879.7,
+        "entry1_max_price": 879.7,
+        "entry2_max_price": 879.7,
+        "entry3_max_price": 879.7,
+        "entry4_max_price": 879.7
     },
     "GARUDA.ns": {
         "symbol": "GARUDA.ns",
@@ -3482,12 +4138,16 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 200.16
+        "closing_price": 193.28,
+        "entry1_max_price": 193.28,
+        "entry2_max_price": 193.28,
+        "entry3_max_price": 193.28,
+        "entry4_max_price": 193.28
     },
     "ANANTRAJ.ns": {
         "symbol": "ANANTRAJ.ns",
         "entry 1": null,
-        "entry 2": null,
+        "entry 2": 677.1,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -3496,14 +4156,18 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
-        "entry 2 date": null,
+        "entry 2 date": "25-09-24",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 666.2
+        "closing_price": 677.1,
+        "entry1_max_price": 677.1,
+        "entry2_max_price": 677.1,
+        "entry3_max_price": 677.1,
+        "entry4_max_price": 677.1
     },
     "UPL.ns": {
         "symbol": "UPL.ns",
@@ -3524,7 +4188,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 677.2
+        "closing_price": 676.15,
+        "entry1_max_price": 676.15,
+        "entry2_max_price": 676.15,
+        "entry3_max_price": 676.15,
+        "entry4_max_price": 676.15
     },
     "BSOFT.ns": {
         "symbol": "BSOFT.ns",
@@ -3545,7 +4213,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 372.35
+        "closing_price": 369.25,
+        "entry1_max_price": 369.25,
+        "entry2_max_price": 369.25,
+        "entry3_max_price": 369.25,
+        "entry4_max_price": 369.25
     },
     "AMBER.ns": {
         "symbol": "AMBER.ns",
@@ -3566,7 +4238,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 8300.5
+        "closing_price": 8410.0,
+        "entry1_max_price": 8410.0,
+        "entry2_max_price": 8410.0,
+        "entry3_max_price": 8410.0,
+        "entry4_max_price": 8410.0
     },
     "ZENSARTECH.ns": {
         "symbol": "ZENSARTECH.ns",
@@ -3576,7 +4252,7 @@
         "entry 4": null,
         "exit 1": 776.35,
         "exit 2": null,
-        "exit 3": 808.1,
+        "exit 3": 808.0,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-12",
@@ -3585,9 +4261,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-07",
         "exit 2 date": null,
-        "exit 3 date": "25-09-23",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 808.1
+        "closing_price": 808.0,
+        "entry1_max_price": 808.0,
+        "entry2_max_price": 808.0,
+        "entry3_max_price": 808.0,
+        "entry4_max_price": 808.0
     },
     "GLENMARK.ns": {
         "symbol": "GLENMARK.ns",
@@ -3608,7 +4288,11 @@
         "exit 2 date": "25-09-03",
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 2016.8
+        "closing_price": 2018.6,
+        "entry1_max_price": 2018.6,
+        "entry2_max_price": 2018.6,
+        "entry3_max_price": 2018.6,
+        "entry4_max_price": 2018.6
     },
     "DOMS.ns": {
         "symbol": "DOMS.ns",
@@ -3616,7 +4300,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 2613.0,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -3625,11 +4309,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2614.0
+        "closing_price": 2613.0,
+        "entry1_max_price": 2613.0,
+        "entry2_max_price": 2613.0,
+        "entry3_max_price": 2613.0,
+        "entry4_max_price": 2613.0
     },
     "SYNGENE.ns": {
         "symbol": "SYNGENE.ns",
@@ -3650,7 +4338,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 643.65
+        "closing_price": 641.15,
+        "entry1_max_price": 641.15,
+        "entry2_max_price": 641.15,
+        "entry3_max_price": 641.15,
+        "entry4_max_price": 641.15
     },
     "INDIANB.ns": {
         "symbol": "INDIANB.ns",
@@ -3671,7 +4363,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 695.1
+        "closing_price": 708.2,
+        "entry1_max_price": 708.2,
+        "entry2_max_price": 708.2,
+        "entry3_max_price": 708.2,
+        "entry4_max_price": 708.2
     },
     "ELGIEQUIP.ns": {
         "symbol": "ELGIEQUIP.ns",
@@ -3692,7 +4388,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-23",
-        "closing_price": 503.1
+        "closing_price": 500.9,
+        "entry1_max_price": 500.9,
+        "entry2_max_price": 500.9,
+        "entry3_max_price": 500.9,
+        "entry4_max_price": 500.9
     },
     "HAVELLS.ns": {
         "symbol": "HAVELLS.ns",
@@ -3700,20 +4400,24 @@
         "entry 2": 1582.5,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": 1572.6,
+        "exit 1": 1544.5,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 1544.5,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
         "entry 2 date": "25-09-07",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": "25-09-14",
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 1572.3
+        "closing_price": 1544.5,
+        "entry1_max_price": 1544.5,
+        "entry2_max_price": 1544.5,
+        "entry3_max_price": 1544.5,
+        "entry4_max_price": 1544.5
     },
     "INTELLECT.ns": {
         "symbol": "INTELLECT.ns",
@@ -3734,7 +4438,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 1062.65
+        "closing_price": 1029.05,
+        "entry1_max_price": 1029.05,
+        "entry2_max_price": 1029.05,
+        "entry3_max_price": 1029.05,
+        "entry4_max_price": 1029.05
     },
     "IRMENERGY.ns": {
         "symbol": "IRMENERGY.ns",
@@ -3755,7 +4463,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 367.35
+        "closing_price": 364.55,
+        "entry1_max_price": 364.55,
+        "entry2_max_price": 364.55,
+        "entry3_max_price": 364.55,
+        "entry4_max_price": 364.55
     },
     "KPITTECH.ns": {
         "symbol": "KPITTECH.ns",
@@ -3765,7 +4477,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 1240.6,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -3774,9 +4486,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 1249.7
+        "closing_price": 1240.6,
+        "entry1_max_price": 1240.6,
+        "entry2_max_price": 1240.6,
+        "entry3_max_price": 1240.6,
+        "entry4_max_price": 1240.6
     },
     "MOLDTKPAC.ns": {
         "symbol": "MOLDTKPAC.ns",
@@ -3786,7 +4502,7 @@
         "entry 4": null,
         "exit 1": 809.6,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 784.5,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-07",
@@ -3795,9 +4511,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-17",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 801.2
+        "closing_price": 784.5,
+        "entry1_max_price": 784.5,
+        "entry2_max_price": 784.5,
+        "entry3_max_price": 784.5,
+        "entry4_max_price": 784.5
     },
     "APOLLOTYRE.ns": {
         "symbol": "APOLLOTYRE.ns",
@@ -3818,7 +4538,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 489.05
+        "closing_price": 494.7,
+        "entry1_max_price": 494.7,
+        "entry2_max_price": 494.7,
+        "entry3_max_price": 494.7,
+        "entry4_max_price": 494.7
     },
     "RAJESHEXPO.ns": {
         "symbol": "RAJESHEXPO.ns",
@@ -3828,7 +4552,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 190.98,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -3837,9 +4561,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 192.57
+        "closing_price": 190.98,
+        "entry1_max_price": 190.98,
+        "entry2_max_price": 190.98,
+        "entry3_max_price": 190.98,
+        "entry4_max_price": 190.98
     },
     "MOSCHIP.ns": {
         "symbol": "MOSCHIP.ns",
@@ -3860,7 +4588,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null,
-        "closing_price": 252.67
+        "closing_price": 247.1,
+        "entry1_max_price": 247.1,
+        "entry2_max_price": 247.1,
+        "entry3_max_price": 247.1,
+        "entry4_max_price": 247.1
     },
     "SONATSOFTW.ns": {
         "symbol": "SONATSOFTW.ns",
@@ -3870,7 +4602,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 376.85,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -3879,9 +4611,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 386.65
+        "closing_price": 376.85,
+        "entry1_max_price": 376.85,
+        "entry2_max_price": 376.85,
+        "entry3_max_price": 376.85,
+        "entry4_max_price": 376.85
     },
     "PITTIENG.ns": {
         "symbol": "PITTIENG.ns",
@@ -3902,7 +4638,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 1010.75
+        "closing_price": 993.9,
+        "entry1_max_price": 993.9,
+        "entry2_max_price": 993.9,
+        "entry3_max_price": 993.9,
+        "entry4_max_price": 993.9
     },
     "POONAWALLA.ns": {
         "symbol": "POONAWALLA.ns",
@@ -3923,7 +4663,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 482.95
+        "closing_price": 485.5,
+        "entry1_max_price": 485.5,
+        "entry2_max_price": 485.5,
+        "entry3_max_price": 485.5,
+        "entry4_max_price": 485.5
     },
     "SENORES.ns": {
         "symbol": "SENORES.ns",
@@ -3944,7 +4688,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 717.2
+        "closing_price": 703.1,
+        "entry1_max_price": 703.1,
+        "entry2_max_price": 703.1,
+        "entry3_max_price": 703.1,
+        "entry4_max_price": 703.1
     },
     "VIPIND.ns": {
         "symbol": "VIPIND.ns",
@@ -3965,7 +4713,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 439.5
+        "closing_price": 438.95,
+        "entry1_max_price": 438.95,
+        "entry2_max_price": 438.95,
+        "entry3_max_price": 438.95,
+        "entry4_max_price": 438.95
     },
     "SHARDACROP.ns": {
         "symbol": "SHARDACROP.ns",
@@ -3986,7 +4738,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 860.6
+        "closing_price": 854.7,
+        "entry1_max_price": 854.7,
+        "entry2_max_price": 854.7,
+        "entry3_max_price": 854.7,
+        "entry4_max_price": 854.7
     },
     "SUNTECK.ns": {
         "symbol": "SUNTECK.ns",
@@ -4007,7 +4763,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 439.1
+        "closing_price": 427.55,
+        "entry1_max_price": 427.55,
+        "entry2_max_price": 427.55,
+        "entry3_max_price": 427.55,
+        "entry4_max_price": 427.55
     },
     "TCI.ns": {
         "symbol": "TCI.ns",
@@ -4028,7 +4788,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1201.0
+        "closing_price": 1202.7,
+        "entry1_max_price": 1202.7,
+        "entry2_max_price": 1202.7,
+        "entry3_max_price": 1202.7,
+        "entry4_max_price": 1202.7
     },
     "WABAG.ns": {
         "symbol": "WABAG.ns",
@@ -4038,7 +4802,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": 1559.7,
-        "exit 3": 1533.4,
+        "exit 3": 1523.1,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-17",
@@ -4047,9 +4811,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": "25-09-17",
-        "exit 3 date": "25-09-19",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 1544.8
+        "closing_price": 1523.1,
+        "entry1_max_price": 1523.1,
+        "entry2_max_price": 1523.1,
+        "entry3_max_price": 1523.1,
+        "entry4_max_price": 1523.1
     },
     "TORNTPOWER.ns": {
         "symbol": "TORNTPOWER.ns",
@@ -4070,7 +4838,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1279.3
+        "closing_price": 1264.3,
+        "entry1_max_price": 1264.3,
+        "entry2_max_price": 1264.3,
+        "entry3_max_price": 1264.3,
+        "entry4_max_price": 1264.3
     },
     "ZENTEC.ns": {
         "symbol": "ZENTEC.ns",
@@ -4080,7 +4852,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 1533.2,
         "exit 4": 1492.6,
         "profit": null,
         "entry 1 date": "25-08-23",
@@ -4089,9 +4861,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": "25-08-23",
-        "closing_price": 1603.5
+        "closing_price": 1533.2,
+        "entry1_max_price": 1533.2,
+        "entry2_max_price": 1533.2,
+        "entry3_max_price": 1533.2,
+        "entry4_max_price": 1533.2
     },
     "ENGINERSIN.ns": {
         "symbol": "ENGINERSIN.ns",
@@ -4112,7 +4888,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 203.7
+        "closing_price": 202.65,
+        "entry1_max_price": 202.65,
+        "entry2_max_price": 202.65,
+        "entry3_max_price": 202.65,
+        "entry4_max_price": 202.65
     },
     "KEI.ns": {
         "symbol": "KEI.ns",
@@ -4133,7 +4913,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4190.3
+        "closing_price": 4079.3,
+        "entry1_max_price": 4079.3,
+        "entry2_max_price": 4079.3,
+        "entry3_max_price": 4079.3,
+        "entry4_max_price": 4079.3
     },
     "BANKBEES.ns": {
         "symbol": "BANKBEES.ns",
@@ -4143,7 +4927,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": 571.02,
+        "exit 3": 568.32,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-15",
@@ -4152,9 +4936,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": "25-09-22",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 572.62
+        "closing_price": 568.32,
+        "entry1_max_price": 568.32,
+        "entry2_max_price": 568.32,
+        "entry3_max_price": 568.32,
+        "entry4_max_price": 568.32
     },
     "BERGEPAINT.ns": {
         "symbol": "BERGEPAINT.ns",
@@ -4175,7 +4963,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 532.6
+        "closing_price": 535.8,
+        "entry1_max_price": 535.8,
+        "entry2_max_price": 535.8,
+        "entry3_max_price": 535.8,
+        "entry4_max_price": 535.8
     },
     "MOTHERSON.ns": {
         "symbol": "MOTHERSON.ns",
@@ -4185,7 +4977,7 @@
         "entry 4": null,
         "exit 1": null,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 107.96,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -4194,9 +4986,13 @@
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 112.08
+        "closing_price": 107.96,
+        "entry1_max_price": 107.96,
+        "entry2_max_price": 107.96,
+        "entry3_max_price": 107.96,
+        "entry4_max_price": 107.96
     },
     "ALKYLAMINE.ns": {
         "symbol": "ALKYLAMINE.ns",
@@ -4217,7 +5013,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2024.4
+        "closing_price": 2023.6,
+        "entry1_max_price": 2023.6,
+        "entry2_max_price": 2023.6,
+        "entry3_max_price": 2023.6,
+        "entry4_max_price": 2023.6
     },
     "JKLAKSHMI.ns": {
         "symbol": "JKLAKSHMI.ns",
@@ -4238,7 +5038,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 879.75
+        "closing_price": 862.85,
+        "entry1_max_price": 862.85,
+        "entry2_max_price": 862.85,
+        "entry3_max_price": 862.85,
+        "entry4_max_price": 862.85
     },
     "EUREKAFORB.ns": {
         "symbol": "EUREKAFORB.ns",
@@ -4259,7 +5063,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 579.05
+        "closing_price": 575.8,
+        "entry1_max_price": 575.8,
+        "entry2_max_price": 575.8,
+        "entry3_max_price": 575.8,
+        "entry4_max_price": 575.8
     },
     "GRWRHITECH.ns": {
         "symbol": "GRWRHITECH.ns",
@@ -4280,7 +5088,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 3176.6
+        "closing_price": 3166.2,
+        "entry1_max_price": 3166.2,
+        "entry2_max_price": 3166.2,
+        "entry3_max_price": 3166.2,
+        "entry4_max_price": 3166.2
     },
     "NIFTYBEES.ns": {
         "symbol": "NIFTYBEES.ns",
@@ -4301,11 +5113,15 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 284.35
+        "closing_price": 282.88,
+        "entry1_max_price": 282.88,
+        "entry2_max_price": 282.88,
+        "entry3_max_price": 282.88,
+        "entry4_max_price": 282.88
     },
     "GOODLUCK.ns": {
         "symbol": "GOODLUCK.ns",
-        "entry 1": 1101.4,
+        "entry 1": 1238.9,
         "entry 2": 1265.1,
         "entry 3": null,
         "entry 4": null,
@@ -4314,7 +5130,7 @@
         "exit 3": 1086.8,
         "exit 4": null,
         "profit": null,
-        "entry 1 date": "25-08-23",
+        "entry 1 date": "25-09-24",
         "entry 2 date": "25-09-09",
         "entry 3 date": null,
         "entry 4 date": null,
@@ -4322,7 +5138,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1119.5
+        "closing_price": 1238.9,
+        "entry1_max_price": 1238.9,
+        "entry2_max_price": 1238.9,
+        "entry3_max_price": 1238.9,
+        "entry4_max_price": 1238.9
     },
     "GOPAL.ns": {
         "symbol": "GOPAL.ns",
@@ -4343,7 +5163,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 362.6
+        "closing_price": 368.2,
+        "entry1_max_price": 368.2,
+        "entry2_max_price": 368.2,
+        "entry3_max_price": 368.2,
+        "entry4_max_price": 368.2
     },
     "GRASIM.ns": {
         "symbol": "GRASIM.ns",
@@ -4364,7 +5188,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2813.5
+        "closing_price": 2807.4,
+        "entry1_max_price": 2807.4,
+        "entry2_max_price": 2807.4,
+        "entry3_max_price": 2807.4,
+        "entry4_max_price": 2807.4
     },
     "HDFCLIFE.ns": {
         "symbol": "HDFCLIFE.ns",
@@ -4374,7 +5202,7 @@
         "entry 4": null,
         "exit 1": 754.25,
         "exit 2": null,
-        "exit 3": 768.05,
+        "exit 3": 770.25,
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-09-22",
@@ -4383,9 +5211,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-04",
         "exit 2 date": null,
-        "exit 3 date": "25-09-17",
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 775.05
+        "closing_price": 770.25,
+        "entry1_max_price": 770.25,
+        "entry2_max_price": 770.25,
+        "entry3_max_price": 770.25,
+        "entry4_max_price": 770.25
     },
     "SIEMENS.ns": {
         "symbol": "SIEMENS.ns",
@@ -4406,7 +5238,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-10",
         "exit 4 date": null,
-        "closing_price": 3240.4
+        "closing_price": 3201.0,
+        "entry1_max_price": 3201.0,
+        "entry2_max_price": 3201.0,
+        "entry3_max_price": 3201.0,
+        "entry4_max_price": 3201.0
     },
     "SUNTV.ns": {
         "symbol": "SUNTV.ns",
@@ -4427,7 +5263,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 548.0
+        "closing_price": 543.05,
+        "entry1_max_price": 543.05,
+        "entry2_max_price": 543.05,
+        "entry3_max_price": 543.05,
+        "entry4_max_price": 543.05
     },
     "KRBL.ns": {
         "symbol": "KRBL.ns",
@@ -4448,7 +5288,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 371.65
+        "closing_price": 367.05,
+        "entry1_max_price": 367.05,
+        "entry2_max_price": 367.05,
+        "entry3_max_price": 367.05,
+        "entry4_max_price": 367.05
     },
     "DCMSHRIRAM.ns": {
         "symbol": "DCMSHRIRAM.ns",
@@ -4469,7 +5313,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 1210.9
+        "closing_price": 1191.0,
+        "entry1_max_price": 1191.0,
+        "entry2_max_price": 1191.0,
+        "entry3_max_price": 1191.0,
+        "entry4_max_price": 1191.0
     },
     "BHEL.ns": {
         "symbol": "BHEL.ns",
@@ -4490,7 +5338,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 238.73
+        "closing_price": 236.01,
+        "entry1_max_price": 236.01,
+        "entry2_max_price": 236.01,
+        "entry3_max_price": 236.01,
+        "entry4_max_price": 236.01
     },
     "HINDCON.ns": {
         "symbol": "HINDCON.ns",
@@ -4511,7 +5363,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 33.02
+        "closing_price": 32.58,
+        "entry1_max_price": 32.58,
+        "entry2_max_price": 32.58,
+        "entry3_max_price": 32.58,
+        "entry4_max_price": 32.58
     },
     "TORNTPHARM.ns": {
         "symbol": "TORNTPHARM.ns",
@@ -4532,7 +5388,11 @@
         "exit 2 date": "25-09-23",
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 3651.5
+        "closing_price": 3614.6,
+        "entry1_max_price": 3614.6,
+        "entry2_max_price": 3614.6,
+        "entry3_max_price": 3614.6,
+        "entry4_max_price": 3614.6
     },
     "KNRCON.ns": {
         "symbol": "KNRCON.ns",
@@ -4553,7 +5413,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 206.35
+        "closing_price": 207.39,
+        "entry1_max_price": 207.39,
+        "entry2_max_price": 207.39,
+        "entry3_max_price": 207.39,
+        "entry4_max_price": 207.39
     },
     "IDFCFIRSTB.ns": {
         "symbol": "IDFCFIRSTB.ns",
@@ -4574,7 +5438,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 70.51
+        "closing_price": 70.04,
+        "entry1_max_price": 70.04,
+        "entry2_max_price": 70.04,
+        "entry3_max_price": 70.04,
+        "entry4_max_price": 70.04
     },
     "IEX.ns": {
         "symbol": "IEX.ns",
@@ -4595,7 +5463,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 143.91
+        "closing_price": 140.41,
+        "entry1_max_price": 140.41,
+        "entry2_max_price": 140.41,
+        "entry3_max_price": 140.41,
+        "entry4_max_price": 140.41
     },
     "IGIL.ns": {
         "symbol": "IGIL.ns",
@@ -4616,7 +5488,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 366.75
+        "closing_price": 363.6,
+        "entry1_max_price": 363.6,
+        "entry2_max_price": 363.6,
+        "entry3_max_price": 363.6,
+        "entry4_max_price": 363.6
     },
     "INFY.ns": {
         "symbol": "INFY.ns",
@@ -4637,7 +5513,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1497.5
+        "closing_price": 1494.6,
+        "entry1_max_price": 1494.6,
+        "entry2_max_price": 1494.6,
+        "entry3_max_price": 1494.6,
+        "entry4_max_price": 1494.6
     },
     "INTLCONV.ns": {
         "symbol": "INTLCONV.ns",
@@ -4658,7 +5538,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 102.2
+        "closing_price": 103.76,
+        "entry1_max_price": 103.76,
+        "entry2_max_price": 103.76,
+        "entry3_max_price": 103.76,
+        "entry4_max_price": 103.76
     },
     "IPCALAB.ns": {
         "symbol": "IPCALAB.ns",
@@ -4679,7 +5563,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1395.2
+        "closing_price": 1348.4,
+        "entry1_max_price": 1348.4,
+        "entry2_max_price": 1348.4,
+        "entry3_max_price": 1348.4,
+        "entry4_max_price": 1348.4
     },
     "20MICRONS.ns": {
         "symbol": "20MICRONS.ns",
@@ -4700,7 +5588,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 226.24
+        "closing_price": 227.74,
+        "entry1_max_price": 227.74,
+        "entry2_max_price": 227.74,
+        "entry3_max_price": 227.74,
+        "entry4_max_price": 227.74
     },
     "ITC.ns": {
         "symbol": "ITC.ns",
@@ -4708,7 +5600,7 @@
         "entry 2": null,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 401.0,
         "exit 2": null,
         "exit 3": 409.3,
         "exit 4": null,
@@ -4717,11 +5609,15 @@
         "entry 2 date": null,
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": "25-09-17",
         "exit 4 date": null,
-        "closing_price": 403.2
+        "closing_price": 401.0,
+        "entry1_max_price": 401.0,
+        "entry2_max_price": 401.0,
+        "entry3_max_price": 401.0,
+        "entry4_max_price": 401.0
     },
     "JUBLFOOD.ns": {
         "symbol": "JUBLFOOD.ns",
@@ -4742,7 +5638,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-10",
         "exit 4 date": "25-08-23",
-        "closing_price": 616.7
+        "closing_price": 630.4,
+        "entry1_max_price": 630.4,
+        "entry2_max_price": 630.4,
+        "entry3_max_price": 630.4,
+        "entry4_max_price": 630.4
     },
     "ANUHPHR.ns": {
         "symbol": "ANUHPHR.ns",
@@ -4763,7 +5663,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 86.53
+        "closing_price": 85.37,
+        "entry1_max_price": 85.37,
+        "entry2_max_price": 85.37,
+        "entry3_max_price": 85.37,
+        "entry4_max_price": 85.37
     },
     "BORORENEW.ns": {
         "symbol": "BORORENEW.ns",
@@ -4784,7 +5688,11 @@
         "exit 2 date": "25-09-12",
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 602.85
+        "closing_price": 588.25,
+        "entry1_max_price": 588.25,
+        "entry2_max_price": 588.25,
+        "entry3_max_price": 588.25,
+        "entry4_max_price": 588.25
     },
     "BOROSCI.ns": {
         "symbol": "BOROSCI.ns",
@@ -4805,7 +5713,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 139.56
+        "closing_price": 137.36,
+        "entry1_max_price": 137.36,
+        "entry2_max_price": 137.36,
+        "entry3_max_price": 137.36,
+        "entry4_max_price": 137.36
     },
     "COFORGE.ns": {
         "symbol": "COFORGE.ns",
@@ -4813,7 +5725,7 @@
         "entry 2": 1795.3,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 1623.2,
         "exit 2": null,
         "exit 3": 1716.9,
         "exit 4": null,
@@ -4822,11 +5734,15 @@
         "entry 2 date": "25-09-19",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 1667.9
+        "closing_price": 1623.2,
+        "entry1_max_price": 1623.2,
+        "entry2_max_price": 1623.2,
+        "entry3_max_price": 1623.2,
+        "entry4_max_price": 1623.2
     },
     "ESCORTS.ns": {
         "symbol": "ESCORTS.ns",
@@ -4847,7 +5763,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 3739.1
+        "closing_price": 3698.9,
+        "entry1_max_price": 3698.9,
+        "entry2_max_price": 3698.9,
+        "entry3_max_price": 3698.9,
+        "entry4_max_price": 3698.9
     },
     "JUBLINGREA.ns": {
         "symbol": "JUBLINGREA.ns",
@@ -4868,7 +5788,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 671.95
+        "closing_price": 662.7,
+        "entry1_max_price": 662.7,
+        "entry2_max_price": 662.7,
+        "entry3_max_price": 662.7,
+        "entry4_max_price": 662.7
     },
     "ETERNAL.ns": {
         "symbol": "ETERNAL.ns",
@@ -4889,7 +5813,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 338.35
+        "closing_price": 335.8,
+        "entry1_max_price": 335.8,
+        "entry2_max_price": 335.8,
+        "entry3_max_price": 335.8,
+        "entry4_max_price": 335.8
     },
     "NELCAST.ns": {
         "symbol": "NELCAST.ns",
@@ -4910,7 +5838,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 144.07
+        "closing_price": 145.5,
+        "entry1_max_price": 145.5,
+        "entry2_max_price": 145.5,
+        "entry3_max_price": 145.5,
+        "entry4_max_price": 145.5
     },
     "vedl.ns": {
         "symbol": "vedl.ns",
@@ -4931,7 +5863,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": "25-09-09",
-        "closing_price": 457.2
+        "closing_price": 448.45,
+        "entry1_max_price": 448.45,
+        "entry2_max_price": 448.45,
+        "entry3_max_price": 448.45,
+        "entry4_max_price": 448.45
     },
     "SINCLAIR.ns": {
         "symbol": "SINCLAIR.ns",
@@ -4941,7 +5877,7 @@
         "entry 4": null,
         "exit 1": 102.72,
         "exit 2": null,
-        "exit 3": null,
+        "exit 3": 97.79,
         "exit 4": null,
         "profit": null,
         "entry 1 date": null,
@@ -4950,9 +5886,13 @@
         "entry 4 date": null,
         "exit 1 date": "25-09-23",
         "exit 2 date": null,
-        "exit 3 date": null,
+        "exit 3 date": "25-09-24",
         "exit 4 date": null,
-        "closing_price": 102.72
+        "closing_price": 97.79,
+        "entry1_max_price": 97.79,
+        "entry2_max_price": 97.79,
+        "entry3_max_price": 97.79,
+        "entry4_max_price": 97.79
     },
     "SPORTKING.ns": {
         "symbol": "SPORTKING.ns",
@@ -4973,7 +5913,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 110.1
+        "closing_price": 109.38,
+        "entry1_max_price": 109.38,
+        "entry2_max_price": 109.38,
+        "entry3_max_price": 109.38,
+        "entry4_max_price": 109.38
     },
     "VIMTALABS.ns": {
         "symbol": "VIMTALABS.ns",
@@ -4994,7 +5938,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 750.45
+        "closing_price": 731.9,
+        "entry1_max_price": 731.9,
+        "entry2_max_price": 731.9,
+        "entry3_max_price": 731.9,
+        "entry4_max_price": 731.9
     },
     "LTF.ns": {
         "symbol": "LTF.ns",
@@ -5015,7 +5963,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 246.41
+        "closing_price": 246.82,
+        "entry1_max_price": 246.82,
+        "entry2_max_price": 246.82,
+        "entry3_max_price": 246.82,
+        "entry4_max_price": 246.82
     },
     "GRAPHITE.ns": {
         "symbol": "GRAPHITE.ns",
@@ -5036,7 +5988,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 573.6
+        "closing_price": 572.0,
+        "entry1_max_price": 572.0,
+        "entry2_max_price": 572.0,
+        "entry3_max_price": 572.0,
+        "entry4_max_price": 572.0
     },
     "EDELWEISS.ns": {
         "symbol": "EDELWEISS.ns",
@@ -5057,7 +6013,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 116.86
+        "closing_price": 120.74,
+        "entry1_max_price": 120.74,
+        "entry2_max_price": 120.74,
+        "entry3_max_price": 120.74,
+        "entry4_max_price": 120.74
     },
     "SBICARD.ns": {
         "symbol": "SBICARD.ns",
@@ -5078,7 +6038,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-19",
-        "closing_price": 870.3
+        "closing_price": 884.75,
+        "entry1_max_price": 884.75,
+        "entry2_max_price": 884.75,
+        "entry3_max_price": 884.75,
+        "entry4_max_price": 884.75
     },
     "LEMONTREE.ns": {
         "symbol": "LEMONTREE.ns",
@@ -5099,7 +6063,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 171.03
+        "closing_price": 171.78,
+        "entry1_max_price": 171.78,
+        "entry2_max_price": 171.78,
+        "entry3_max_price": 171.78,
+        "entry4_max_price": 171.78
     },
     "BEML.ns": {
         "symbol": "BEML.ns",
@@ -5120,7 +6088,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 4334.8
+        "closing_price": 4310.0,
+        "entry1_max_price": 4310.0,
+        "entry2_max_price": 4310.0,
+        "entry3_max_price": 4310.0,
+        "entry4_max_price": 4310.0
     },
     "VINATIORGA.ns": {
         "symbol": "VINATIORGA.ns",
@@ -5141,7 +6113,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1712.4
+        "closing_price": 1719.8,
+        "entry1_max_price": 1719.8,
+        "entry2_max_price": 1719.8,
+        "entry3_max_price": 1719.8,
+        "entry4_max_price": 1719.8
     },
     "TATAINVEST.ns": {
         "symbol": "TATAINVEST.ns",
@@ -5162,7 +6138,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 8138.0
+        "closing_price": 8863.5,
+        "entry1_max_price": 8863.5,
+        "entry2_max_price": 8863.5,
+        "entry3_max_price": 8863.5,
+        "entry4_max_price": 8863.5
     },
     "VGUARD.ns": {
         "symbol": "VGUARD.ns",
@@ -5183,7 +6163,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-17",
-        "closing_price": 366.35
+        "closing_price": 365.5,
+        "entry1_max_price": 365.5,
+        "entry2_max_price": 365.5,
+        "entry3_max_price": 365.5,
+        "entry4_max_price": 365.5
     },
     "IRCTC.ns": {
         "symbol": "IRCTC.ns",
@@ -5204,7 +6188,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 722.6
+        "closing_price": 715.45,
+        "entry1_max_price": 715.45,
+        "entry2_max_price": 715.45,
+        "entry3_max_price": 715.45,
+        "entry4_max_price": 715.45
     },
     "DBL.ns": {
         "symbol": "DBL.ns",
@@ -5225,7 +6213,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 555.15
+        "closing_price": 534.4,
+        "entry1_max_price": 534.4,
+        "entry2_max_price": 534.4,
+        "entry3_max_price": 534.4,
+        "entry4_max_price": 534.4
     },
     "POWERINDIA.ns": {
         "symbol": "POWERINDIA.ns",
@@ -5246,7 +6238,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 18995.0
+        "closing_price": 18997.0,
+        "entry1_max_price": 18997.0,
+        "entry2_max_price": 18997.0,
+        "entry3_max_price": 18997.0,
+        "entry4_max_price": 18997.0
     },
     "TRIDENT.ns": {
         "symbol": "TRIDENT.ns",
@@ -5267,7 +6263,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-08-25",
-        "closing_price": 29.86
+        "closing_price": 29.56,
+        "entry1_max_price": 29.56,
+        "entry2_max_price": 29.56,
+        "entry3_max_price": 29.56,
+        "entry4_max_price": 29.56
     },
     "CAPLIPOINT.ns": {
         "symbol": "CAPLIPOINT.ns",
@@ -5288,7 +6288,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2253.6
+        "closing_price": 2261.1,
+        "entry1_max_price": 2261.1,
+        "entry2_max_price": 2261.1,
+        "entry3_max_price": 2261.1,
+        "entry4_max_price": 2261.1
     },
     "RAYMOND.ns": {
         "symbol": "RAYMOND.ns",
@@ -5309,7 +6313,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 624.7
+        "closing_price": 618.9,
+        "entry1_max_price": 618.9,
+        "entry2_max_price": 618.9,
+        "entry3_max_price": 618.9,
+        "entry4_max_price": 618.9
     },
     "BBTC.ns": {
         "symbol": "BBTC.ns",
@@ -5330,7 +6338,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 1878.7
+        "closing_price": 1880.9,
+        "entry1_max_price": 1880.9,
+        "entry2_max_price": 1880.9,
+        "entry3_max_price": 1880.9,
+        "entry4_max_price": 1880.9
     },
     "TTKPRESTIG.ns": {
         "symbol": "TTKPRESTIG.ns",
@@ -5351,7 +6363,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-23",
         "exit 4 date": null,
-        "closing_price": 649.35
+        "closing_price": 647.4,
+        "entry1_max_price": 647.4,
+        "entry2_max_price": 647.4,
+        "entry3_max_price": 647.4,
+        "entry4_max_price": 647.4
     },
     "INDOCO.ns": {
         "symbol": "INDOCO.ns",
@@ -5372,7 +6388,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-14",
         "exit 4 date": null,
-        "closing_price": 301.9
+        "closing_price": 302.45,
+        "entry1_max_price": 302.45,
+        "entry2_max_price": 302.45,
+        "entry3_max_price": 302.45,
+        "entry4_max_price": 302.45
     },
     "GREAVESCOT.ns": {
         "symbol": "GREAVESCOT.ns",
@@ -5393,7 +6413,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 225.4
+        "closing_price": 222.46,
+        "entry1_max_price": 222.46,
+        "entry2_max_price": 222.46,
+        "entry3_max_price": 222.46,
+        "entry4_max_price": 222.46
     },
     "BANKBARODA.ns": {
         "symbol": "BANKBARODA.ns",
@@ -5414,7 +6438,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-23",
         "exit 4 date": null,
-        "closing_price": 253.23
+        "closing_price": 254.37,
+        "entry1_max_price": 254.37,
+        "entry2_max_price": 254.37,
+        "entry3_max_price": 254.37,
+        "entry4_max_price": 254.37
     },
     "UNIONBANK.ns": {
         "symbol": "UNIONBANK.ns",
@@ -5435,7 +6463,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 140.2
+        "closing_price": 139.17,
+        "entry1_max_price": 139.17,
+        "entry2_max_price": 139.17,
+        "entry3_max_price": 139.17,
+        "entry4_max_price": 139.17
     },
     "KSL.ns": {
         "symbol": "KSL.ns",
@@ -5456,12 +6488,16 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-22",
-        "closing_price": 796.75
+        "closing_price": 794.5,
+        "entry1_max_price": 794.5,
+        "entry2_max_price": 794.5,
+        "entry3_max_price": 794.5,
+        "entry4_max_price": 794.5
     },
     "UJJIVANSFB.ns": {
         "symbol": "UJJIVANSFB.ns",
         "entry 1": 43.68,
-        "entry 2": null,
+        "entry 2": 45.01,
         "entry 3": null,
         "entry 4": null,
         "exit 1": null,
@@ -5470,14 +6506,18 @@
         "exit 4": null,
         "profit": null,
         "entry 1 date": "25-08-23",
-        "entry 2 date": null,
+        "entry 2 date": "25-09-24",
         "entry 3 date": null,
         "entry 4 date": null,
         "exit 1 date": null,
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 45.21
+        "closing_price": 45.01,
+        "entry1_max_price": 45.01,
+        "entry2_max_price": 45.01,
+        "entry3_max_price": 45.01,
+        "entry4_max_price": 45.01
     },
     "VARROC.ns": {
         "symbol": "VARROC.ns",
@@ -5498,7 +6538,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 638.2
+        "closing_price": 646.05,
+        "entry1_max_price": 646.05,
+        "entry2_max_price": 646.05,
+        "entry3_max_price": 646.05,
+        "entry4_max_price": 646.05
     },
     "BOMDYEING.ns": {
         "symbol": "BOMDYEING.ns",
@@ -5506,7 +6550,7 @@
         "entry 2": null,
         "entry 3": 167.62,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 175.74,
         "exit 2": null,
         "exit 3": null,
         "exit 4": null,
@@ -5515,11 +6559,15 @@
         "entry 2 date": null,
         "entry 3 date": "25-08-23",
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 180.93
+        "closing_price": 175.74,
+        "entry1_max_price": 175.74,
+        "entry2_max_price": 175.74,
+        "entry3_max_price": 175.74,
+        "entry4_max_price": 175.74
     },
     "PNB.ns": {
         "symbol": "PNB.ns",
@@ -5540,7 +6588,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 113.43
+        "closing_price": 111.01,
+        "entry1_max_price": 111.01,
+        "entry2_max_price": 111.01,
+        "entry3_max_price": 111.01,
+        "entry4_max_price": 111.01
     },
     "GRSE.ns": {
         "symbol": "GRSE.ns",
@@ -5561,7 +6613,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 2680.8
+        "closing_price": 2714.8,
+        "entry1_max_price": 2714.8,
+        "entry2_max_price": 2714.8,
+        "entry3_max_price": 2714.8,
+        "entry4_max_price": 2714.8
     },
     "INOXINDIA.ns": {
         "symbol": "INOXINDIA.ns",
@@ -5582,7 +6638,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-12",
         "exit 4 date": null,
-        "closing_price": 1211.5
+        "closing_price": 1211.2,
+        "entry1_max_price": 1211.2,
+        "entry2_max_price": 1211.2,
+        "entry3_max_price": 1211.2,
+        "entry4_max_price": 1211.2
     },
     "JASH.ns": {
         "symbol": "JASH.ns",
@@ -5603,7 +6663,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 515.25
+        "closing_price": 512.05,
+        "entry1_max_price": 512.05,
+        "entry2_max_price": 512.05,
+        "entry3_max_price": 512.05,
+        "entry4_max_price": 512.05
     },
     "SJVN.ns": {
         "symbol": "SJVN.ns",
@@ -5624,7 +6688,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 92.7
+        "closing_price": 92.44,
+        "entry1_max_price": 92.44,
+        "entry2_max_price": 92.44,
+        "entry3_max_price": 92.44,
+        "entry4_max_price": 92.44
     },
     "KOLTEPATIL.ns": {
         "symbol": "KOLTEPATIL.ns",
@@ -5645,7 +6713,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 463.95
+        "closing_price": 462.5,
+        "entry1_max_price": 462.5,
+        "entry2_max_price": 462.5,
+        "entry3_max_price": 462.5,
+        "entry4_max_price": 462.5
     },
     "KAYNES.ns": {
         "symbol": "KAYNES.ns",
@@ -5666,7 +6738,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 7242.0
+        "closing_price": 7454.0,
+        "entry1_max_price": 7454.0,
+        "entry2_max_price": 7454.0,
+        "entry3_max_price": 7454.0,
+        "entry4_max_price": 7454.0
     },
     "KITEX.ns": {
         "symbol": "KITEX.ns",
@@ -5687,7 +6763,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 206.81
+        "closing_price": 207.35,
+        "entry1_max_price": 207.35,
+        "entry2_max_price": 207.35,
+        "entry3_max_price": 207.35,
+        "entry4_max_price": 207.35
     },
     "KOPRAN.ns": {
         "symbol": "KOPRAN.ns",
@@ -5708,7 +6788,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 178.4
+        "closing_price": 182.76,
+        "entry1_max_price": 182.76,
+        "entry2_max_price": 182.76,
+        "entry3_max_price": 182.76,
+        "entry4_max_price": 182.76
     },
     "KOTAKBANK.ns": {
         "symbol": "KOTAKBANK.ns",
@@ -5729,7 +6813,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 2047.7
+        "closing_price": 2031.3,
+        "entry1_max_price": 2031.3,
+        "entry2_max_price": 2031.3,
+        "entry3_max_price": 2031.3,
+        "entry4_max_price": 2031.3
     },
     "LIKHITHA.ns": {
         "symbol": "LIKHITHA.ns",
@@ -5750,7 +6838,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 241.36
+        "closing_price": 240.38,
+        "entry1_max_price": 240.38,
+        "entry2_max_price": 240.38,
+        "entry3_max_price": 240.38,
+        "entry4_max_price": 240.38
     },
     "LINC.ns": {
         "symbol": "LINC.ns",
@@ -5791,7 +6883,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 1137.4
+        "closing_price": 1155.0,
+        "entry1_max_price": 1155.0,
+        "entry2_max_price": 1155.0,
+        "entry3_max_price": 1155.0,
+        "entry4_max_price": 1155.0
     },
     "NDRAUTO.ns": {
         "symbol": "NDRAUTO.ns",
@@ -5799,7 +6895,7 @@
         "entry 2": 1127.3,
         "entry 3": null,
         "entry 4": null,
-        "exit 1": null,
+        "exit 1": 1081.6,
         "exit 2": null,
         "exit 3": 1041.0,
         "exit 4": null,
@@ -5808,11 +6904,15 @@
         "entry 2 date": "25-09-15",
         "entry 3 date": null,
         "entry 4 date": null,
-        "exit 1 date": null,
+        "exit 1 date": "25-09-24",
         "exit 2 date": null,
         "exit 3 date": "25-09-04",
         "exit 4 date": null,
-        "closing_price": 1082.7
+        "closing_price": 1081.6,
+        "entry1_max_price": 1081.6,
+        "entry2_max_price": 1081.6,
+        "entry3_max_price": 1081.6,
+        "entry4_max_price": 1081.6
     },
     "PNBGILTS.ns": {
         "symbol": "PNBGILTS.ns",
@@ -5833,7 +6933,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-22",
         "exit 4 date": null,
-        "closing_price": 102.18
+        "closing_price": 100.28,
+        "entry1_max_price": 100.28,
+        "entry2_max_price": 100.28,
+        "entry3_max_price": 100.28,
+        "entry4_max_price": 100.28
     },
     "PNBHOUSING.ns": {
         "symbol": "PNBHOUSING.ns",
@@ -5854,7 +6958,11 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": "25-09-08",
-        "closing_price": 891.75
+        "closing_price": 889.9,
+        "entry1_max_price": 889.9,
+        "entry2_max_price": 889.9,
+        "entry3_max_price": 889.9,
+        "entry4_max_price": 889.9
     },
     "POWERGRID.ns": {
         "symbol": "POWERGRID.ns",
@@ -5875,7 +6983,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-19",
         "exit 4 date": null,
-        "closing_price": 288.6
+        "closing_price": 293.3,
+        "entry1_max_price": 293.3,
+        "entry2_max_price": 293.3,
+        "entry3_max_price": 293.3,
+        "entry4_max_price": 293.3
     },
     "PREMEXPLN.ns": {
         "symbol": "PREMEXPLN.ns",
@@ -5896,7 +7008,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-08-25",
         "exit 4 date": null,
-        "closing_price": 588.35
+        "closing_price": 604.1,
+        "entry1_max_price": 604.1,
+        "entry2_max_price": 604.1,
+        "entry3_max_price": 604.1,
+        "entry4_max_price": 604.1
     },
     "RACE.ns": {
         "symbol": "RACE.ns",
@@ -5917,7 +7033,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-15",
         "exit 4 date": null,
-        "closing_price": 233.96
+        "closing_price": 228.35,
+        "entry1_max_price": 228.35,
+        "entry2_max_price": 228.35,
+        "entry3_max_price": 228.35,
+        "entry4_max_price": 228.35
     },
     "RADICO.ns": {
         "symbol": "RADICO.ns",
@@ -5938,7 +7058,11 @@
         "exit 2 date": null,
         "exit 3 date": "25-09-08",
         "exit 4 date": null,
-        "closing_price": 2957.6
+        "closing_price": 2969.3,
+        "entry1_max_price": 2969.3,
+        "entry2_max_price": 2969.3,
+        "entry3_max_price": 2969.3,
+        "entry4_max_price": 2969.3
     },
     "RICOAUTO.ns": {
         "symbol": "RICOAUTO.ns",
@@ -5959,6 +7083,10 @@
         "exit 2 date": null,
         "exit 3 date": null,
         "exit 4 date": null,
-        "closing_price": 103.57
+        "closing_price": 101.48,
+        "entry1_max_price": 101.48,
+        "entry2_max_price": 101.48,
+        "entry3_max_price": 101.48,
+        "entry4_max_price": 101.48
     }
 }
