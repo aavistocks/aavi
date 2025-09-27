@@ -60,7 +60,7 @@ for symbol, details in data.items():
                 exit_val = closing_price
                 realized = profit
                 unrealized = None
-                status = "closed"
+                status = "forceExit"
         elif not entry and exit_val:
             status = "exit-only"
 
