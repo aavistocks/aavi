@@ -3,9 +3,10 @@ import json
 import pandas as pd
 
 # -------------------------
-# Helper: safe float conversion
+# Helpers
 # -------------------------
 def to_float(v):
+    """Safe float conversion"""
     if v is None:
         return None
     if isinstance(v, (int, float)):
@@ -15,10 +16,8 @@ def to_float(v):
     except:
         return None
 
-# -------------------------
-# Helper: parse YY-MM-DD format safely
-# -------------------------
 def clean_date(val):
+    """Parse YY-MM-DD format safely"""
     if val is None:
         return None
     s = str(val).strip()
@@ -30,7 +29,7 @@ def clean_date(val):
         return pd.to_datetime(s, errors="coerce").date()
 
 # -------------------------
-# Load JSON (no caching for now)
+# Load JSON
 # -------------------------
 def load_data():
     with open("signals.json", "r") as f:
@@ -39,7 +38,7 @@ def load_data():
 data = load_data()
 
 # -------------------------
-# Build trades list
+# Build trades
 # -------------------------
 trades = []
 for symbol, details in data.items():
@@ -54,17 +53,12 @@ for symbol, details in data.items():
         exit_date = details.get(f"exit {i} date")
         max_price = to_float(details.get(f"entry{i}_max_price"))
 
-        # force dates to None if entry/exit missing
         if entry is None:
             entry_date = None
         if exit_val is None:
             exit_date = None
 
-        # profits
-        realized = None
-        unrealized = None
-        max_profit = None
-        profit = None
+        realized, unrealized, max_profit, profit = None, None, None, None
         status = "open"
 
         if entry is not None and exit_val is not None:
@@ -86,7 +80,6 @@ for symbol, details in data.items():
         elif entry is None and exit_val is not None:
             status = "exit-only"
 
-        # calculate max profit if available
         if entry is not None and max_price is not None:
             max_profit = max_price - entry
 
@@ -110,7 +103,7 @@ for symbol, details in data.items():
 # -------------------------
 trades_df = pd.DataFrame(trades)
 
-# --- Clean dates with YY-MM-DD parser ---
+# Clean dates
 if "entry_date" in trades_df.columns:
     trades_df["entry_date"] = trades_df["entry_date"].apply(clean_date)
 if "exit_date" in trades_df.columns:
@@ -120,45 +113,59 @@ if "exit_date" in trades_df.columns:
 profit_summary = trades_df.groupby("symbol").agg({
     "realized_profit": "sum",
     "unrealized_profit": "sum",
-    "max_profit": "sum"
+    "max_profit": "sum",
+    "entry": "sum"
 }).reset_index().fillna(0)
 
+# Rename entry sum → total invested per symbol
+profit_summary = profit_summary.rename(columns={"entry": "total_invested"})
+
+# Missed opportunity per symbol
+profit_summary["missed_opportunity"] = (
+    profit_summary["max_profit"] - profit_summary["realized_profit"]
+)
+
+# Totals
 total_realized = profit_summary["realized_profit"].sum()
 total_unrealized = profit_summary["unrealized_profit"].sum()
 total_max = profit_summary["max_profit"].sum()
-total_invested = trades_df["entry"].sum(skipna=True)
-
-# Missed opportunity
-missed_opportunity = total_max - total_realized
+total_invested = profit_summary["total_invested"].sum()
+missed_opportunity = profit_summary["missed_opportunity"].sum()
 
 # -------------------------
 # Streamlit UI
 # -------------------------
-st.title("📊 Stock Signal Dashboard — Realized, Unrealized, Max Profits & Missed Opportunity")
+st.title("📊 Stock Signal Dashboard")
 
-# Debug section
-st.subheader("🔎 Debug — First Few Trades")
-st.write(trades_df.head(10))
+tab1, tab2, tab3 = st.tabs(["📊 Summary", "📋 Trades", "🧾 Debug"])
 
-# Profit summary
-st.subheader("✅ Profit Summary (Realized, Unrealized, Max, Missed)")
-st.dataframe(profit_summary, use_container_width=True)
+# --- Tab 1: Summary ---
+with tab1:
+    st.subheader("✅ Profit Summary (per Symbol)")
+    st.dataframe(profit_summary, use_container_width=True)
 
-col1, col2, col3, col4, col5 = st.columns(5)
-col1.metric("💰 Total Realized", f"₹{total_realized:.2f}")
-col2.metric("📈 Total Unrealized", f"₹{total_unrealized:.2f}")
-col3.metric("🚀 Total Max Possible", f"₹{total_max:.2f}")
-col4.metric("💸 Total Invested", f"₹{total_invested:.2f}")
-col5.metric("⚠️ Missed Opportunity", f"₹{missed_opportunity:.2f}")
+    col1, col2, col3, col4, col5 = st.columns(5)
+    col1.metric("💰 Total Realized", f"₹{total_realized:.2f}")
+    col2.metric("📈 Total Unrealized", f"₹{total_unrealized:.2f}")
+    col3.metric("🚀 Total Max Possible", f"₹{total_max:.2f}")
+    col4.metric("💸 Total Invested", f"₹{total_invested:.2f}")
+    col5.metric("⚠️ Missed Opportunity", f"₹{missed_opportunity:.2f}")
 
-# Chart
-st.subheader("📊 Realized vs Unrealized vs Max per Symbol")
-if not profit_summary.empty:
-    chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit", "max_profit"]]
-    st.bar_chart(chart_data)
-else:
-    st.info("No profit data available yet.")
+    st.subheader("📊 Realized vs Unrealized vs Max per Symbol")
+    if not profit_summary.empty:
+        chart_data = profit_summary.set_index("symbol")[[
+            "realized_profit", "unrealized_profit", "max_profit"
+        ]]
+        st.bar_chart(chart_data)
+    else:
+        st.info("No profit data available yet.")
 
-# Full trades table
-st.subheader("📋 All Trades")
-st.dataframe(trades_df, use_container_width=True)
+# --- Tab 2: Trades ---
+with tab2:
+    st.subheader("📋 All Trades")
+    st.dataframe(trades_df, use_container_width=True)
+
+# --- Tab 3: Debug ---
+with tab3:
+    st.subheader("🧾 Debug — First Few Trades")
+    st.write(trades_df.head(10))
