@@ -1,42 +1,10 @@
-'''import streamlit as st
-import streamlit.components.v1 as components
-
-# Replace with your actual GA Measurement ID
-GA_MEASUREMENT_ID = "G-GSHZQ8WWBC"
-
-GA_SCRIPT = f"""
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){{dataLayer.push(arguments);}}
-  gtag('js', new Date());
-  gtag('config', '{GA_MEASUREMENT_ID}');
-</script>
-"""
-
-# Inject into Streamlit
-components.html(GA_SCRIPT, height=0, width=0)
-
-
-import streamlit as st
-import streamlit_analytics
-
-# Track usage
-with streamlit_analytics.track():
-    st.title("📊 Aavi Stocks")
-    st.write("Welcome to the stock analytics app!")
-
-    # Example UI
-    if st.button("Show Stock Insights"):
-        st.write("Insights coming soon...")
-'''
 import streamlit as st
 import json
 import pandas as pd
-import subprocess
 
-# --- Helper Functions ---
+# -------------------------
+# Helper: safe float conversion
+# -------------------------
 def to_float(v):
     if v is None:
         return None
@@ -56,11 +24,9 @@ def clean_date(val):
     s = str(val).strip()
     if s in ["", "None", "null", "NaN", "nan"]:
         return None
-    # Try strict YY-MM-DD (e.g. 25-09-02 → 2025-09-02)
     try:
         return pd.to_datetime(s, format="%y-%m-%d", errors="coerce").date()
     except Exception:
-        # fallback: let pandas guess
         return pd.to_datetime(s, errors="coerce").date()
 
 # -------------------------
@@ -72,29 +38,32 @@ def load_data():
 
 data = load_data()
 
-# --- Build Trades List ---
+# -------------------------
+# Build trades list
+# -------------------------
 trades = []
 for symbol, details in data.items():
     closing_price = to_float(details.get("closing_price"))
+    exit_all = to_float(details.get("exit_all"))
+    exit_all_date = details.get("exit_all_date")
+
     for i in range(1, 5):
         entry = to_float(details.get(f"entry {i}"))
-        entry_date = clean_date(details.get(f"entry {i} date"))
+        entry_date = details.get(f"entry {i} date")
         exit_val = to_float(details.get(f"exit {i}"))
-        exit_date = clean_date(details.get(f"exit {i} date"))
+        exit_date = details.get(f"exit {i} date")
+        max_price = to_float(details.get(f"entry{i}_max_price"))
 
-        if entry is None and exit_val is None and closing_price is not None:
-            continue
-
-        # Skip case: no valid entry-date or exit-date pair
-        if not ((entry is not None and entry_date is not None) or (exit_val is not None and exit_date is not None)):
-            continue
-        if entry_date and exit_date and exit_date < entry_date:
-            exit_val = None
+        # force dates to None if entry/exit missing
+        if entry is None:
+            entry_date = None
+        if exit_val is None:
             exit_date = None
 
         # profits
         realized = None
         unrealized = None
+        max_profit = None
         profit = None
         status = "open"
 
@@ -102,13 +71,24 @@ for symbol, details in data.items():
             profit = exit_val - entry
             realized = profit
             status = "closed"
-        elif entry is not None and closing_price is not None:
-            # unrealized ONLY from entry and closing price
+
+        elif entry is not None and exit_all is not None:
+            profit = exit_all - entry
+            realized = profit
+            exit_date = exit_all_date
+            status = "forceExit"
+
+        elif entry is not None and exit_val is None and closing_price is not None:
             profit = closing_price - entry
             unrealized = profit
             status = "open"
+
         elif entry is None and exit_val is not None:
             status = "exit-only"
+
+        # calculate max profit if available
+        if entry is not None and max_price is not None:
+            max_profit = max_price - entry
 
         trades.append({
             "symbol": symbol,
@@ -121,87 +101,64 @@ for symbol, details in data.items():
             "profit": profit,
             "realized_profit": realized,
             "unrealized_profit": unrealized,
-            "status": status
+            "max_profit": max_profit,
+            "status": status,
         })
 
-# --- DataFrames ---
+# -------------------------
+# DataFrame
+# -------------------------
 trades_df = pd.DataFrame(trades)
 
+# --- Clean dates with YY-MM-DD parser ---
+if "entry_date" in trades_df.columns:
+    trades_df["entry_date"] = trades_df["entry_date"].apply(clean_date)
+if "exit_date" in trades_df.columns:
+    trades_df["exit_date"] = trades_df["exit_date"].apply(clean_date)
+
+# Profit summary
 profit_summary = trades_df.groupby("symbol").agg({
     "realized_profit": "sum",
-    "unrealized_profit": "sum"
+    "unrealized_profit": "sum",
+    "max_profit": "sum"
 }).reset_index().fillna(0)
 
 total_realized = profit_summary["realized_profit"].sum()
 total_unrealized = profit_summary["unrealized_profit"].sum()
+total_max = profit_summary["max_profit"].sum()
+total_invested = trades_df["entry"].sum(skipna=True)
 
-level_summary = trades_df.groupby("level").agg({
-    "realized_profit": "sum",
-    "unrealized_profit": "sum",
-    "profit": ["sum", "mean", "count"]
-}).reset_index()
-level_summary.columns = ["level", "realized_profit", "unrealized_profit", "total_profit", "avg_profit_per_trade", "trade_count"]
+# Missed opportunity
+missed_opportunity = total_max - total_realized
 
-# --- Streamlit UI ---
-st.set_page_config(page_title="Stock Dashboard", layout="wide")
-st.title("📊 Stock Signal Dashboard")
+# -------------------------
+# Streamlit UI
+# -------------------------
+st.title("📊 Stock Signal Dashboard — Realized, Unrealized, Max Profits & Missed Opportunity")
 
-tab1, tab2, tab3 = st.tabs(["📂 Open Positions", "📈 Performance Analysis", "📝 Recent Updates"])
+# Debug section
+st.subheader("🔎 Debug — First Few Trades")
+st.write(trades_df.head(10))
 
-with tab1:
-    st.subheader("📋 All Trades")
-    st.dataframe(trades_df, use_container_width=True)
+# Profit summary
+st.subheader("✅ Profit Summary (Realized, Unrealized, Max, Missed)")
+st.dataframe(profit_summary, use_container_width=True)
 
-with tab2:
-    st.subheader("✅ Profit Summary (Realized vs Unrealized)")
-    st.dataframe(profit_summary, use_container_width=True)
-    col1, col2, col3 = st.columns(3)
-    col1.metric("💰 Total Realized", f"${total_realized:.2f}")
-    col2.metric("📈 Total Unrealized", f"${total_unrealized:.2f}")
-    col3.metric("💵 Combined", f"${(total_realized + total_unrealized):.2f}")
+col1, col2, col3, col4, col5 = st.columns(5)
+col1.metric("💰 Total Realized", f"₹{total_realized:.2f}")
+col2.metric("📈 Total Unrealized", f"₹{total_unrealized:.2f}")
+col3.metric("🚀 Total Max Possible", f"₹{total_max:.2f}")
+col4.metric("💸 Total Invested", f"₹{total_invested:.2f}")
+col5.metric("⚠️ Missed Opportunity", f"₹{missed_opportunity:.2f}")
 
-    st.subheader("📊 Profit Analysis by Entry/Exit Level")
-    st.dataframe(level_summary, use_container_width=True)
+# Chart
+st.subheader("📊 Realized vs Unrealized vs Max per Symbol")
+if not profit_summary.empty:
+    chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit", "max_profit"]]
+    st.bar_chart(chart_data)
+else:
+    st.info("No profit data available yet.")
 
-with tab3:
-    st.subheader("📝 Git Change Log")
-    try:
-        log = subprocess.check_output(["git", "log", "--pretty=format:%h - %s (%cr)"]).decode("utf-8")
-        st.text(log)
-    except Exception:
-        st.warning("Git log not available. Make sure this app is inside a Git repository.")
-st.markdown(
-    "> **How to Use the Dashboard:**\n"
-    "> 1. Review the profit summaries and charts to see overall market signals.\n"
-    "> 2. Click column headers in the tables to sort or filter stocks of interest.\n"
-    "> 3. Use the level-wise analysis to check which entry/exit levels are performing best.\n"
-    "> 4. Make your own trading decision—this app does **not** execute trades."
-)
-
-st.markdown("> **Note 1:** This application is for educational purposes only. Any trades based on the data here require users to validate before taking actual trades.")
-st.markdown("> **Note 2:** The suggestions given are based on daily or weekly candles. Once an entry is shown, a user can exit once their target is achieved. The level exit can be considered as the last exit option.")
-
-# ----------------------------------------------------------
-# OPTIONAL: Reset Profit Feature (DISABLED BY DEFAULT)
-# ----------------------------------------------------------
-# Uncomment the block below whenever you want to enable
-# a one-click profit reset. It will set realized/unrealized
-# profit columns to zero and refresh the dashboard.
-#
-#if st.sidebar.button("🔄 Reset All Profits"):
-#    # Set profit columns to zero
-#    trades_df["realized_profit"] = 0.0
-#    trades_df["unrealized_profit"] = 0.0
-#    trades_df["profit"] = 0.0
-
-    # Optionally, persist this reset to disk if you store
-    # trades_df somewhere (e.g., overwrite signals.json or
-    # write to a database). For now, it only resets in memory.
-#    st.experimental_rerun()
-
-#
-# NOTE:
-# - This reset only affects the live session unless you
-#   add code to write the updated trades back to storage.
-# - Keep the block commented until you truly need it.
-# ----------------------------------------------------------
+# Full trades table
+st.subheader("📋 All Trades")
+st.dataframe(trades_df, use_container_width=True)
