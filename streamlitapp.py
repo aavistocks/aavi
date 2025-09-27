@@ -111,7 +111,25 @@ tab1, tab2, tab3 = st.tabs(["📂 Open Positions", "📈 Performance Analysis", 
 with tab1:
     st.subheader("📋 All Trades")
     st.dataframe(trades_df, use_container_width=True)
-
+    # --- Footer Notes ---
+    st.markdown("""
+    > **How to Use the Dashboard:**  
+    > 1. "open position" tab give list of all open trades.  
+    > 2. "various types of profit like realized, unrealized and max profit can be checked. Max profit = Max closing from entry - open price. 
+    > 3. Performance analysis tracks the past performance of the algo. The start date is from 26Sept25 closing candle.
+    > 4. Recent updates gives details of latest changes. specifically note when the analysis was last run.
+    Usage:
+    > 1. The "Entry" and "exit" along with respective dates indicate when the algo would have brought or sold 1 share. Basis this the profits are calculated
+    > 2 The entry/exit are level-wise.
+    > 3. The analysis to check which entry/exit levels are performing best is provided in performance tab.  
+    
+    General:
+    > 1. Click column headers in the tables to sort or filter column of interest.
+    > 2. Make your own trading decision—this app does **not** execute trades.
+    
+    > **Note 1:** This application is for educational purposes only. Any trades based on the data here require users to validate before taking actual trades.  
+    > **Note 2:** The suggestions given are based on daily closing candles. Once an entry is shown, a user can exit once their target is achieved. The level exit can be considered as the last exit option.
+    """)
 with tab2:
     st.subheader("✅ Profit Summary (Realized vs Unrealized)")
     st.dataframe(profit_summary, use_container_width=True)
@@ -132,3 +150,5 @@ with tab3:
         st.text(log)
     except Exception:
         st.warning("Git log not available. Make sure this app is inside a Git repository.")
+
+
