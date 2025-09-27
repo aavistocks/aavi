@@ -1,12 +1,12 @@
 import streamlit as st
 import json
 import pandas as pd
+import requests
 
 # -------------------------
 # Helpers
 # -------------------------
 def to_float(v):
-    """Safe float conversion"""
     if v is None:
         return None
     if isinstance(v, (int, float)):
@@ -17,7 +17,6 @@ def to_float(v):
         return None
 
 def clean_date(val):
-    """Parse YY-MM-DD format safely"""
     if val is None:
         return None
     s = str(val).strip()
@@ -117,10 +116,7 @@ profit_summary = trades_df.groupby("symbol").agg({
     "entry": "sum"
 }).reset_index().fillna(0)
 
-# Rename entry sum → total invested per symbol
 profit_summary = profit_summary.rename(columns={"entry": "total_invested"})
-
-# Missed opportunity per symbol
 profit_summary["missed_opportunity"] = (
     profit_summary["max_profit"] - profit_summary["realized_profit"]
 )
@@ -137,10 +133,19 @@ missed_opportunity = profit_summary["missed_opportunity"].sum()
 # -------------------------
 st.title("📊 Stock Signal Dashboard")
 
-tab1, tab2, tab3 = st.tabs(["📊 Summary", "📋 Trades", "🧾 Debug"])
+tab1, tab2, tab3 = st.tabs(["📌 Open Signals", "📈 Performance", "💬 GitHub Commits"])
 
-# --- Tab 1: Summary ---
+# --- Tab 1: Open Signals ---
 with tab1:
+    st.subheader("📌 Currently Open Trades")
+    open_trades = trades_df[trades_df["status"] == "open"]
+    if not open_trades.empty:
+        st.dataframe(open_trades, use_container_width=True)
+    else:
+        st.info("No open trades at the moment.")
+
+# --- Tab 2: Performance ---
+with tab2:
     st.subheader("✅ Profit Summary (per Symbol)")
     st.dataframe(profit_summary, use_container_width=True)
 
@@ -153,19 +158,30 @@ with tab1:
 
     st.subheader("📊 Realized vs Unrealized vs Max per Symbol")
     if not profit_summary.empty:
-        chart_data = profit_summary.set_index("symbol")[[
-            "realized_profit", "unrealized_profit", "max_profit"
-        ]]
+        chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit", "max_profit"]]
         st.bar_chart(chart_data)
     else:
-        st.info("No profit data available yet.")
+        st.info("No performance data available.")
 
-# --- Tab 2: Trades ---
-with tab2:
-    st.subheader("📋 All Trades")
-    st.dataframe(trades_df, use_container_width=True)
-
-# --- Tab 3: Debug ---
+# --- Tab 3: GitHub Commits ---
 with tab3:
-    st.subheader("🧾 Debug — First Few Trades")
-    st.write(trades_df.head(10))
+    st.subheader("💬 Recent GitHub Commits")
+
+    repo_url = st.text_input("Enter GitHub repo (format: owner/repo)", "streamlit/streamlit")
+
+    if repo_url:
+        try:
+            api_url = f"https://api.github.com/repos/{repo_url}/commits"
+            response = requests.get(api_url)
+            if response.status_code == 200:
+                commits = response.json()
+                for commit in commits[:10]:
+                    msg = commit["commit"]["message"]
+                    sha = commit["sha"][:7]
+                    author = commit["commit"]["author"]["name"]
+                    date = commit["commit"]["author"]["date"]
+                    st.markdown(f"- **{msg}** (`{sha}`) by {author} on {date}")
+            else:
+                st.error("Could not fetch commits. Check repository name or API rate limit.")
+        except Exception as e:
+            st.error(f"Error fetching commits: {e}")
