@@ -1,86 +1,71 @@
 import streamlit as st
 import json
 import pandas as pd
-import requests
+import subprocess
 
-# -------------------------
-# Helpers
-# -------------------------
+# --- Helper Functions ---
 def to_float(v):
-    if v is None:
-        return None
-    if isinstance(v, (int, float)):
-        return float(v)
     try:
         return float(str(v).replace(",", "").strip())
     except:
         return None
 
 def clean_date(val):
-    if val is None:
-        return None
-    s = str(val).strip()
-    if s in ["", "None", "null", "NaN", "nan"]:
-        return None
     try:
-        return pd.to_datetime(s, format="%y-%m-%d", errors="coerce").date()
-    except Exception:
-        return pd.to_datetime(s, errors="coerce").date()
+        return pd.to_datetime(val, errors="coerce").date()
+    except:
+        return None
 
-# -------------------------
-# Load JSON
-# -------------------------
-def load_data():
-    with open("signals.json", "r") as f:
-        return json.load(f)
+# --- Load Data ---
+with open("signals.json", "r") as f:
+    data = json.load(f)
 
-data = load_data()
+exit_all = data.get("exit_all", 0)
 
-# -------------------------
-# Build trades
-# -------------------------
+# --- Build Trades List ---
 trades = []
-for symbol, details in data.items():
-    closing_price = to_float(details.get("closing_price"))
-    exit_all = to_float(details.get("exit_all"))
-    exit_all_date = details.get("exit_all_date")
+total_invested = 0.0
 
+for symbol, details in data.items():
+    if symbol == "exit_all":
+        continue
+    closing_price = to_float(details.get("closing_price"))
     for i in range(1, 5):
         entry = to_float(details.get(f"entry {i}"))
-        entry_date = details.get(f"entry {i} date")
+        entry_date = clean_date(details.get(f"entry {i} date"))
         exit_val = to_float(details.get(f"exit {i}"))
-        exit_date = details.get(f"exit {i} date")
+        exit_date = clean_date(details.get(f"exit {i} date"))
         max_price = to_float(details.get(f"entry{i}_max_price"))
 
-        if entry is None:
-            entry_date = None
-        if exit_val is None:
+        if entry is None and exit_val is None and closing_price is not None:
+            continue
+        if not ((entry and entry_date) or (exit_val and exit_date)):
+            continue
+        if entry_date and exit_date and exit_date < entry_date:
+            exit_val = None
             exit_date = None
 
-        realized, unrealized, max_profit, profit = None, None, None, None
+        realized = unrealized = profit = max_profit = None
         status = "open"
 
-        if entry is not None and exit_val is not None:
+        if entry and exit_val:
             profit = exit_val - entry
             realized = profit
             status = "closed"
-
-        elif entry is not None and exit_all is not None:
-            profit = exit_all - entry
-            realized = profit
-            exit_date = exit_all_date
-            status = "forceExit"
-
-        elif entry is not None and exit_val is None and closing_price is not None:
+        elif entry and closing_price:
             profit = closing_price - entry
             unrealized = profit
-            status = "open"
-
-        elif entry is None and exit_val is not None:
+            max_profit = max_price - entry if max_price else None
+            if exit_all == 1:
+                exit_val = closing_price
+                realized = profit
+                unrealized = None
+                status = "closed"
+        elif not entry and exit_val:
             status = "exit-only"
 
-        if entry is not None and max_price is not None:
-            max_profit = max_price - entry
+        if entry and status == "open":
+            total_invested += entry
 
         trades.append({
             "symbol": symbol,
@@ -94,94 +79,56 @@ for symbol, details in data.items():
             "realized_profit": realized,
             "unrealized_profit": unrealized,
             "max_profit": max_profit,
-            "status": status,
+            "status": status
         })
 
-# -------------------------
-# DataFrame
-# -------------------------
+# --- DataFrames ---
 trades_df = pd.DataFrame(trades)
 
-# Clean dates
-if "entry_date" in trades_df.columns:
-    trades_df["entry_date"] = trades_df["entry_date"].apply(clean_date)
-if "exit_date" in trades_df.columns:
-    trades_df["exit_date"] = trades_df["exit_date"].apply(clean_date)
-
-# Profit summary
 profit_summary = trades_df.groupby("symbol").agg({
     "realized_profit": "sum",
     "unrealized_profit": "sum",
-    "max_profit": "sum",
-    "entry": "sum"
+    "max_profit": "sum"
 }).reset_index().fillna(0)
 
-profit_summary = profit_summary.rename(columns={"entry": "total_invested"})
-profit_summary["missed_opportunity"] = (
-    profit_summary["max_profit"] - profit_summary["realized_profit"]
-)
-
-# Totals
 total_realized = profit_summary["realized_profit"].sum()
 total_unrealized = profit_summary["unrealized_profit"].sum()
-total_max = profit_summary["max_profit"].sum()
-total_invested = profit_summary["total_invested"].sum()
-missed_opportunity = profit_summary["missed_opportunity"].sum()
+total_max_profit = profit_summary["max_profit"].sum()
 
-# -------------------------
-# Streamlit UI
-# -------------------------
+level_summary = trades_df.groupby("level").agg({
+    "realized_profit": "sum",
+    "unrealized_profit": "sum",
+    "profit": ["sum", "mean", "count"]
+}).reset_index()
+level_summary.columns = ["level", "realized_profit", "unrealized_profit", "total_profit", "avg_profit_per_trade", "trade_count"]
+
+# --- Streamlit UI ---
+st.set_page_config(page_title="Stock Dashboard", layout="wide")
 st.title("📊 Stock Signal Dashboard")
 
-tab1, tab2, tab3 = st.tabs(["📌 Open Signals", "📈 Performance", "💬 GitHub Commits"])
+tab1, tab2, tab3 = st.tabs(["📂 Open Positions", "📈 Performance Analysis", "📝 Recent Updates"])
 
-# --- Tab 1: Open Signals ---
 with tab1:
-    st.subheader("📌 Currently Open Trades")
-    open_trades = trades_df[trades_df["status"] == "open"]
-    if not open_trades.empty:
-        st.dataframe(open_trades, use_container_width=True)
-    else:
-        st.info("No open trades at the moment.")
+    st.subheader("📋 All Trades")
+    st.dataframe(trades_df, use_container_width=True)
 
-# --- Tab 2: Performance ---
 with tab2:
-    st.subheader("✅ Profit Summary (per Symbol)")
+    st.subheader("✅ Profit Summary (Realized vs Unrealized)")
     st.dataframe(profit_summary, use_container_width=True)
 
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4 = st.columns(4)
     col1.metric("💰 Total Realized", f"₹{total_realized:.2f}")
     col2.metric("📈 Total Unrealized", f"₹{total_unrealized:.2f}")
-    col3.metric("🚀 Total Max Possible", f"₹{total_max:.2f}")
-    col4.metric("💸 Total Invested", f"₹{total_invested:.2f}")
-    col5.metric("⚠️ Missed Opportunity", f"₹{missed_opportunity:.2f}")
+    col3.metric("📊 Max Possible Profit", f"₹{total_max_profit:.2f}")
+    col4.metric("💼 Total Invested", f"₹{total_invested:.2f}")
 
-    st.subheader("📊 Realized vs Unrealized vs Max per Symbol")
-    if not profit_summary.empty:
-        chart_data = profit_summary.set_index("symbol")[["realized_profit", "unrealized_profit", "max_profit"]]
-        st.bar_chart(chart_data)
-    else:
-        st.info("No performance data available.")
+    st.subheader("📊 Profit Analysis by Entry/Exit Level")
+    st.dataframe(level_summary, use_container_width=True)
 
-# --- Tab 3: GitHub Commits ---
 with tab3:
-    st.subheader("💬 Recent GitHub Commits")
-
-    repo_url = st.text_input("Enter GitHub repo (format: owner/repo)", "streamlit/streamlit")
-
-    if repo_url:
-        try:
-            api_url = f"https://api.github.com/repos/{repo_url}/commits"
-            response = requests.get(api_url)
-            if response.status_code == 200:
-                commits = response.json()
-                for commit in commits[:10]:
-                    msg = commit["commit"]["message"]
-                    sha = commit["sha"][:7]
-                    author = commit["commit"]["author"]["name"]
-                    date = commit["commit"]["author"]["date"]
-                    st.markdown(f"- **{msg}** (`{sha}`) by {author} on {date}")
-            else:
-                st.error("Could not fetch commits. Check repository name or API rate limit.")
-        except Exception as e:
-            st.error(f"Error fetching commits: {e}")
+    st.subheader("📝 Git Change Log")
+    try:
+        log = subprocess.check_output(["git", "log", "--pretty=format:%h - %s (%cr)"]).decode("utf-8")
+        st.text(log)
+    except Exception:
+        st.warning("Git log not available. Make sure this app is inside a Git repository.")
