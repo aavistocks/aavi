@@ -20,15 +20,17 @@ def clean_date(val):
 with open("signals.json", "r") as f:
     data = json.load(f)
 
-exit_all = data.get("exit_all", 0)
+#exit_all = data.get("exit_all", 0)
 
 # --- Build Trades List ---
 trades = []
 total_invested = 0.0
 
 for symbol, details in data.items():
-    if symbol == "exit_all":
-        continue
+    exit_all = details.get("exit_all")
+
+    #if symbol == "exit_all":
+    #    continue
     closing_price = to_float(details.get("closing_price"))
     for i in range(1, 5):
         entry = to_float(details.get(f"entry {i}"))
@@ -58,7 +60,7 @@ for symbol, details in data.items():
             max_profit = max_price - entry if max_price else None
             if exit_all == 1:
                 exit_val = closing_price
-                realized = profit
+                realized = closing_price - entry
                 unrealized = None
                 status = "forceExit"
         elif not entry and exit_val:
