@@ -49,7 +49,7 @@
         "entry1_max_price": 1669.9,
         "entry2_max_price": 1669.9,
         "entry3_max_price": 1669.9,
-        "entry4_max_price": 1669.9
+        "entry4_max_price": 1669.9,
         "exit_all": 1,
         "exit_all_date": "25-09-26"
     },
@@ -76,7 +76,7 @@
         "entry1_max_price": 7532.5,
         "entry2_max_price": 7532.5,
         "entry3_max_price": 7532.5,
-        "entry4_max_price": 7532.5
+        "entry4_max_price": 7532.5,
         "exit_all": null,
         "exit_all_date": null
     },
@@ -103,7 +103,7 @@
         "entry1_max_price": 390.3,
         "entry2_max_price": 390.3,
         "entry3_max_price": 390.3,
-        "entry4_max_price": 390.3
+        "entry4_max_price": 390.3,
         "exit_all": 1,
         "exit_all_date": "25-09-26"
     },
@@ -130,7 +130,7 @@
         "entry1_max_price": 323.15,
         "entry2_max_price": 323.15,
         "entry3_max_price": 323.15,
-        "entry4_max_price": 323.15
+        "entry4_max_price": 323.15,
         "exit_all": 1,
         "exit_all_date": "25-09-26"
     },
@@ -157,7 +157,7 @@
         "entry1_max_price": 1002.7,
         "entry2_max_price": 1002.7,
         "entry3_max_price": 1002.7,
-        "entry4_max_price": 1002.7
+        "entry4_max_price": 1002.7,
         "exit_all": null,
         "exit_all_date": null
     },
@@ -184,7 +184,7 @@
         "entry1_max_price": 1099.7,
         "entry2_max_price": 1099.7,
         "entry3_max_price": 1099.7,
-        "entry4_max_price": 1099.7
+        "entry4_max_price": 1099.7,
         "exit_all": 1,
         "exit_all_date": "25-09-26"
     },
