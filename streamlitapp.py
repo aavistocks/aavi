@@ -27,7 +27,7 @@ trades = []
 total_invested = 0.0
 
 for symbol, details in data.items():
-    exit_all = details.get("exit_all")
+    exit_all = details.get("exit_all",0)
 
     #if symbol == "exit_all":
     #    continue
