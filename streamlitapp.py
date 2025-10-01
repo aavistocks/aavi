@@ -10,12 +10,27 @@ def to_float(v):
     except:
         return None
 
+#def clean_date(val):
+#    try:
+#        return pd.to_datetime(val, errors="coerce").date()
+#    except:
+#        return None
+# -------------------------
+# Helper: parse YY-MM-DD format safely
+# -------------------------
 def clean_date(val):
-    try:
-        return pd.to_datetime(val, errors="coerce").date()
-    except:
+    if val is None:
         return None
-
+    s = str(val).strip()
+    if s in ["", "None", "null", "NaN", "nan"]:
+        return None
+    # Try strict YY-MM-DD (e.g. 25-09-02 → 2025-09-02)
+    try:
+        return pd.to_datetime(s, format="%y-%m-%d", errors="coerce").date()
+    except Exception:
+        # fallback: let pandas guess
+        return pd.to_datetime(s, errors="coerce").date()
+        
 # --- Load Data ---
 with open("signals.json", "r") as f:
     data = json.load(f)
