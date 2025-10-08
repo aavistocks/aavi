@@ -73,7 +73,7 @@ for symbol, details in data.items():
             profit = closing_price - entry
             unrealized = profit
             max_profit = max_price - entry if max_price else None
-            if exit_all == 1 and forceExitdate > entry_date :
+        elif exit_all == 1 and forceExitdate > entry_date :
                 exit_val = closing_price
                 realized = closing_price - entry
                 unrealized = None
