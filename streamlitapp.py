@@ -53,7 +53,7 @@ for symbol, details in data.items():
         exit_val = to_float(details.get(f"exit {i}"))
         exit_date = clean_date(details.get(f"exit {i} date"))
         max_price = to_float(details.get(f"entry{i}_max_price"))
-
+        forceExitdate = clean_date(details.get(f"exit_all_date"))
         if entry is None and exit_val is None and closing_price is not None:
             continue
         if not ((entry and entry_date) or (exit_val and exit_date)):
@@ -73,7 +73,7 @@ for symbol, details in data.items():
             profit = closing_price - entry
             unrealized = profit
             max_profit = max_price - entry if max_price else None
-            if exit_all == 1:
+            if exit_all == 1 and forceExitdate > entry_date :
                 exit_val = closing_price
                 realized = closing_price - entry
                 unrealized = None
