@@ -81,8 +81,8 @@ for symbol, details in data.items():
         elif not entry and exit_val:
             status = "exit-only"
 
-        if entry and status == "open":
-            total_invested += entry
+        #if entry and status == "open":
+        #    total_invested += entry
 
         trades.append({
             "symbol": symbol,
