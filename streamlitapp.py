@@ -92,10 +92,8 @@ for symbol, details in data.items():
             "exit": exit_val,
             "exit_date": exit_date,
             "closing_price": closing_price,
-            #"profit": profit,
             "realized_profit": realized,
             "unrealized_profit": unrealized,
-            #"max_profit": max_profit,
             "status": status,
             "del1": to_float(details.get(f"delper1")),
             "delAvg3": to_float(details.get(f"delper3")),
@@ -103,7 +101,7 @@ for symbol, details in data.items():
             "delAvg15": to_float(details.get(f"delper15")),
             "delAvg20": to_float(details.get(f"delper20")
         })
-
+#"max_profit": max_profit, #"profit": profit,
 # --- DataFrames ---
 trades_df = pd.DataFrame(trades)
 
