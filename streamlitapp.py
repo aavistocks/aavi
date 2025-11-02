@@ -95,7 +95,7 @@ for symbol, details in data.items():
             "realized_profit": realized,
             "unrealized_profit": unrealized,
             "status": status,
-            "max_profit": max_profit
+            "max_profit": max_profit,
             "profit": profit,
             "del1": to_float(details.get(f"delper1")),
             "delAvg3": to_float(details.get(f"delper3")),
