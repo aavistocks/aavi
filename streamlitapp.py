@@ -111,7 +111,7 @@ profit_summary = trades_df.groupby("symbol").agg({
     "max_profit": "sum"
 }).reset_index().fillna(0)
 '''
-total_realized = profit_summary["realized_profit"].sum()
+#total_realized = profit_summary["realized_profit"].sum()
 total_unrealized = profit_summary["unrealized_profit"].sum()
 total_max_profit = profit_summary["max_profit"].sum()
 
