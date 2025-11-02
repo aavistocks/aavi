@@ -95,10 +95,10 @@ for symbol, details in data.items():
             "realized_profit": realized,
             "unrealized_profit": unrealized,
             "status": status,
-            "del1": to_float(details.get(f"delper1")),
-            "delAvg3": to_float(details.get(f"delper3")),
-            "delAvg5": to_float(details.get(f"delper5")),
-            "delAvg15": to_float(details.get(f"delper15")),
+            "del1": to_float(details.get(f"delper1"),
+            "delAvg3": to_float(details.get(f"delper3"),
+            "delAvg5": to_float(details.get(f"delper5"),
+            "delAvg15": to_float(details.get(f"delper15"),
             "delAvg20": to_float(details.get(f"delper20")
         })
 #"max_profit": max_profit, #"profit": profit,
